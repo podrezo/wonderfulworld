@@ -1,0 +1,27 @@
+<!-- Pagination -->
+<div class="row text-center">
+  <div class="col-lg-12">
+    <uib-pagination boundary-links="true" items-per-page="itemsPerPage" ng-change="pageChanged()" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+  </div>
+</div>
+<!-- /.row -->
+
+<!-- Projects Row -->
+<div class="row" ng-repeat="row in places">
+  <div class="col-md-3 portfolio-item" ng-repeat="place in row">
+    <a href="#/place/{{place.id}}">
+      <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.image}}" alt="{{place.name}}">
+    </a>
+  </div>
+</div>
+<!-- /.row -->
+
+<hr>
+
+<!-- Pagination -->
+<div class="row text-center">
+  <div class="col-lg-12">
+    <uib-pagination boundary-links="true" items-per-page="itemsPerPage" ng-change="pageChanged()" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+  </div>
+</div>
+<!-- /.row -->

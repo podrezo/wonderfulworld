@@ -1,0 +1,36 @@
+<!-- Pagination -->
+<div class="row text-center">
+  <div class="col-lg-12">
+    <uib-pagination boundary-links="true" items-per-page="itemsPerPage" ng-change="pageChanged()" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+  </div>
+</div>
+<!-- /.row -->
+
+<!-- Projects Row -->
+<div ng-repeat="place in places">
+  <div class="row">
+    <div class="col-md-7">
+      <a href="{{place.link}}">
+        <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.image}}" alt="{{place.name}}">
+      </a>
+    </div>
+    <div class="col-md-5">
+      <h3>{{place.name}}</h3>
+      <h4>{{place.country}}</h4>
+      <p>{{place.description}}</p>
+      <p><span ng-repeat="tag in place.tags"><span class="label label-default">{{tag}}</span> </span></p>
+      <a class="btn btn-primary" href="#/place/{{place.id}}">View Place <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+  </div>
+  <hr/>
+</div>
+
+<!-- /.row -->
+
+<!-- Pagination -->
+<div class="row text-center">
+  <div class="col-lg-12">
+    <uib-pagination boundary-links="true" items-per-page="itemsPerPage" ng-change="pageChanged()" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+  </div>
+</div>
+<!-- /.row -->
