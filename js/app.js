@@ -49,4 +49,9 @@
       $locationProvider.html5Mode(false);
     }
   ]);
+  app.run(['PlacesDatabase', '$rootScope', function(PlacesDatabase, $rootScope) {
+    $rootScope.dbLoaded = false;
+    // load data when module is ready
+    PlacesDatabase.data();
+  }]);
 })();

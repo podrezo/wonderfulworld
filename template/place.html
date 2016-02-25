@@ -1,7 +1,7 @@
 <!-- Portfolio Item Heading -->
 <div class="row">
   <div class="col-lg-12">
-    <h1 class="page-header">{{place.name}} <small>{{place.country}}</small></h1>
+    <h1 class="page-header">{{place.properties.name}} <small>{{place.meta.country}}</small></h1>
   </div>
 </div>
 <!-- /.row -->
@@ -10,15 +10,15 @@
 <div class="row">
 
   <div class="col-md-8">
-    <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.image}}" alt="{{place.name}}">
+    <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.meta.image}}" alt="{{place.properties.name}}">
   </div>
 
   <div class="col-md-4">
     <h3>Description</h3>
-    <p>{{place.description}}</p>
+    <p>{{place.meta.description}}</p>
     <h3>Tags</h3>
     <ul>
-      <li ng-repeat="tag in place.tags">{{tag}}</li>
+      <li ng-repeat="tag in place.meta.tags">{{tag}}</li>
     </ul>
   </div>
 
@@ -34,7 +34,7 @@
 
   <div class="col-sm-3 col-xs-6" ng-repeat="similarPlace in similarPlaces">
     <a href="#/place/{{similarPlace.id}}">
-      <img class="img-responsive portfolio-item" ng-src="/wonderfulworld/img/places/{{similarPlace.image}}" alt="{{similarPlace.name}}">
+      <img class="img-responsive portfolio-item" ng-src="/wonderfulworld/img/places/{{similarPlace.meta.image}}" alt="{{similarPlace.properties.name}}">
     </a>
   </div>
 
