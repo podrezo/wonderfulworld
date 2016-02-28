@@ -12,7 +12,7 @@
     <a ui-sref="place({id:place.id})">
       <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.meta.image}}" alt="{{place.properties.name}}">
     </a>
-    <h3>
+    <h3 class="small-caps">
       <a ui-sref="place({id:place.id})">{{place.properties.name}}</a>
     </h3>
     <p>{{place.meta.description | cut:true:100}}</p>
