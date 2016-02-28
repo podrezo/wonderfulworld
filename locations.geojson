@@ -39,7 +39,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [-19.520390248374497,63.532104046763]
+      "coordinates": [-19.520390248374497, 63.532104046763]
     },
     "properties": {
       "name": "Skógafoss"
@@ -56,17 +56,22 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [-71.2418748, -13.7914446,
+        8852
+      ]
     },
     "properties": {
-      "name": "Vinicunca"
+      "name": "Ausangate"
     },
     "meta": {
       "country": "Peru",
-      "tags": ["Nature", "Mountains"],
+      "tags": [
+        "Nature",
+        "Mountains"
+      ],
       "image": "rainbow_mountains.jpg",
       "link": "http://www.flashpackerconnect.com/",
-      "description": "\"Rainbow Mountain\" created by volcanoes."
+      "description": "Also called \"The Painted Mountains\" or \"Rainbow Mountains\" one look at them tells you where they get their name. These gorgeous pastel-colored mountains require a several day long trek through rough terrain, but it's well worth it for the view!"
     }
   }, {
     "id": "d8a24a8d-fc8b-49e0-a851-9b23a8ac9188",
