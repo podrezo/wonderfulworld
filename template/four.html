@@ -9,7 +9,7 @@
 <!-- Projects Row -->
 <div class="row" ng-repeat="row in places">
   <div class="col-md-3 portfolio-item" ng-repeat="place in row">
-    <a href="#/place/{{place.id}}">
+    <a ui-sref="place({id:place.id})">
       <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.meta.image}}" alt="{{place.properties.name}}">
     </a>
   </div>

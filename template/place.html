@@ -20,8 +20,24 @@
     <ul>
       <li ng-repeat="tag in place.meta.tags">{{tag}}</li>
     </ul>
+    <p>
+      <a class="btn btn-primary" target="_blank" ng-href="http://www.google.com/maps/place/{{place.geometry.coordinates[1]}},{{place.geometry.coordinates[0]}}">Show on Google Maps</a>
+    </p>
   </div>
 
+</div>
+<!-- /.row -->
+
+<!-- Map Row -->
+<div class="row">
+  <div class="col-lg-12">
+    <h3 class="page-header">Map <small>({{friendlyLat}}, {{friendlyLon}})</small></h3>
+  </div>
+
+  <div class="col-lg-12" id="map"></div>
+  <div class="col-lg-12">
+    <p><small>Satellite imagery courtesy of <a href="http://earthobservatory.nasa.gov/Features/BlueMarble/" target="_blank">NASA's Blue Marble initiative</a>.</small></p>
+  </div>
 </div>
 <!-- /.row -->
 

@@ -10,7 +10,7 @@
 <div ng-repeat="place in places">
   <div class="row">
     <div class="col-md-7">
-      <a href="{{place.meta.link}}">
+      <a ui-sref="place({id:place.id})">
         <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.meta.image}}" alt="{{place.properties.name}}">
       </a>
     </div>
@@ -19,7 +19,7 @@
       <h4>{{place.meta.country}}</h4>
       <p>{{place.meta.description}}</p>
       <p><span ng-repeat="tag in place.meta.tags"><span class="label label-default">{{tag}}</span> </span></p>
-      <a class="btn btn-primary" href="#/place/{{place.id}}">View Place <span class="glyphicon glyphicon-chevron-right"></span></a>
+      <a class="btn btn-primary" ui-sref="place({id:place.id})">View Place <span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
   </div>
   <hr/>
