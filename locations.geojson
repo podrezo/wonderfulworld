@@ -78,7 +78,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [-5.512667908574145,57.27276950701145]
     },
     "properties": {
       "name": "Eilean Donan"
@@ -95,7 +95,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [-85.3412724286514, 34.708150980839875]
     },
     "properties": {
       "name": "Ellison's Cave"
@@ -112,7 +112,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [72.98, 4.258611]
     },
     "properties": {
       "name": "Kuramathi Island"
@@ -129,7 +129,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [-85.87494368466727,16.450676133470846]
     },
     "properties": {
       "name": "Dunbar Rock"
@@ -146,7 +146,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [10.747611715848567, 47.55757759935595]
     },
     "properties": {
       "name": "Neuschwanstein Castle"
