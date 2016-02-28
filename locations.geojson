@@ -163,7 +163,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [6.537615871518861, 60.068148328445375]
     },
     "properties": {
       "name": "Odda"
@@ -180,7 +180,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [-62.25468301133557, 67.0898098265577]
     },
     "properties": {
       "name": "Durban Island"
@@ -197,7 +197,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [115.746029, -31.831609]
     },
     "properties": {
       "name": "Sorrento Beach"
@@ -214,7 +214,7 @@
     "type": "Feature",
     "geometry": {
       "type": "Point",
-      "coordinates": [0, 0]
+      "coordinates": [-73.9990695843119, 40.71608574530205]
     },
     "properties": {
       "name": "Chinatown NYC"
