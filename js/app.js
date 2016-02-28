@@ -36,6 +36,11 @@
             itemsPerRow: 1
           }
         })
+        .state('map', {
+          url: '/map',
+          templateUrl: '/wonderfulworld/template/map.html',
+          controller: 'MapController'
+        })
         .state('place', {
           url: '/place/:id',
           templateUrl: '/wonderfulworld/template/place.html',

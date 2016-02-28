@@ -51,16 +51,19 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li>
-            <a href="#/thumbnails"><span class="glyphicon glyphicon-th"></span> Thumbnails</a>
+            <a ui-sref="map"><span class="glyphicon glyphicon-map-marker"></span> World Map</a>
           </li>
           <li>
-            <a href="#/grid"><span class="glyphicon glyphicon-th-large"></span> Grid</a>
+            <a ui-sref="thumbnails"><span class="glyphicon glyphicon-th"></span> Thumbnails</a>
           </li>
           <li>
-            <a href="#/list"><span class="glyphicon glyphicon-th-list"></span> List</a>
+            <a ui-sref="grid"><span class="glyphicon glyphicon-th-large"></span> Grid</a>
           </li>
           <li>
-            <a href="#/about"><span class="glyphicon glyphicon-question-sign"></span> About</a>
+            <a ui-sref="list"><span class="glyphicon glyphicon-th-list"></span> List</a>
+          </li>
+          <li>
+            <a ui-sref="about"><span class="glyphicon glyphicon-question-sign"></span> About</a>
           </li>
         </ul>
       </div>
@@ -98,6 +101,7 @@
   <script src="/wonderfulworld/js/filters/cut.js"></script>
   <script src="/wonderfulworld/js/services/utility.js"></script>
   <script src="/wonderfulworld/js/values/db.js"></script>
+  <script src="/wonderfulworld/js/controllers/map.js"></script>
   <script src="/wonderfulworld/js/controllers/list.js"></script>
   <script src="/wonderfulworld/js/controllers/place.js"></script>
 </body>
