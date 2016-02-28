@@ -1,3 +1,8 @@
 .small-caps {
   font-variant: small-caps;
 }
+
+.flag {
+  vertical-align: middle;
+  margin-top: -0.2em;
+}

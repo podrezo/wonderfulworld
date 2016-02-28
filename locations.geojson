@@ -12,6 +12,7 @@
     },
     "meta": {
       "country": "Iceland",
+      "countryCode": "is",
       "tags": ["Nature", "Waterfall", "Nordic"],
       "image": "haifos_waterfall.jpg",
       "link": "https://en.wikipedia.org/wiki/H%C3%A1ifoss",
@@ -29,6 +30,7 @@
     },
     "meta": {
       "country": "Vietnam",
+      "countryCode": "vn",
       "tags": ["Nature", "Cave"],
       "image": "hang-son-doong.jpg",
       "link": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng",
@@ -46,6 +48,7 @@
     },
     "meta": {
       "country": "Iceland",
+      "countryCode": "is",
       "tags": ["Nature", "Waterfall", "Nordic"],
       "image": "skogafoss_waterfall.jpg",
       "link": "https://en.wikipedia.org/wiki/Sk%C3%B3gafoss",
@@ -65,6 +68,7 @@
     },
     "meta": {
       "country": "Peru",
+      "countryCode": "pe",
       "tags": [
         "Nature",
         "Mountains"
@@ -85,6 +89,7 @@
     },
     "meta": {
       "country": "Scotland",
+      "countryCode": "gb",
       "tags": ["Nature", "Man-Made", "Castle", "Island"],
       "image": "eilean_donan.jpg",
       "link": "http://www.eileandonancastle.com/",
@@ -102,6 +107,7 @@
     },
     "meta": {
       "country": "United States of America",
+      "countryCode": "us",
       "tags": ["Nature", "Cave"],
       "image": "ellisons_cave.jpg",
       "link": "https://roadtrippers.com/us/lafayette-ga/nature/ellisons-cave?lat=40.80972&lng=-96.67528&z=5",
@@ -119,6 +125,7 @@
     },
     "meta": {
       "country": "Maldives",
+      "countryCode": "mv",
       "tags": ["Nature", "Beach", "Island"],
       "image": "kuramathi_island.jpg",
       "link": "https://en.wikipedia.org/wiki/Kuramathi",
@@ -136,6 +143,7 @@
     },
     "meta": {
       "country": "Honduras",
+      "countryCode": "hn",
       "tags": ["Man-Made", "Resort", "Luxury", "Island"],
       "image": "dunbar_rock.jpg",
       "link": "http://dunbarrock.com/",
@@ -153,6 +161,7 @@
     },
     "meta": {
       "country": "Germany",
+      "countryCode": "de",
       "tags": ["Man-Made", "Castle"],
       "image": "neuschwanstein_castle.jpg",
       "link": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
@@ -170,6 +179,7 @@
     },
     "meta": {
       "country": "Norway",
+      "countryCode": "no",
       "tags": ["Man-Made", "Town", "Nordic"],
       "image": "odda.jpg",
       "link": "https://en.wikipedia.org/wiki/Odda",
@@ -187,6 +197,7 @@
     },
     "meta": {
       "country": "Canada",
+      "countryCode": "ca",
       "tags": ["Nature", "Island", "Nordic"],
       "image": "durban_island.jpg",
       "link": "https://en.wikipedia.org/wiki/Durban_Island",
@@ -204,6 +215,7 @@
     },
     "meta": {
       "country": "Australia",
+      "countryCode": "au",
       "tags": ["Nature", "Beach"],
       "image": "sorrento_beach.jpg",
       "link": "https://en.wikipedia.org/wiki/Sorrento,_Victoria",
@@ -221,6 +233,7 @@
     },
     "meta": {
       "country": "United States of America",
+      "countryCode": "us",
       "tags": ["Man-Made", "Asian", "City"],
       "image": "chinatown_nyc.jpg",
       "link": "https://www.tripadvisor.ca/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
