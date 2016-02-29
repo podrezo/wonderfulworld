@@ -13,7 +13,12 @@
             url: '/wonderfulworld/locations.geojson'
           })
           .then(function successCallback(response) {
+            // store database in cache
             dbCache = response.data;
+            // sort the database
+            dbCache.features = _.sortBy(dbCache.features, function(place) {
+              return place.properties.name;
+            });
             $rootScope.dbLoaded = true;
             deffered.resolve(dbCache);
           }, function errorCallback(response) {
