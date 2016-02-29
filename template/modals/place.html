@@ -1,0 +1,13 @@
+<div class="modal-header">
+<h3 class="modal-title">{{place.properties.name}}</h3>
+</div>
+<div class="modal-body">
+  <p><img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.meta.image}}" alt="{{place.properties.name}}"></p>
+  <p><flag country-code="place.meta.countryCode" size="16"></flag> <strong>{{place.meta.country}}</strong></p>
+  <p>{{place.meta.description}}</p>
+  <p><span ng-repeat="tag in place.meta.tags"><span class="label label-default">{{tag}}</span> </span></p>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-primary" type="button" ng-click="ok()"><span class="glyphicon glyphicon-map-marker"></span> Go</button>
+  <button class="btn btn-default" type="button" ng-click="cancel()"><span class="glyphicon glyphicon-remove"></span> Close</button>
+</div>

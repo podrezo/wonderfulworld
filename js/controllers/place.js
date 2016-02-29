@@ -42,21 +42,6 @@
             $scope.similarPlaces.push(currentPlace.value);
           }
           // load map
-          var replaceMarker = function(e) {
-            for (var i = 0; i < e.features.length; i++) {
-              var f = e.features[i],
-                  c = f.element,
-                  g = f.element = po.svg("image");
-              g.setAttributeNS(po.ns.xlink, "href", "/wonderfulworld/img/map-marker.png");
-              g.setAttribute("width", 32);
-              g.setAttribute("height", 32);
-              g.setAttribute("x", -16);
-              g.setAttribute("y", -32);
-              g.setAttribute("transform", c.getAttribute("transform"));
-              c.parentNode.replaceChild(g, c);
-            }
-          };
-
           var po = org.polymaps;
 
           var map = po.map()
@@ -70,18 +55,10 @@
             .add(po.image().url("http://s3.amazonaws.com/com.modestmaps.bluemarble/{Z}-r{Y}-c{X}.jpg"))
             .add(po.interact())
             .add(po.compass().pan("none"))
-            .add(po.geoJson().features([$scope.place]).on("load", replaceMarker));
+            .add(po.geoJson().features([$scope.place]).on("load", util.convertMarkers(po)));
 
         } else {
-          $scope.place = {
-            id: $stateParams.id,
-            name: 'Invalid ID',
-            country: '',
-            tags: [],
-            image: 'INVALID.jpg',
-            link: '/wonderfulworld',
-            description: 'There is no place in the database with that ID.'
-          };
+          alert('Invalid ID'); // TODO Do something better here
         }
       });
     }
