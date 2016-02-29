@@ -6,7 +6,7 @@
 </div>
 <!-- /.row -->
 
-<!-- Details -->
+<!-- Overview and image -->
 <div class="row">
 
   <div class="col-md-8">
@@ -14,15 +14,8 @@
   </div>
 
   <div class="col-md-4">
-    <h3>Description</h3>
     <p>{{place.meta.description}}</p>
-    <h3>Tags</h3>
-    <ul>
-      <li ng-repeat="tag in place.meta.tags">{{tag}}</li>
-    </ul>
-    <p>
-      <a class="btn btn-primary" target="_blank" ng-href="http://www.google.com/maps/place/{{place.geometry.coordinates[1]}},{{place.geometry.coordinates[0]}}"><span class="glyphicon glyphicon-map-marker"></span> Show on Google Maps</a>
-    </p>
+    <p><span ng-repeat="tag in place.meta.tags"><span class="label label-default">{{tag}}</span> </span></p>
   </div>
 
 </div>
@@ -37,6 +30,26 @@
   <div class="col-lg-12" id="map" style="height: 20em;"></div>
   <div class="col-lg-12">
     <p><small>Satellite imagery courtesy of <a href="http://earthobservatory.nasa.gov/Features/BlueMarble/" target="_blank">NASA's Blue Marble initiative</a>.</small></p>
+  </div>
+</div>
+<!-- /.row -->
+
+<!-- Details -->
+<div class="row extra-vertical">
+  <div class="col-lg-12">
+    <div class="well">
+      <h3>More Info</h3>
+      <dl>
+        <dt>GPS Coordinates (Degree notation)</dt>
+        <dd>Longitude: {{friendlyLon}}, Latitude: {{friendlyLat}}</dd>
+        <dt>GPS Coordinates (Decimal notation)</dt>
+        <dd>Longitude: {{place.geometry.coordinates[0]}}, Latitude: {{place.geometry.coordinates[1]}}</dd>
+        <dt>External Link</dt>
+        <dd><a target="_blank" ng-href="{{place.meta.link}}"><span class="glyphicon glyphicon-link"></span> {{place.meta.link | cut:true:35}}</a></dd>
+        <dt>Google Maps Link</dt>
+        <dd><a class="btn btn-primary" target="_blank" ng-href="http://www.google.com/maps/place/{{place.geometry.coordinates[1]}},{{place.geometry.coordinates[0]}}"><span class="glyphicon glyphicon-map-marker"></span> Show on Google Maps</a></dd>
+      </dl>
+    </div>
   </div>
 </div>
 <!-- /.row -->
