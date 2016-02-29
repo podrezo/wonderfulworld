@@ -17,7 +17,7 @@
     <div class="col-md-5">
       <h3 class="small-caps">{{place.properties.name}}</h3>
       <h4 class="small-caps"><flag country-code="place.meta.countryCode" size="24"></flag> {{place.meta.country}}</h4>
-      <p>{{place.meta.description}}</p>
+      <p>{{place.meta.description | cut:true:300}}</p>
       <p><span ng-repeat="tag in place.meta.tags"><span class="label label-default">{{tag}}</span> </span></p>
       <a class="btn btn-primary" ui-sref="place({id:place.id})"><span class="glyphicon glyphicon-map-marker"></span> Show Details</span></a>
     </div>
