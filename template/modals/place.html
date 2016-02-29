@@ -4,7 +4,7 @@
 <div class="modal-body">
   <p><img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.meta.image}}" alt="{{place.properties.name}}"></p>
   <p><flag country-code="place.meta.countryCode" size="16"></flag> <strong>{{place.meta.country}}</strong></p>
-  <p>{{place.meta.description}}</p>
+  <p>{{place.meta.description | cut:true:300}}</p>
   <p><span ng-repeat="tag in place.meta.tags"><span class="label label-default">{{tag}}</span> </span></p>
 </div>
 <div class="modal-footer">
