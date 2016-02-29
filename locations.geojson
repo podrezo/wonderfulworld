@@ -239,5 +239,95 @@
       "link": "https://www.tripadvisor.ca/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
       "description": "One of the most iconic chinatowns in the world."
     }
+  }, {
+    "id": "43355fcc-e92a-4c6d-9e21-69d68be8f971",
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-20.636611054699433, 65.60616904697044]
+    },
+    "properties": {
+      "name": "Hvítserkur"
+    },
+    "meta": {
+      "country": "Iceland",
+      "countryCode": "is",
+      "tags": ["Nature", "Rock"],
+      "image": "hvitserkur.jpg",
+      "link": "https://en.wikipedia.org/wiki/Hv%C3%ADtserkur",
+      "description": "Hvítserkur is a 15 m high basalt stack along the eastern shore of the Vatnsnes peninsula, in northwest Iceland. The rock has two holes at the base, which give it the appearance of a dragon who is drinking. The base of the stack has been reinforced with concrete to protect its foundations from the sea. Several species of birds, such as gulls and fulmars, live on at Hvítserkur and its name (\"white shirt\" in Icelandic) comes from the color of the guano deposited on its rocks."
+    }
+  }, {
+    "id": "43355fcc-e92a-4c6d-9e21-69d68be8f971",
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-16.18443338367644, 64.04302763153433]
+    },
+    "properties": {
+      "name": "Jökulsárlón Ice Beach"
+    },
+    "meta": {
+      "country": "Iceland",
+      "countryCode": "is",
+      "tags": ["Nature", "Beach", "Ice"],
+      "image": "jokulsarlon.jpg",
+      "link": "https://en.wikipedia.org/wiki/J%C3%B6kuls%C3%A1rl%C3%B3n",
+      "description": "Jökulsárlón (literally \"glacial river lagoon\") is a large glacial lake in southeast Iceland, on the edge of Vatnajökull National Park. Situated at the head of the Breiðamerkurjökull glacier, it developed into a lake after the glacier started receding from the edge of the Atlantic Ocean. The lake has grown since then at varying rates because of melting of the glaciers. It is now 1.5 kilometres (0.93 mi) away from the ocean's edge and covers an area of about 18 km2 (6.9 sq mi). It recently became the deepest lake in Iceland, at over 248 metres (814 ft), as glacial retreat extended its boundaries. It is considered as one of the natural wonders of Iceland."
+    }
+  }, {
+    "id": "d601d1dd-7b86-4f6d-810e-f1964b585a2d",
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [135.8433773026126, 34.68540137581203]
+    },
+    "properties": {
+      "name": "Nara Deer Park"
+    },
+    "meta": {
+      "country": "Japan",
+      "countryCode": "jp",
+      "tags": ["Asian", "Animals", "Park"],
+      "image": "nara.jpg",
+      "link": "http://www.japan-guide.com/e/e4103.html",
+      "description": "Nara Park (奈良公園, Nara Kōen) is a large park in central Nara. Established in 1880, it is the location of many of Nara's main attractions including Todaiji, Kasuga Taisha, Kofukuji and the Nara National Museum. The park is home to hundreds of freely roaming deer. Considered in Shinto to be messengers of the gods, Nara's nearly 1200 deer have become a symbol of the city and have even been designated as a natural treasure. Nara's deer are surprisingly tame, although they can be aggressive if they think you will feed them. Deer crackers are for sale around the park, and some deer have learned to bow to visitors to ask to be fed."
+    }
+  }, {
+    "id": "c226283f-ddf9-4657-bfc8-54bb5ff5ea14",
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [14.089466781817988,46.36153454854645]
+    },
+    "properties": {
+      "name": "Lake Bled"
+    },
+    "meta": {
+      "country": "Slovenia",
+      "countryCode": "si",
+      "tags": ["Nature", "Man-Made", "Lake", "Castle"],
+      "image": "lake_bled.jpg",
+      "link": "http://www.bled.si/en/what-to-see/cultural-sights/churches/the-church-on-the-island",
+      "description": "According to a legend which stayed with the people, the temple of the ancient Slavic goddess Živa, once stood in the place of the present Baroque church. The temple disappeared during battles between the followers of the pagan religion and Christians, who destroyed the altar and built a church."
+    }
+  }, {
+    "id": "070625d2-eee5-4352-bb34-f2396367892d",
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [1.351794345762539,51.135651637479754]
+    },
+    "properties": {
+      "name": "White Cliffs of Dover"
+    },
+    "meta": {
+      "country": "England",
+      "countryCode": "gb",
+      "tags": ["Nature", "Cliffs"],
+      "image": "dover.jpg",
+      "link": "https://en.wikipedia.org/wiki/White_Cliffs_of_Dover",
+      "description": "The White Cliffs of Dover are cliffs that form part of the English coastline facing the Strait of Dover and France. The cliffs are part of the North Downs formation. The cliff face, which reaches up to 350 feet (110 m), owes its striking façade to its composition of chalk accentuated by streaks of black flint. The cliffs spread east and west from the town of Dover in the county of Kent, an ancient and still important English port. The cliffs have great symbolic value in Britain because they face towards Continental Europe across the narrowest part of the English Channel, where invasions have historically threatened and against which the cliffs form a symbolic guard. Because crossing at Dover was the primary route to the continent before the advent of air travel, the white line of cliffs also formed the first or last sight of England for travellers."
+    }
   }]
 }
