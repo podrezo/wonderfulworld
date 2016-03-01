@@ -20,7 +20,7 @@
 
           var map = po.map()
             .container(document.getElementById("map").appendChild(po.svg("svg")))
-            .zoomRange([0, 9])
+            .zoomRange([2, 9])
             .zoom(4)
             .center({
               lat:$scope.place.geometry.coordinates[1],
