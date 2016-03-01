@@ -47,7 +47,9 @@
         "image": "chinatown_nyc.jpg",
         "link": "https://www.tripadvisor.ca/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
         "description": "One of the most iconic chinatowns in the world.",
-        "similarPlaces": []
+        "similarPlaces": [
+          "jodhpur"
+        ]
       },
       "id": "chinatown-nyc"
     },
@@ -218,6 +220,33 @@
         "similarPlaces": []
       },
       "id": "hvitserkur"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0153805,
+          26.2972186
+        ]
+      },
+      "properties": {
+        "name": "Jodhpur",
+        "country": "India",
+        "countryCode": "in",
+        "tags": [
+          "Man-Made",
+          "Asian",
+          "City"
+        ],
+        "image": "jodhpur.jpg",
+        "link": "https://en.wikivoyage.org/wiki/Jodhpur",
+        "description": "Jodhpur is also known as the Blue City, an apt name as most houses in the old city are shades of blue. This is particularly noticeable on the north side of the town, known as Brahmpuri for the many Brahmins that live there.",
+        "similarPlaces": [
+          "chinatown-nyc"
+        ]
+      },
+      "id": "jodhpur"
     },
     {
       "type": "Feature",
