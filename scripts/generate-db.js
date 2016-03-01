@@ -12,6 +12,8 @@ _.forEach(locations, function(fileName) {
   // load file
   var fileContents = fs.readFileSync(_basePath + '/db/' + fileName);
   var feature = JSON.parse(fileContents);
+  // (re)write ID as the filename without extension
+  feature.id = fileName.substr(0, fileName.indexOf('.geojson'));
   features.push(feature);
 });
 
