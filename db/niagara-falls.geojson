@@ -1,0 +1,17 @@
+{
+  "id": "3d50644a-2f19-4b3b-bfc0-9044185c34c8",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.07635158425911,43.08282009714251]
+  },
+  "properties": {
+    "name": "Niagara Falls",
+    "country": "Canada",
+    "countryCode": "ca",
+    "tags": ["Nature", "Waterfall"],
+    "image": "niagara.jpg",
+    "link": "http://www.niagarafallstourism.com/",
+    "description": "Famous, towering waterfalls at the boundary of Canada & the United States, with tours & boat rides."
+  }
+}

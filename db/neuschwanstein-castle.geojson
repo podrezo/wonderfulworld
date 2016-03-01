@@ -1,0 +1,17 @@
+{
+  "id": "02c117c8-500f-47ba-a479-fac6bef7a567",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.747611715848567, 47.55757759935595]
+  },
+  "properties": {
+    "name": "Neuschwanstein Castle",
+    "country": "Germany",
+    "countryCode": "de",
+    "tags": ["Man-Made", "Castle"],
+    "image": "neuschwanstein_castle.jpg",
+    "link": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+    "description": "Neuschwanstein Castle is a nineteenth-century Romanesque Revival palace on a rugged hill above the village of Hohenschwangau near Füssen in southwest Bavaria, Germany. The palace was commissioned by Ludwig II of Bavaria as a retreat and as an homage to Richard Wagner. Ludwig paid for the palace out of his personal fortune and by means of extensive borrowing, rather than Bavarian public funds."
+  }
+}

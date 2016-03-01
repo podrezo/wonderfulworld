@@ -1,0 +1,17 @@
+{
+  "id": "60229a3c-f54e-47af-8194-77516a69e49a",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-62.25468301133557, 67.0898098265577]
+  },
+  "properties": {
+    "name": "Durban Island",
+    "country": "Canada",
+    "countryCode": "ca",
+    "tags": ["Nature", "Island", "Nordic"],
+    "image": "durban_island.jpg",
+    "link": "https://en.wikipedia.org/wiki/Durban_Island",
+    "description": "Durban Island is a Canadian Arctic island located in Nunavut, Canada. It is one of Baffin Island's northeast offshore islands within Davis Strait's Merchants Bay. It is 36 km2 (14 sq mi) in size. Durban Harbour is on the island's southeast facing side. Nearby can be found the larger Padloping Island, and Auyuittuq National Park Reserve is also to the west on Baffin Island."
+  }
+}

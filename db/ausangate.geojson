@@ -1,0 +1,22 @@
+{
+  "id": "3f3eb581-09db-441e-afc0-385e0023f692",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-71.2418748, -13.7914446,
+      8852
+    ]
+  },
+  "properties": {
+    "name": "Ausangate",
+    "country": "Peru",
+    "countryCode": "pe",
+    "tags": [
+      "Nature",
+      "Mountains"
+    ],
+    "image": "rainbow_mountains.jpg",
+    "link": "http://www.flashpackerconnect.com/",
+    "description": "Also called \"The Painted Mountains\" or \"Rainbow Mountains\" one look at them tells you where they get their name. These gorgeous pastel-colored mountains require a several day long trek through rough terrain, but it's well worth it for the view!"
+  }
+}

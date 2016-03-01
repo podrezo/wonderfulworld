@@ -1,0 +1,17 @@
+{
+  "id": "0f101629-bdcb-4d62-b8b0-7d0bdacfa156",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.537615871518861, 60.068148328445375]
+  },
+  "properties": {
+    "name": "Odda",
+    "country": "Norway",
+    "countryCode": "no",
+    "tags": ["Man-Made", "Town", "Nordic"],
+    "image": "odda.jpg",
+    "link": "https://en.wikipedia.org/wiki/Odda",
+    "description": "Odda municipality is very mountainous and the settlements are all located in valleys. Because of the many mountains, there are many large waterfalls including Låtefossen, Espelandsfossen, and Tyssestrengene. There are also many large lakes such as Sandvinvatnet, Votna, Valldalsvatnet, Røldalsvatnet, Ringedalsvatnet, Langavatnet, and parts of Ståvatn."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "6a274b7f-f1c1-4c98-9b99-1d51c1f78a5e",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.9990695843119, 40.71608574530205]
+  },
+  "properties": {
+    "name": "Chinatown NYC",
+    "country": "United States of America",
+    "countryCode": "us",
+    "tags": ["Man-Made", "Asian", "City"],
+    "image": "chinatown_nyc.jpg",
+    "link": "https://www.tripadvisor.ca/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
+    "description": "One of the most iconic chinatowns in the world."
+  }
+}

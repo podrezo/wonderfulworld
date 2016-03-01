@@ -1,0 +1,17 @@
+{
+  "id": "aa37d769-7ea6-4063-867c-087be646f3ad",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-85.87494368466727,16.450676133470846]
+  },
+  "properties": {
+    "name": "Dunbar Rock",
+    "country": "Honduras",
+    "countryCode": "hn",
+    "tags": ["Man-Made", "Resort", "Luxury", "Island"],
+    "image": "dunbar_rock.jpg",
+    "link": "http://dunbarrock.com/",
+    "description": "This beautiful historical landmark was once used as a mooring for the famous pirate Blackbeard. Local legend has it that there is buried treasure on the island. When the original owner was constructing the villas, he discovered a hidden cave on the island. He found many pieces of pre-Colombian pottery, but sadly no treasure. But he started construction on what would soon become a new jewel in the Caribbean."
+  }
+}

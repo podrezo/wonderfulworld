@@ -1,0 +1,17 @@
+{
+  "id": "0e03c3b1-34ac-4893-a7b2-d15a757854ed",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [115.746029, -31.831609]
+  },
+  "properties": {
+    "name": "Sorrento Beach",
+    "country": "Australia",
+    "countryCode": "au",
+    "tags": ["Nature", "Beach"],
+    "image": "sorrento_beach.jpg",
+    "link": "https://en.wikipedia.org/wiki/Sorrento,_Victoria",
+    "description": "Sorrento is a township in Victoria, Australia, located on the shores of Port Phillip on the Mornington Peninsula, about one and a half hours by car south of Melbourne. It is a largely upper-class, seaside resort area, but is also a quiet seaside township in the off-peak months of the year. It was named by the Italian founders after the southern Italian town."
+  }
+}

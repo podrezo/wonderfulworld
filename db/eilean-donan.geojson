@@ -1,0 +1,17 @@
+{
+  "id": "d8a24a8d-fc8b-49e0-a851-9b23a8ac9188",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-5.512667908574145,57.27276950701145]
+  },
+  "properties": {
+    "name": "Eilean Donan",
+    "country": "Scotland",
+    "countryCode": "gb",
+    "tags": ["Nature", "Man-Made", "Castle", "Island"],
+    "image": "eilean_donan.jpg",
+    "link": "http://www.eileandonancastle.com/",
+    "description": "Eilean Donan is a small tidal island where three lochs meet, Loch Duich, Loch Long and Loch Alsh, in the western Highlands of Scotland. A picturesque castle that frequently appears in photographs, film and television dominates the island, which lies about 1 kilometre (0.62 mi) from the village of Dornie. Since the castle's restoration in the early 20th century, a footbridge has connected the island to the mainland."
+  }
+}

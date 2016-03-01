@@ -1,0 +1,17 @@
+{
+  "id": "effbdc03-c5dd-4535-981a-3fd8301f693d",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-19.688088978180954, 64.20793347248215]
+  },
+  "properties": {
+    "name": "Haifoss Waterfall",
+    "country": "Iceland",
+    "countryCode": "is",
+    "tags": ["Nature", "Waterfall", "Nordic"],
+    "image": "haifos_waterfall.jpg",
+    "link": "https://en.wikipedia.org/wiki/H%C3%A1ifoss",
+    "description": "The waterfall Háifoss is situated near the volcano Hekla in the south of Iceland. The river Fossá, a tributary of Þjórsá, drops here from a height of 122 m. This is the second highest waterfall of the island."
+  }
+}

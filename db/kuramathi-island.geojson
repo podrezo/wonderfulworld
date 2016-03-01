@@ -1,0 +1,17 @@
+{
+  "id": "e5ca2c7f-293e-45d1-8fb9-eaa294ba6cb5",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [72.98, 4.258611]
+  },
+  "properties": {
+    "name": "Kuramathi Island",
+    "country": "Maldives",
+    "countryCode": "mv",
+    "tags": ["Nature", "Beach", "Island"],
+    "image": "kuramathi_island.jpg",
+    "link": "https://en.wikipedia.org/wiki/Kuramathi",
+    "description": "Kuramathi is one of eight holiday resort islands owned and managed by Universal Enterprises Limited, a Maldivian company. There is a sandbank on the west of the island which is only visible when the tide is low."
+  }
+}
