@@ -10,7 +10,7 @@
       } else {
         $http({
             method: 'GET',
-            url: '/wonderfulworld/locations.geojson'
+            url: '/wonderfulworld/generated/location-index.geojson'
           })
           .then(function successCallback(response) {
             // store database in cache

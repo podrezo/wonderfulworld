@@ -1,7 +1,7 @@
 <!-- Heading -->
 <div class="row">
   <div class="col-lg-12">
-    <h1 class="page-header small-caps">{{place.properties.name}} <small>{{place.meta.country}}</small></h1>
+    <h1 class="page-header small-caps">{{place.properties.name}} <small>{{place.properties.country}}</small></h1>
   </div>
 </div>
 <!-- /.row -->
@@ -10,12 +10,12 @@
 <div class="row">
 
   <div class="col-md-8">
-    <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.meta.image}}" alt="{{place.properties.name}}">
+    <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.properties.image}}" alt="{{place.properties.name}}">
   </div>
 
   <div class="col-md-4">
-    <p>{{place.meta.description}}</p>
-    <p><span ng-repeat="tag in place.meta.tags"><span class="label label-default">{{tag}}</span> </span></p>
+    <p>{{place.properties.description}}</p>
+    <p><span ng-repeat="tag in place.properties.tags"><span class="label label-default">{{tag}}</span> </span></p>
   </div>
 
 </div>
@@ -45,7 +45,7 @@
         <dt>GPS Coordinates (Decimal notation)</dt>
         <dd>Longitude: {{place.geometry.coordinates[0]}}, Latitude: {{place.geometry.coordinates[1]}}</dd>
         <dt>External Link</dt>
-        <dd><a target="_blank" ng-href="{{place.meta.link}}"><span class="glyphicon glyphicon-link"></span> {{place.meta.link | cut:true:35}}</a></dd>
+        <dd><a target="_blank" ng-href="{{place.properties.link}}"><span class="glyphicon glyphicon-link"></span> {{place.properties.link | cut:true:35}}</a></dd>
         <dt>Google Maps Link</dt>
         <dd><a class="btn btn-primary" target="_blank" ng-href="http://www.google.com/maps/place/{{place.geometry.coordinates[1]}},{{place.geometry.coordinates[0]}}"><span class="glyphicon glyphicon-map-marker"></span> Show on Google Maps</a></dd>
       </dl>
@@ -63,7 +63,7 @@
 
   <div class="col-sm-3 col-xs-6" ng-repeat="similarPlace in similarPlaces">
     <a href="#/place/{{similarPlace.id}}">
-      <img class="img-responsive portfolio-item" ng-src="/wonderfulworld/img/places/{{similarPlace.meta.image}}" alt="{{similarPlace.properties.name}}">
+      <img class="img-responsive portfolio-item" ng-src="/wonderfulworld/img/places/{{similarPlace.properties.image}}" alt="{{similarPlace.properties.name}}">
     </a>
   </div>
 

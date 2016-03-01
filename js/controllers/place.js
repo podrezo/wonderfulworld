@@ -18,9 +18,9 @@
               // do not count similarities between a place and itself
               similarityIndex = -1;
             } else {
-              for (var i in cmp.meta.tags) {
-                for (var j in $scope.place.meta.tags) {
-                  if (cmp.meta.tags[i] === $scope.place.meta.tags[j]) {
+              for (var i in cmp.properties.tags) {
+                for (var j in $scope.place.properties.tags) {
+                  if (cmp.properties.tags[i] === $scope.place.properties.tags[j]) {
                     similarityIndex++;
                   }
                 }
