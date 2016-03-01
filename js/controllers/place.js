@@ -11,36 +11,10 @@
         $scope.friendlyLat = util.getDD2DMS($scope.place.geometry.coordinates[1],'lat');
         $scope.friendlyLon = util.getDD2DMS($scope.place.geometry.coordinates[0],'lon');
         if ($scope.place) {
-          // map entire DB into array containing similarity values
-          var similarities = _.map(db, function(cmp) {
-            var similarityIndex = 0;
-            if (cmp.id === $stateParams.id) {
-              // do not count similarities between a place and itself
-              similarityIndex = -1;
-            } else {
-              for (var i in cmp.properties.tags) {
-                for (var j in $scope.place.properties.tags) {
-                  if (cmp.properties.tags[i] === $scope.place.properties.tags[j]) {
-                    similarityIndex++;
-                  }
-                }
-              }
-            }
-            return {
-              value: cmp,
-              similarityIndex: similarityIndex
-            };
+          // get similar places
+          $scope.similarPlaces = _.map($scope.place.properties.similarPlaces, function(similarPlaceId) {
+            return _.findWhere(db, { id: similarPlaceId });
           });
-          similarities = _.sortBy(similarities, 'similarityIndex');
-          $scope.similarPlaces = [];
-          for (var i = 0; i < 4; i++) {
-            var currentPlace = similarities[similarities.length - 1 - i];
-            // at least two tags should be the same for it to be considered similar
-            if (currentPlace.similarityIndex < 2) {
-              break;
-            }
-            $scope.similarPlaces.push(currentPlace.value);
-          }
           // load map
           var po = org.polymaps;
 
