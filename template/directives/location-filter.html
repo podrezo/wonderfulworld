@@ -3,18 +3,34 @@
 </div>
 <div class="col-lg-12">
   <!-- Country Select -->
-  <div class="btn-group" uib-dropdown is-open="status.isopen">
-    <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle>
+  <div class="btn-group" uib-dropdown>
+    <button id="country-button" type="button" class="btn btn-primary" uib-dropdown-toggle>
       <span flag country-code="selectedCountry" size="16"></span> {{selectedCountryLabel}}
       <span class="caret"></span>
     </button>
-    <ul uib-dropdown-menu role="menu" aria-labelledby="single-button">
+    <ul uib-dropdown-menu role="menu" aria-labelledby="country-button">
       <li role="menuitem">
         <a ng-click="selectCountry()"><span flag></span> All Countries</a>
       </li>
       <li class="divider"></li>
       <li ng-repeat="entry in filtersData.countries" role="menuitem">
         <a ng-click="selectCountry(entry.countryCode)"><span flag country-code="entry.countryCode"></span> {{entry.country}} ({{entry.quantity}})</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Tag Select -->
+  <div class="btn-group" uib-dropdown>
+    <button id="tag-button" type="button" class="btn btn-primary" uib-dropdown-toggle>
+      <span class="glyphicon glyphicon-tag"></span> {{selectedTag}}
+      <span class="caret"></span>
+    </button>
+    <ul uib-dropdown-menu role="menu" aria-labelledby="tag-button">
+      <li role="menuitem">
+        <a ng-click="selectTag()">Any Tags</a>
+      </li>
+      <li class="divider"></li>
+      <li ng-repeat="entry in filtersData.tags" role="menuitem">
+        <a ng-click="selectTag(entry.tag)">{{entry.tag}} ({{entry.quantity}})</a>
       </li>
     </ul>
   </div>

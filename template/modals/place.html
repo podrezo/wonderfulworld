@@ -2,7 +2,13 @@
 <h3 class="modal-title">{{place.properties.name}}</h3>
 </div>
 <div class="modal-body">
-  <p><img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.properties.image}}" alt="{{place.properties.name}}"></p>
+  <p>
+    <a href ng-click="ok()">
+      <div class="image-placeholder-inner">
+        <img class="img-responsive image-placeholder" ng-src="/wonderfulworld/img/places/{{place.properties.image}}" alt="{{place.properties.name}}">
+      </div>
+    </a>
+  </p>
   <p><span flag country-code="place.properties.countryCode" size="16"></span> <strong>{{place.properties.country}}</strong></p>
   <p>{{place.properties.description | cut:true:300}}</p>
   <p><span ng-repeat="tag in place.properties.tags"><span class="label label-default">{{tag}}</span> </span></p>

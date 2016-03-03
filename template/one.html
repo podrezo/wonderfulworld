@@ -1,9 +1,15 @@
 <!-- Filters -->
-<div location-filter country-select="countrySelect(countryCode)"></div>
+<div location-filter country-select="countrySelect(countryCode)" tag-select="tagSelect(tag)"></div>
+<!-- /.row -->
+
+<!-- No Results -->
+<div class="alert alert-warning" ng-hide="totalItems">
+  There are no places that match the filters you selected. Please adjust your selection to see some results.
+</div>
 <!-- /.row -->
 
 <!-- Pagination -->
-<div class="row text-center">
+<div class="row text-center" ng-show="totalItems">
   <div class="col-lg-12">
     <uib-pagination boundary-links="true" items-per-page="itemsPerPage" ng-change="pageChanged()" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
   </div>
@@ -11,7 +17,7 @@
 <!-- /.row -->
 
 <!-- Projects Row -->
-<div ng-repeat="place in places">
+<div ng-repeat="place in places" ng-show="totalItems">
   <div class="row">
     <div class="col-md-7">
       <div image-with-placeholder sref-route-name="place" sref-route-params="{id:place.id}" image-path="/wonderfulworld/img/places/{{place.properties.image}}" alt-text="{{place.properties.name}}"></div>
@@ -30,7 +36,7 @@
 <!-- /.row -->
 
 <!-- Pagination -->
-<div class="row text-center">
+<div class="row text-center" ng-show="totalItems">
   <div class="col-lg-12">
     <uib-pagination boundary-links="true" items-per-page="itemsPerPage" ng-change="pageChanged()" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
   </div>

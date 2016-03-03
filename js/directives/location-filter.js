@@ -5,7 +5,8 @@
     return {
       restrict: 'A',
       scope: {
-        countrySelect: '&countrySelect'
+        countrySelect: '&countrySelect',
+        tagSelect: '&tagSelect'
       },
       link: function(scope, element, attrs) {
         attrs.$addClass('row');
@@ -20,7 +21,12 @@
             scope.selectedCountryLabel = scope.selectedCountry ? _.findWhere(db[1].countries, {countryCode: scope.selectedCountry}).country : 'All Countries';
             scope.countrySelect({countryCode: countryCode});
           };
+          scope.selectTag = function(tag) {
+            scope.selectedTag = tag || 'Any Tags';
+            scope.tagSelect({tag: tag});
+          };
           scope.selectCountry();
+          scope.selectTag();
         });
       },
       templateUrl: '/wonderfulworld/template/directives/location-filter.html'
