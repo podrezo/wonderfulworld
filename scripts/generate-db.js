@@ -1,10 +1,15 @@
 var fs = require('fs')
   , _ = require('underscore')
+  , countryCodes = require('./country-codes.js')
   , _basePath = __dirname + '/..';
 
 // Load all locations in /db folder
 var locations = fs.readdirSync(_basePath + '/db');
 var features = [];
+var filterableFields = {
+  countries: [],
+  tags: []
+};
 var i=1;
 _.forEach(locations, function(fileName) {
   console.log('Processing ' + fileName + ' (' + (i) + ' of ' + locations.length + ')');
@@ -14,7 +19,35 @@ _.forEach(locations, function(fileName) {
   var feature = JSON.parse(fileContents);
   // (re)write ID as the filename without extension
   feature.id = fileName.substr(0, fileName.indexOf('.geojson'));
+  // set country name to augment the country code
+  var country = _.findWhere(countryCodes, {"alpha-2":feature.properties.countryCode});
+  feature.properties.country = country.name;
   features.push(feature);
+
+  // set filterable fields index: Country
+  var existingCountry = _.findWhere(filterableFields.countries,{countryCode: feature.properties.countryCode});
+  if(existingCountry) {
+    existingCountry.quantity++;
+  } else {
+    filterableFields.countries.push({
+      countryCode: feature.properties.countryCode,
+      country: feature.properties.country,
+      quantity: 1
+    });
+  }
+
+  // set filterable fields index: Tags
+  _.each(feature.properties.tags, function(tag) {
+    var existingTag = _.findWhere(filterableFields.tags,{tag: tag});
+    if(existingTag) {
+      existingTag.quantity++;
+    } else {
+      filterableFields.tags.push({
+        tag: tag,
+        quantity: 1
+      });
+    }
+  });
 });
 
 // sort all features
@@ -60,7 +93,7 @@ _.each(features, function(feature) {
   }
 });
 
-console.log('Generating results file...')
+console.log('Generating results file...');
 
 var result = {
   "type": "FeatureCollection",
@@ -69,5 +102,15 @@ var result = {
 
 // write the result out to disk
 fs.writeFileSync(_basePath + '/generated/location-index.geojson', JSON.stringify(result, null, 2));
+
+console.log('Sorting data in filters file...');
+// sort countries
+filterableFields.countries = _.sortBy(filterableFields.countries, function(entry) { return entry.country; });
+// sort tags
+filterableFields.tags = _.sortBy(filterableFields.tags, function(entry) { return -1 * entry.quantity; });
+
+console.log('Generating filters file...');
+fs.writeFileSync(_basePath + '/generated/filters-data.json', JSON.stringify(filterableFields, null, 2));
+
 
 console.log('Done!')

@@ -4,13 +4,24 @@
   app.controller('ListController', ['$scope', '$stateParams', '$location', '$state', 'PlacesDatabase',
     function($scope, $stateParams, $location, $state, PlacesDatabase) {
       PlacesDatabase.data().then(function(db) {
-        db = db.features;
+        var list = db[0].features;
+        // listen for country filter change
+        $scope.countrySelect = function(countryCode) {
+          if(countryCode === '*') {
+            list = db[0].features;
+          } else {
+            list = _.filter(db[0].features, function(entry) { return entry.properties.countryCode === countryCode; });
+          }
+          $scope.currentPage = 1;
+          $scope.totalItems = list.length;
+          $scope.pageChanged();
+        };
         // always start on first page
         $scope.currentPage = 1;
         $scope.itemsPerPage = $state.current.data.itemsPerPage;
         $scope.itemsPerRow = $state.current.data.itemsPerRow;
         var splitIntoRows = $scope.itemsPerRow > 1;
-        $scope.totalItems = db.length;
+        $scope.totalItems = list.length;
         $scope.pageChanged = function() {
           // filter out which things to display
           var offset = ($scope.currentPage-1) * $scope.itemsPerPage;
@@ -27,9 +38,9 @@
                 items.push([]);
                 currentRow++;
               }
-              items[currentRow].push(db[offset + j]);
+              items[currentRow].push(list[offset + j]);
             } else {
-              items.push(db[offset + j]);
+              items.push(list[offset + j]);
             }
           }
           $scope.places = items;

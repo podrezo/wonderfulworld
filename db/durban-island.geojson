@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Durban Island",
-    "country": "Canada",
-    "countryCode": "ca",
+    "countryCode": "CA",
     "tags": ["Nature", "Island", "Nordic"],
     "image": "durban_island.jpg",
     "link": "https://en.wikipedia.org/wiki/Durban_Island",

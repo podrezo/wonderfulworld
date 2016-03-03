@@ -3,7 +3,7 @@
 </div>
 <div class="modal-body">
   <p><img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.properties.image}}" alt="{{place.properties.name}}"></p>
-  <p><flag country-code="place.properties.countryCode" size="16"></flag> <strong>{{place.properties.country}}</strong></p>
+  <p><span flag country-code="place.properties.countryCode" size="16"></span> <strong>{{place.properties.country}}</strong></p>
   <p>{{place.properties.description | cut:true:300}}</p>
   <p><span ng-repeat="tag in place.properties.tags"><span class="label label-default">{{tag}}</span> </span></p>
 </div>

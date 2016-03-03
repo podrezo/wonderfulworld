@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Skógafoss",
-    "country": "Iceland",
-    "countryCode": "is",
+    "countryCode": "IS",
     "tags": ["Nature", "Waterfall", "Nordic"],
     "image": "skogafoss_waterfall.jpg",
     "link": "https://en.wikipedia.org/wiki/Sk%C3%B3gafoss",

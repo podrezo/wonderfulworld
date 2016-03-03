@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Neuschwanstein Castle",
-    "country": "Germany",
-    "countryCode": "de",
+    "countryCode": "DE",
     "tags": ["Man-Made", "Castle"],
     "image": "neuschwanstein_castle.jpg",
     "link": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",

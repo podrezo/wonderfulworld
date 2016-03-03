@@ -1,3 +1,9 @@
+<!-- Filters -->
+<div class="row text-center">
+  <div class="col-lg-12" location-filter country-select="countrySelect(countryCode)"></div>
+</div>
+<!-- /.row -->
+
 <!-- Pagination -->
 <div class="row text-center">
   <div class="col-lg-12">
@@ -13,7 +19,7 @@
       <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.properties.image}}" alt="{{place.properties.name}}">
     </a>
     <h3 class="small-caps">
-      <flag country-code="place.properties.countryCode" size="24"></flag> <a ui-sref="place({id:place.id})">{{place.properties.name}}</a>
+      <span flag country-code="place.properties.countryCode" size="24"></span> <a ui-sref="place({id:place.id})">{{place.properties.name}}</a>
     </h3>
     <p>{{place.properties.description | cut:true:100}}</p>
     <p><span ng-repeat="tag in place.properties.tags"><span class="label label-default">{{tag}}</span> </span></p>

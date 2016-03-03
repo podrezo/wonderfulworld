@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Nara Deer Park",
-    "country": "Japan",
-    "countryCode": "jp",
+    "countryCode": "JP",
     "tags": ["Asian", "Animals", "Park"],
     "image": "nara.jpg",
     "link": "http://www.japan-guide.com/e/e4103.html",

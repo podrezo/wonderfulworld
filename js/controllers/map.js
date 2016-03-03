@@ -18,7 +18,7 @@
           .add(po.image().url("http://s3.amazonaws.com/com.modestmaps.bluemarble/{Z}-r{Y}-c{X}.jpg"))
           .add(po.interact())
           .add(po.compass().pan("none"))
-          .add(po.geoJson().features(db.features).on("load", util.convertMarkers(po, {clickable: true})));
+          .add(po.geoJson().features(db[0].features).on("load", util.convertMarkers(po, {clickable: true})));
       });
     }
   ]);

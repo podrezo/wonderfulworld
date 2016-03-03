@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Kuramathi Island",
-    "country": "Maldives",
-    "countryCode": "mv",
+    "countryCode": "MV",
     "tags": ["Nature", "Beach", "Island"],
     "image": "kuramathi_island.jpg",
     "link": "https://en.wikipedia.org/wiki/Kuramathi",

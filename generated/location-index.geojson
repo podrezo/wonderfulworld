@@ -13,8 +13,7 @@
       },
       "properties": {
         "name": "Ausangate",
-        "country": "Peru",
-        "countryCode": "pe",
+        "countryCode": "PE",
         "tags": [
           "Nature",
           "Mountains"
@@ -22,6 +21,7 @@
         "image": "rainbow_mountains.jpg",
         "link": "http://www.flashpackerconnect.com/",
         "description": "Also called \"The Painted Mountains\" or \"Rainbow Mountains\" one look at them tells you where they get their name. These gorgeous pastel-colored mountains require a several day long trek through rough terrain, but it's well worth it for the view!",
+        "country": "Peru",
         "similarPlaces": []
       },
       "id": "ausangate"
@@ -37,8 +37,7 @@
       },
       "properties": {
         "name": "Chinatown NYC",
-        "country": "United States of America",
-        "countryCode": "us",
+        "countryCode": "US",
         "tags": [
           "Man-Made",
           "Asian",
@@ -47,6 +46,7 @@
         "image": "chinatown_nyc.jpg",
         "link": "https://www.tripadvisor.ca/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
         "description": "One of the most iconic chinatowns in the world.",
+        "country": "United States of America",
         "similarPlaces": [
           "jodhpur"
         ]
@@ -64,8 +64,7 @@
       },
       "properties": {
         "name": "Dunbar Rock",
-        "country": "Honduras",
-        "countryCode": "hn",
+        "countryCode": "HN",
         "tags": [
           "Man-Made",
           "Resort",
@@ -75,6 +74,7 @@
         "image": "dunbar_rock.jpg",
         "link": "http://dunbarrock.com/",
         "description": "This beautiful historical landmark was once used as a mooring for the famous pirate Blackbeard. Local legend has it that there is buried treasure on the island. When the original owner was constructing the villas, he discovered a hidden cave on the island. He found many pieces of pre-Colombian pottery, but sadly no treasure. But he started construction on what would soon become a new jewel in the Caribbean.",
+        "country": "Honduras",
         "similarPlaces": [
           "eilean-donan"
         ]
@@ -92,8 +92,7 @@
       },
       "properties": {
         "name": "Durban Island",
-        "country": "Canada",
-        "countryCode": "ca",
+        "countryCode": "CA",
         "tags": [
           "Nature",
           "Island",
@@ -102,6 +101,7 @@
         "image": "durban_island.jpg",
         "link": "https://en.wikipedia.org/wiki/Durban_Island",
         "description": "Durban Island is a Canadian Arctic island located in Nunavut, Canada. It is one of Baffin Island's northeast offshore islands within Davis Strait's Merchants Bay. It is 36 km2 (14 sq mi) in size. Durban Harbour is on the island's southeast facing side. Nearby can be found the larger Padloping Island, and Auyuittuq National Park Reserve is also to the west on Baffin Island.",
+        "country": "Canada",
         "similarPlaces": [
           "skogafoss-waterfall",
           "kuramathi-island",
@@ -122,8 +122,7 @@
       },
       "properties": {
         "name": "Eilean Donan",
-        "country": "Scotland",
-        "countryCode": "gb",
+        "countryCode": "GB",
         "tags": [
           "Nature",
           "Man-Made",
@@ -133,6 +132,7 @@
         "image": "eilean_donan.jpg",
         "link": "http://www.eileandonancastle.com/",
         "description": "Eilean Donan is a small tidal island where three lochs meet, Loch Duich, Loch Long and Loch Alsh, in the western Highlands of Scotland. A picturesque castle that frequently appears in photographs, film and television dominates the island, which lies about 1 kilometre (0.62 mi) from the village of Dornie. Since the castle's restoration in the early 20th century, a footbridge has connected the island to the mainland.",
+        "country": "United Kingdom",
         "similarPlaces": [
           "lake-bled",
           "neuschwanstein-castle",
@@ -153,8 +153,7 @@
       },
       "properties": {
         "name": "Ellison's Cave",
-        "country": "United States of America",
-        "countryCode": "us",
+        "countryCode": "US",
         "tags": [
           "Nature",
           "Cave"
@@ -162,6 +161,7 @@
         "image": "ellisons_cave.jpg",
         "link": "https://roadtrippers.com/us/lafayette-ga/nature/ellisons-cave?lat=40.80972&lng=-96.67528&z=5",
         "description": "This pit cave is located on the Pigeon Mountain range on the Northwest of Georgia. It is the 12th deepest cave in the the US, extending over 12 miles and 1063 feet vertically. There are over 7 routes to reach the bottom of the cave.",
+        "country": "United States of America",
         "similarPlaces": [
           "son-doong-cave"
         ]
@@ -179,8 +179,7 @@
       },
       "properties": {
         "name": "Haifoss Waterfall",
-        "country": "Iceland",
-        "countryCode": "is",
+        "countryCode": "IS",
         "tags": [
           "Nature",
           "Waterfall",
@@ -189,6 +188,7 @@
         "image": "haifos_waterfall.jpg",
         "link": "https://en.wikipedia.org/wiki/H%C3%A1ifoss",
         "description": "The waterfall Háifoss is situated near the volcano Hekla in the south of Iceland. The river Fossá, a tributary of Þjórsá, drops here from a height of 122 m. This is the second highest waterfall of the island.",
+        "country": "Iceland",
         "similarPlaces": [
           "skogafoss-waterfall",
           "niagara-falls",
@@ -208,8 +208,7 @@
       },
       "properties": {
         "name": "Hvítserkur",
-        "country": "Iceland",
-        "countryCode": "is",
+        "countryCode": "IS",
         "tags": [
           "Nature",
           "Rock"
@@ -217,6 +216,7 @@
         "image": "hvitserkur.jpg",
         "link": "https://en.wikipedia.org/wiki/Hv%C3%ADtserkur",
         "description": "Hvítserkur is a 15 m high basalt stack along the eastern shore of the Vatnsnes peninsula, in northwest Iceland. The rock has two holes at the base, which give it the appearance of a dragon who is drinking. The base of the stack has been reinforced with concrete to protect its foundations from the sea. Several species of birds, such as gulls and fulmars, live on at Hvítserkur and its name (\"white shirt\" in Icelandic) comes from the color of the guano deposited on its rocks.",
+        "country": "Iceland",
         "similarPlaces": []
       },
       "id": "hvitserkur"
@@ -232,8 +232,7 @@
       },
       "properties": {
         "name": "Jodhpur",
-        "country": "India",
-        "countryCode": "in",
+        "countryCode": "IN",
         "tags": [
           "Man-Made",
           "Asian",
@@ -242,6 +241,7 @@
         "image": "jodhpur.jpg",
         "link": "https://en.wikivoyage.org/wiki/Jodhpur",
         "description": "Jodhpur is also known as the Blue City, an apt name as most houses in the old city are shades of blue. This is particularly noticeable on the north side of the town, known as Brahmpuri for the many Brahmins that live there.",
+        "country": "India",
         "similarPlaces": [
           "chinatown-nyc"
         ]
@@ -259,8 +259,7 @@
       },
       "properties": {
         "name": "Jökulsárlón Ice Beach",
-        "country": "Iceland",
-        "countryCode": "is",
+        "countryCode": "IS",
         "tags": [
           "Nature",
           "Beach",
@@ -269,6 +268,7 @@
         "image": "jokulsarlon.jpg",
         "link": "https://en.wikipedia.org/wiki/J%C3%B6kuls%C3%A1rl%C3%B3n",
         "description": "Jökulsárlón (literally \"glacial river lagoon\") is a large glacial lake in southeast Iceland, on the edge of Vatnajökull National Park. Situated at the head of the Breiðamerkurjökull glacier, it developed into a lake after the glacier started receding from the edge of the Atlantic Ocean. The lake has grown since then at varying rates because of melting of the glaciers. It is now 1.5 kilometres (0.93 mi) away from the ocean's edge and covers an area of about 18 km2 (6.9 sq mi). It recently became the deepest lake in Iceland, at over 248 metres (814 ft), as glacial retreat extended its boundaries. It is considered as one of the natural wonders of Iceland.",
+        "country": "Iceland",
         "similarPlaces": [
           "sorrento-beach",
           "kuramathi-island"
@@ -287,8 +287,7 @@
       },
       "properties": {
         "name": "Kuramathi Island",
-        "country": "Maldives",
-        "countryCode": "mv",
+        "countryCode": "MV",
         "tags": [
           "Nature",
           "Beach",
@@ -297,6 +296,7 @@
         "image": "kuramathi_island.jpg",
         "link": "https://en.wikipedia.org/wiki/Kuramathi",
         "description": "Kuramathi is one of eight holiday resort islands owned and managed by Universal Enterprises Limited, a Maldivian company. There is a sandbank on the west of the island which is only visible when the tide is low.",
+        "country": "Maldives",
         "similarPlaces": [
           "sorrento-beach",
           "jokulsarlon-beach",
@@ -317,8 +317,7 @@
       },
       "properties": {
         "name": "Lake Bled",
-        "country": "Slovenia",
-        "countryCode": "si",
+        "countryCode": "SI",
         "tags": [
           "Nature",
           "Man-Made",
@@ -328,6 +327,7 @@
         "image": "lake_bled.jpg",
         "link": "http://www.bled.si/en/what-to-see/cultural-sights/churches/the-church-on-the-island",
         "description": "According to a legend which stayed with the people, the temple of the ancient Slavic goddess Živa, once stood in the place of the present Baroque church. The temple disappeared during battles between the followers of the pagan religion and Christians, who destroyed the altar and built a church.",
+        "country": "Slovenia",
         "similarPlaces": [
           "eilean-donan",
           "neuschwanstein-castle"
@@ -346,8 +346,7 @@
       },
       "properties": {
         "name": "Nara Deer Park",
-        "country": "Japan",
-        "countryCode": "jp",
+        "countryCode": "JP",
         "tags": [
           "Asian",
           "Animals",
@@ -356,6 +355,7 @@
         "image": "nara.jpg",
         "link": "http://www.japan-guide.com/e/e4103.html",
         "description": "Nara Park (奈良公園, Nara Kōen) is a large park in central Nara. Established in 1880, it is the location of many of Nara's main attractions including Todaiji, Kasuga Taisha, Kofukuji and the Nara National Museum. The park is home to hundreds of freely roaming deer. Considered in Shinto to be messengers of the gods, Nara's nearly 1200 deer have become a symbol of the city and have even been designated as a natural treasure. Nara's deer are surprisingly tame, although they can be aggressive if they think you will feed them. Deer crackers are for sale around the park, and some deer have learned to bow to visitors to ask to be fed.",
+        "country": "Japan",
         "similarPlaces": []
       },
       "id": "nara-deer-park"
@@ -371,8 +371,7 @@
       },
       "properties": {
         "name": "Neuschwanstein Castle",
-        "country": "Germany",
-        "countryCode": "de",
+        "countryCode": "DE",
         "tags": [
           "Man-Made",
           "Castle"
@@ -380,6 +379,7 @@
         "image": "neuschwanstein_castle.jpg",
         "link": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
         "description": "Neuschwanstein Castle is a nineteenth-century Romanesque Revival palace on a rugged hill above the village of Hohenschwangau near Füssen in southwest Bavaria, Germany. The palace was commissioned by Ludwig II of Bavaria as a retreat and as an homage to Richard Wagner. Ludwig paid for the palace out of his personal fortune and by means of extensive borrowing, rather than Bavarian public funds.",
+        "country": "Germany",
         "similarPlaces": [
           "lake-bled",
           "eilean-donan"
@@ -398,8 +398,7 @@
       },
       "properties": {
         "name": "Niagara Falls",
-        "country": "Canada",
-        "countryCode": "ca",
+        "countryCode": "CA",
         "tags": [
           "Nature",
           "Waterfall"
@@ -407,6 +406,7 @@
         "image": "niagara.jpg",
         "link": "http://www.niagarafallstourism.com/",
         "description": "Famous, towering waterfalls at the boundary of Canada & the United States, with tours & boat rides.",
+        "country": "Canada",
         "similarPlaces": [
           "skogafoss-waterfall",
           "haifoss-waterfall"
@@ -425,8 +425,7 @@
       },
       "properties": {
         "name": "Odda",
-        "country": "Norway",
-        "countryCode": "no",
+        "countryCode": "NO",
         "tags": [
           "Man-Made",
           "Town",
@@ -435,6 +434,7 @@
         "image": "odda.jpg",
         "link": "https://en.wikipedia.org/wiki/Odda",
         "description": "Odda municipality is very mountainous and the settlements are all located in valleys. Because of the many mountains, there are many large waterfalls including Låtefossen, Espelandsfossen, and Tyssestrengene. There are also many large lakes such as Sandvinvatnet, Votna, Valldalsvatnet, Røldalsvatnet, Ringedalsvatnet, Langavatnet, and parts of Ståvatn.",
+        "country": "Norway",
         "similarPlaces": []
       },
       "id": "odda"
@@ -450,8 +450,7 @@
       },
       "properties": {
         "name": "Skógafoss",
-        "country": "Iceland",
-        "countryCode": "is",
+        "countryCode": "IS",
         "tags": [
           "Nature",
           "Waterfall",
@@ -460,6 +459,7 @@
         "image": "skogafoss_waterfall.jpg",
         "link": "https://en.wikipedia.org/wiki/Sk%C3%B3gafoss",
         "description": "Skógafoss is a waterfall situated on the Skógá River in the south of Iceland at the cliffs of the former coastline. After the coastline had receded seaward (it is now at a distance of about 5 kilometres (3.1 miles) from Skógar), the former sea cliffs remained, parallel to the coast over hundreds of kilometres, creating together with some mountains a clear border between the coastal lowlands and the Highlands of Iceland.",
+        "country": "Iceland",
         "similarPlaces": [
           "haifoss-waterfall",
           "niagara-falls",
@@ -479,8 +479,7 @@
       },
       "properties": {
         "name": "Sorrento Beach",
-        "country": "Australia",
-        "countryCode": "au",
+        "countryCode": "AU",
         "tags": [
           "Nature",
           "Beach"
@@ -488,6 +487,7 @@
         "image": "sorrento_beach.jpg",
         "link": "https://en.wikipedia.org/wiki/Sorrento,_Victoria",
         "description": "Sorrento is a township in Victoria, Australia, located on the shores of Port Phillip on the Mornington Peninsula, about one and a half hours by car south of Melbourne. It is a largely upper-class, seaside resort area, but is also a quiet seaside township in the off-peak months of the year. It was named by the Italian founders after the southern Italian town.",
+        "country": "Australia",
         "similarPlaces": [
           "kuramathi-island",
           "jokulsarlon-beach"
@@ -506,8 +506,7 @@
       },
       "properties": {
         "name": "Sơn Đoòng Cave",
-        "country": "Vietnam",
-        "countryCode": "vn",
+        "countryCode": "VN",
         "tags": [
           "Nature",
           "Cave"
@@ -515,6 +514,7 @@
         "image": "hang-son-doong.jpg",
         "link": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng",
         "description": "According to the Limberts, the cave is five times larger than nearby caves like Phong Nha Cave and Hang En, the third largest cave in the world previously considered the biggest cave in Vietnam. The main passage in Sơn Đoòng is more than 5 kilometres (3.1 mi) long, 200 metres (660 ft) high and 150 metres (490 ft) wide.",
+        "country": "Vietnam",
         "similarPlaces": [
           "ellisons-cave"
         ]
@@ -532,8 +532,7 @@
       },
       "properties": {
         "name": "White Cliffs of Dover",
-        "country": "England",
-        "countryCode": "gb",
+        "countryCode": "GB",
         "tags": [
           "Nature",
           "Cliffs"
@@ -541,6 +540,7 @@
         "image": "dover.jpg",
         "link": "https://en.wikipedia.org/wiki/White_Cliffs_of_Dover",
         "description": "The White Cliffs of Dover are cliffs that form part of the English coastline facing the Strait of Dover and France. The cliffs are part of the North Downs formation. The cliff face, which reaches up to 350 feet (110 m), owes its striking façade to its composition of chalk accentuated by streaks of black flint. The cliffs spread east and west from the town of Dover in the county of Kent, an ancient and still important English port. The cliffs have great symbolic value in Britain because they face towards Continental Europe across the narrowest part of the English Channel, where invasions have historically threatened and against which the cliffs form a symbolic guard. Because crossing at Dover was the primary route to the continent before the advent of air travel, the white line of cliffs also formed the first or last sight of England for travellers.",
+        "country": "United Kingdom",
         "similarPlaces": []
       },
       "id": "dover"

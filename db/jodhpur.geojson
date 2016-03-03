@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Jodhpur",
-    "country": "India",
-    "countryCode": "in",
+    "countryCode": "IN",
     "tags": ["Man-Made", "Asian", "City"],
     "image": "jodhpur.jpg",
     "link": "https://en.wikivoyage.org/wiki/Jodhpur",

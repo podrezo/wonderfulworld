@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Odda",
-    "country": "Norway",
-    "countryCode": "no",
+    "countryCode": "NO",
     "tags": ["Man-Made", "Town", "Nordic"],
     "image": "odda.jpg",
     "link": "https://en.wikipedia.org/wiki/Odda",

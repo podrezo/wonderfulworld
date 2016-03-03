@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Eilean Donan",
-    "country": "Scotland",
-    "countryCode": "gb",
+    "countryCode": "GB",
     "tags": ["Nature", "Man-Made", "Castle", "Island"],
     "image": "eilean_donan.jpg",
     "link": "http://www.eileandonancastle.com/",

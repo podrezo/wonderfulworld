@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Hvítserkur",
-    "country": "Iceland",
-    "countryCode": "is",
+    "countryCode": "IS",
     "tags": ["Nature", "Rock"],
     "image": "hvitserkur.jpg",
     "link": "https://en.wikipedia.org/wiki/Hv%C3%ADtserkur",

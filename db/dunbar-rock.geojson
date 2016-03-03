@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Dunbar Rock",
-    "country": "Honduras",
-    "countryCode": "hn",
+    "countryCode": "HN",
     "tags": ["Man-Made", "Resort", "Luxury", "Island"],
     "image": "dunbar_rock.jpg",
     "link": "http://dunbarrock.com/",

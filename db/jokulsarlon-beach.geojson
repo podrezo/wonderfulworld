@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Jökulsárlón Ice Beach",
-    "country": "Iceland",
-    "countryCode": "is",
+    "countryCode": "IS",
     "tags": ["Nature", "Beach", "Ice"],
     "image": "jokulsarlon.jpg",
     "link": "https://en.wikipedia.org/wiki/J%C3%B6kuls%C3%A1rl%C3%B3n",

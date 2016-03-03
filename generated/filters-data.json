@@ -1,0 +1,156 @@
+{
+  "countries": [
+    {
+      "countryCode": "AU",
+      "country": "Australia",
+      "quantity": 1
+    },
+    {
+      "countryCode": "CA",
+      "country": "Canada",
+      "quantity": 2
+    },
+    {
+      "countryCode": "DE",
+      "country": "Germany",
+      "quantity": 1
+    },
+    {
+      "countryCode": "HN",
+      "country": "Honduras",
+      "quantity": 1
+    },
+    {
+      "countryCode": "IS",
+      "country": "Iceland",
+      "quantity": 4
+    },
+    {
+      "countryCode": "IN",
+      "country": "India",
+      "quantity": 1
+    },
+    {
+      "countryCode": "JP",
+      "country": "Japan",
+      "quantity": 1
+    },
+    {
+      "countryCode": "MV",
+      "country": "Maldives",
+      "quantity": 1
+    },
+    {
+      "countryCode": "NO",
+      "country": "Norway",
+      "quantity": 1
+    },
+    {
+      "countryCode": "PE",
+      "country": "Peru",
+      "quantity": 1
+    },
+    {
+      "countryCode": "SI",
+      "country": "Slovenia",
+      "quantity": 1
+    },
+    {
+      "countryCode": "GB",
+      "country": "United Kingdom",
+      "quantity": 2
+    },
+    {
+      "countryCode": "US",
+      "country": "United States of America",
+      "quantity": 2
+    },
+    {
+      "countryCode": "VN",
+      "country": "Vietnam",
+      "quantity": 1
+    }
+  ],
+  "tags": [
+    {
+      "tag": "Nature",
+      "quantity": 14
+    },
+    {
+      "tag": "Man-Made",
+      "quantity": 7
+    },
+    {
+      "tag": "Island",
+      "quantity": 4
+    },
+    {
+      "tag": "Nordic",
+      "quantity": 4
+    },
+    {
+      "tag": "Asian",
+      "quantity": 3
+    },
+    {
+      "tag": "Castle",
+      "quantity": 3
+    },
+    {
+      "tag": "Waterfall",
+      "quantity": 3
+    },
+    {
+      "tag": "Beach",
+      "quantity": 3
+    },
+    {
+      "tag": "City",
+      "quantity": 2
+    },
+    {
+      "tag": "Cave",
+      "quantity": 2
+    },
+    {
+      "tag": "Mountains",
+      "quantity": 1
+    },
+    {
+      "tag": "Cliffs",
+      "quantity": 1
+    },
+    {
+      "tag": "Resort",
+      "quantity": 1
+    },
+    {
+      "tag": "Luxury",
+      "quantity": 1
+    },
+    {
+      "tag": "Rock",
+      "quantity": 1
+    },
+    {
+      "tag": "Ice",
+      "quantity": 1
+    },
+    {
+      "tag": "Lake",
+      "quantity": 1
+    },
+    {
+      "tag": "Animals",
+      "quantity": 1
+    },
+    {
+      "tag": "Park",
+      "quantity": 1
+    },
+    {
+      "tag": "Town",
+      "quantity": 1
+    }
+  ]
+}

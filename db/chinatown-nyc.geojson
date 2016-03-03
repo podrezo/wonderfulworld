@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Chinatown NYC",
-    "country": "United States of America",
-    "countryCode": "us",
+    "countryCode": "US",
     "tags": ["Man-Made", "Asian", "City"],
     "image": "chinatown_nyc.jpg",
     "link": "https://www.tripadvisor.ca/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",

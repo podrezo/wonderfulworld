@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Haifoss Waterfall",
-    "country": "Iceland",
-    "countryCode": "is",
+    "countryCode": "IS",
     "tags": ["Nature", "Waterfall", "Nordic"],
     "image": "haifos_waterfall.jpg",
     "link": "https://en.wikipedia.org/wiki/H%C3%A1ifoss",

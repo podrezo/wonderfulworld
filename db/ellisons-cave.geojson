@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Ellison's Cave",
-    "country": "United States of America",
-    "countryCode": "us",
+    "countryCode": "US",
     "tags": ["Nature", "Cave"],
     "image": "ellisons_cave.jpg",
     "link": "https://roadtrippers.com/us/lafayette-ga/nature/ellisons-cave?lat=40.80972&lng=-96.67528&z=5",

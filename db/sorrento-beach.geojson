@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "Sorrento Beach",
-    "country": "Australia",
-    "countryCode": "au",
+    "countryCode": "AU",
     "tags": ["Nature", "Beach"],
     "image": "sorrento_beach.jpg",
     "link": "https://en.wikipedia.org/wiki/Sorrento,_Victoria",

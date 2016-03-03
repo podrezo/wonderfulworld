@@ -4,7 +4,7 @@
   app.controller('LocationController', ['$scope', '$stateParams', '$location', '$state', 'PlacesDatabase', 'utilityService',
     function($scope, $stateParams, $location, $state, PlacesDatabase, util) {
       PlacesDatabase.data().then(function(db) {
-        db = db.features;
+        db = db[0].features;
         $scope.place = _.findWhere(db, {
           id: $stateParams.id
         });

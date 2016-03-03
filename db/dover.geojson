@@ -6,8 +6,7 @@
   },
   "properties": {
     "name": "White Cliffs of Dover",
-    "country": "England",
-    "countryCode": "gb",
+    "countryCode": "GB",
     "tags": ["Nature", "Cliffs"],
     "image": "dover.jpg",
     "link": "https://en.wikipedia.org/wiki/White_Cliffs_of_Dover",
