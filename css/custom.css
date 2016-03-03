@@ -11,3 +11,11 @@
 .extra-vertical {
   margin-top: 2em;
 }
+.well > .well-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  color: #959595;
+  font-family: sans-serif;
+  font-size: 0.75em;
+}

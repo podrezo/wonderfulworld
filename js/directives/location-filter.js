@@ -8,14 +8,19 @@
         countrySelect: '&countrySelect'
       },
       link: function(scope, element, attrs) {
+        attrs.$addClass('row');
+        attrs.$addClass('text-center');
+        attrs.$addClass('well');
+        attrs.$addClass('well-sm');
+        attrs.$addClass('extra-vertical');
         PlacesDatabase.data().then(function(db) {
           scope.filtersData = db[1];
           scope.selectCountry = function(countryCode) {
             scope.selectedCountry = countryCode;
-            scope.selectedCountryLabel = scope.selectedCountry === '*' ? 'All Countries' : _.findWhere(db[1].countries, {countryCode: scope.selectedCountry}).country;
+            scope.selectedCountryLabel = scope.selectedCountry ? _.findWhere(db[1].countries, {countryCode: scope.selectedCountry}).country : 'All Countries';
             scope.countrySelect({countryCode: countryCode});
           };
-          scope.selectCountry('*');
+          scope.selectCountry();
         });
       },
       templateUrl: '/wonderfulworld/template/directives/location-filter.html'

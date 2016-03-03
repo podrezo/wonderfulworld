@@ -7,10 +7,10 @@
         var list = db[0].features;
         // listen for country filter change
         $scope.countrySelect = function(countryCode) {
-          if(countryCode === '*') {
-            list = db[0].features;
-          } else {
+          if(countryCode) {
             list = _.filter(db[0].features, function(entry) { return entry.properties.countryCode === countryCode; });
+          } else {
+            list = db[0].features;
           }
           $scope.currentPage = 1;
           $scope.totalItems = list.length;
