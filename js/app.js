@@ -49,6 +49,11 @@
         .state('about', {
           url: '/about',
           templateUrl: '/wonderfulworld/template/about.html'
+        })
+        .state('generator', {
+          url: '/generator',
+          templateUrl: '/wonderfulworld/template/generator.html',
+          controller: 'GeneratorController'
         });
 
       $locationProvider.html5Mode(false);

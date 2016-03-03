@@ -1,0 +1,90 @@
+<!-- Generator Heading -->
+<div class="row">
+  <div class="col-lg-12">
+    <h1 class="page-header">Generator Tool
+      <small>Used to contribute a new location</small>
+    </h1>
+  </div>
+</div>
+<!-- /.row -->
+
+<!-- Row -->
+<div class="row">
+  <div class="col-lg-12">
+    This page will let you fill in a form which will generate a
+    <a href="http://geojson.org/" target="_blank">"GeoJson"</a>
+    file for you to download. You can send me this file along with a 700x400 pixel (Ideally less than 400kb) JPEG image and I'll add your contribution to the website after reviewing it.
+  </div>
+</div>
+<!-- /.row -->
+
+<hr/>
+
+<!-- Row -->
+<form>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="placeName">Location Name</label>
+        <input autocomplete="off" type="text" class="form-control" id="placeName" placeholder="Name (e.g. Niagara Falls)" ng-model="place.properties.name">
+      </div>
+      <div class="form-group">
+        <label for="placeLongitude">Longitude (Decimal): {{friendlyLon}}</label>
+        <input autocomplete="off" type="number" class="form-control" id="placeLongitude" placeholder="Longitude" ng-model="place.geometry.coordinates[0]" ng-pattern="onlyDecimalCoordinate">
+      </div>
+      <div class="form-group">
+        <label for="placeLatitude">Latitude (Decimal): {{friendlyLat}}</label>
+        <input autocomplete="off" type="number" class="form-control" id="placeLatitude" placeholder="Latitude" ng-model="place.geometry.coordinates[1]" ng-pattern="onlyDecimalCoordinate">
+      </div>
+      <div class="form-group">
+        <label for="placeElevation">Elevation (Optional)</label>
+        <input autocomplete="off" type="number" class="form-control" id="placeElevation" placeholder="Elevation (meters)" ng-model="place.geometry.coordinates[2]">
+      </div>
+      <div class="form-group">
+        <label for="placeLink">Third-party Link (e.g. Wikipedia)</label>
+        <input autocomplete="off" type="text" class="form-control" id="placeLink" placeholder="Link to thid party site" ng-model="place.properties.link">
+      </div>
+      <div class="form-group">
+        <label for="placeCountry">Country</label>
+        <select id="placeCountry" ng-model="place.properties.countryCode" class="form-control">
+          <option ng-repeat="entry in countries" value="{{entry['alpha-2']}}">{{entry.name}} ({{entry['alpha-2']}})</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="col-lg-12" id="map" style="height: 20em;"></div>
+    </div>
+    <div class="col-md-12">
+      <p><strong>Tags</strong></p>
+      <label class="checkbox-inline" ng-repeat="tagSuggestion in tagSuggestions">
+        <input type="checkbox" id="check_tag_{{tagSuggestion.tag}}" value="{{tagSuggestion.tag}}" ng-click="toggleTag(tagSuggestion.tag)" ng-checked="{{tagSuggestion.alreadyChecked}}"> {{tagSuggestion.tag}}
+      </label>
+      <p>
+        <label for="addTagText">Add your own tag:</label>
+        <input type="text" id="addTagText" ng-model="addTagText" autocomplete="off"/> <button ng-click="addTag()" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-plus"></span> Add Tag</button>
+      </p>
+    </div>
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="placeDescription">Description</label>
+        <textarea autocomplete="off" class="form-control" id="placeDescription" placeholder="A short description of the location" ng-model="place.properties.description" rows="10"></textarea>
+        <p class="help-block">The description should ideally be around 400 characters long. You currently have <strong>{{place.properties.description.length}}</strong> characters.</p>
+      </div>
+    </div>
+  </div>
+</form>
+<!-- /.row -->
+
+<hr/>
+
+<!-- Generated Row -->
+<div class="row">
+  <div class="col-lg-12">
+    <h2>Output</h2>
+    <p>When you're done, you can either copy &amp; paste your GeoJson or download the file:</p>
+    <pre class="code">{{placeGeoJson}}</pre>
+    <p><a class="btn btn-primary" href id="downloadBlobButton"><span class="glyphicon glyphicon-save"></span> Save GeoJson File</a></p>
+  </div>
+</div>
+
+<!-- /.row -->
