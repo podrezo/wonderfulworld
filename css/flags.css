@@ -1,0 +1,5383 @@
+.flag {
+    background-image: url(/wonderfulworld/img/flags-16-24-32-48-spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -0.2em;
+}
+
+.flag-16-ad {
+    width: 16px;
+    height: 16px;
+    background-position: 0 0;
+}
+
+.flag-16-ae {
+    width: 16px;
+    height: 16px;
+    background-position: -16px 0;
+}
+
+.flag-16-af {
+    width: 16px;
+    height: 16px;
+    background-position: -32px 0;
+}
+
+.flag-16-ag {
+    width: 16px;
+    height: 16px;
+    background-position: -48px 0;
+}
+
+.flag-16-ai {
+    width: 16px;
+    height: 16px;
+    background-position: -64px 0;
+}
+
+.flag-16-al {
+    width: 16px;
+    height: 16px;
+    background-position: -80px 0;
+}
+
+.flag-16-am {
+    width: 16px;
+    height: 16px;
+    background-position: -96px 0;
+}
+
+.flag-16-an {
+    width: 16px;
+    height: 16px;
+    background-position: -112px 0;
+}
+
+.flag-16-ao {
+    width: 16px;
+    height: 16px;
+    background-position: -128px 0;
+}
+
+.flag-16-aq {
+    width: 16px;
+    height: 16px;
+    background-position: -144px 0;
+}
+
+.flag-16-ar {
+    width: 16px;
+    height: 16px;
+    background-position: -160px 0;
+}
+
+.flag-16-as {
+    width: 16px;
+    height: 16px;
+    background-position: -176px 0;
+}
+
+.flag-16-at {
+    width: 16px;
+    height: 16px;
+    background-position: -192px 0;
+}
+
+.flag-16-au {
+    width: 16px;
+    height: 16px;
+    background-position: -208px 0;
+}
+
+.flag-16-aw {
+    width: 16px;
+    height: 16px;
+    background-position: -224px 0;
+}
+
+.flag-16-az {
+    width: 16px;
+    height: 16px;
+    background-position: -240px 0;
+}
+
+.flag-16-ba {
+    width: 16px;
+    height: 16px;
+    background-position: -256px 0;
+}
+
+.flag-16-bb {
+    width: 16px;
+    height: 16px;
+    background-position: -272px 0;
+}
+
+.flag-16-bd {
+    width: 16px;
+    height: 16px;
+    background-position: -288px 0;
+}
+
+.flag-16-be {
+    width: 16px;
+    height: 16px;
+    background-position: -304px 0;
+}
+
+.flag-16-bf {
+    width: 16px;
+    height: 16px;
+    background-position: -320px 0;
+}
+
+.flag-16-bg {
+    width: 16px;
+    height: 16px;
+    background-position: -336px 0;
+}
+
+.flag-16-bh {
+    width: 16px;
+    height: 16px;
+    background-position: -352px 0;
+}
+
+.flag-16-bi {
+    width: 16px;
+    height: 16px;
+    background-position: -368px 0;
+}
+
+.flag-16-bj {
+    width: 16px;
+    height: 16px;
+    background-position: -384px 0;
+}
+
+.flag-16-bm {
+    width: 16px;
+    height: 16px;
+    background-position: -400px 0;
+}
+
+.flag-16-bn {
+    width: 16px;
+    height: 16px;
+    background-position: -416px 0;
+}
+
+.flag-16-bo {
+    width: 16px;
+    height: 16px;
+    background-position: -432px 0;
+}
+
+.flag-16-br {
+    width: 16px;
+    height: 16px;
+    background-position: -448px 0;
+}
+
+.flag-16-bs {
+    width: 16px;
+    height: 16px;
+    background-position: -464px 0;
+}
+
+.flag-16-bt {
+    width: 16px;
+    height: 16px;
+    background-position: -480px 0;
+}
+
+.flag-16-bw {
+    width: 16px;
+    height: 16px;
+    background-position: -496px 0;
+}
+
+.flag-16-by {
+    width: 16px;
+    height: 16px;
+    background-position: -512px 0;
+}
+
+.flag-16-bz {
+    width: 16px;
+    height: 16px;
+    background-position: -528px 0;
+}
+
+.flag-16-ca {
+    width: 16px;
+    height: 16px;
+    background-position: -544px 0;
+}
+
+.flag-16-cd {
+    width: 16px;
+    height: 16px;
+    background-position: -560px 0;
+}
+
+.flag-16-cf {
+    width: 16px;
+    height: 16px;
+    background-position: -576px 0;
+}
+
+.flag-16-cg {
+    width: 16px;
+    height: 16px;
+    background-position: -592px 0;
+}
+
+.flag-16-ch {
+    width: 16px;
+    height: 16px;
+    background-position: -608px 0;
+}
+
+.flag-16-ci {
+    width: 16px;
+    height: 16px;
+    background-position: -624px 0;
+}
+
+.flag-16-ck {
+    width: 16px;
+    height: 16px;
+    background-position: -640px 0;
+}
+
+.flag-16-cl {
+    width: 16px;
+    height: 16px;
+    background-position: -656px 0;
+}
+
+.flag-16-cm {
+    width: 16px;
+    height: 16px;
+    background-position: -672px 0;
+}
+
+.flag-16-cn {
+    width: 16px;
+    height: 16px;
+    background-position: -688px 0;
+}
+
+.flag-16-co {
+    width: 16px;
+    height: 16px;
+    background-position: -704px 0;
+}
+
+.flag-16-cr {
+    width: 16px;
+    height: 16px;
+    background-position: -720px 0;
+}
+
+.flag-16-cu {
+    width: 16px;
+    height: 16px;
+    background-position: -736px 0;
+}
+
+.flag-16-cv {
+    width: 16px;
+    height: 16px;
+    background-position: -752px 0;
+}
+
+.flag-16-cy {
+    width: 16px;
+    height: 16px;
+    background-position: -768px 0;
+}
+
+.flag-16-cz {
+    width: 16px;
+    height: 16px;
+    background-position: -784px 0;
+}
+
+.flag-16-de {
+    width: 16px;
+    height: 16px;
+    background-position: -800px 0;
+}
+
+.flag-16-dj {
+    width: 16px;
+    height: 16px;
+    background-position: -816px 0;
+}
+
+.flag-16-dk {
+    width: 16px;
+    height: 16px;
+    background-position: -832px 0;
+}
+
+.flag-16-dm {
+    width: 16px;
+    height: 16px;
+    background-position: -848px 0;
+}
+
+.flag-16-do {
+    width: 16px;
+    height: 16px;
+    background-position: -864px 0;
+}
+
+.flag-16-dz {
+    width: 16px;
+    height: 16px;
+    background-position: -880px 0;
+}
+
+.flag-16-ec {
+    width: 16px;
+    height: 16px;
+    background-position: -896px 0;
+}
+
+.flag-16-ee {
+    width: 16px;
+    height: 16px;
+    background-position: -912px 0;
+}
+
+.flag-16-eg {
+    width: 16px;
+    height: 16px;
+    background-position: -928px 0;
+}
+
+.flag-16-eh {
+    width: 16px;
+    height: 16px;
+    background-position: -944px 0;
+}
+
+.flag-16-er {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -16px;
+}
+
+.flag-16-es {
+    width: 16px;
+    height: 16px;
+    background-position: -16px -16px;
+}
+
+.flag-16-et {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -16px;
+}
+
+.flag-16-fi {
+    width: 16px;
+    height: 16px;
+    background-position: -48px -16px;
+}
+
+.flag-16-fj {
+    width: 16px;
+    height: 16px;
+    background-position: -64px -16px;
+}
+
+.flag-16-fm {
+    width: 16px;
+    height: 16px;
+    background-position: -80px -16px;
+}
+
+.flag-16-fo {
+    width: 16px;
+    height: 16px;
+    background-position: -96px -16px;
+}
+
+.flag-16-fr {
+    width: 16px;
+    height: 16px;
+    background-position: -112px -16px;
+}
+
+.flag-16-ga {
+    width: 16px;
+    height: 16px;
+    background-position: -128px -16px;
+}
+
+.flag-16-gb {
+    width: 16px;
+    height: 16px;
+    background-position: -144px -16px;
+}
+
+.flag-16-gd {
+    width: 16px;
+    height: 16px;
+    background-position: -160px -16px;
+}
+
+.flag-16-ge {
+    width: 16px;
+    height: 16px;
+    background-position: -176px -16px;
+}
+
+.flag-16-gg {
+    width: 16px;
+    height: 16px;
+    background-position: -192px -16px;
+}
+
+.flag-16-gh {
+    width: 16px;
+    height: 16px;
+    background-position: -208px -16px;
+}
+
+.flag-16-gi {
+    width: 16px;
+    height: 16px;
+    background-position: -224px -16px;
+}
+
+.flag-16-gl {
+    width: 16px;
+    height: 16px;
+    background-position: -240px -16px;
+}
+
+.flag-16-gm {
+    width: 16px;
+    height: 16px;
+    background-position: -256px -16px;
+}
+
+.flag-16-gn {
+    width: 16px;
+    height: 16px;
+    background-position: -272px -16px;
+}
+
+.flag-16-gp {
+    width: 16px;
+    height: 16px;
+    background-position: -288px -16px;
+}
+
+.flag-16-gq {
+    width: 16px;
+    height: 16px;
+    background-position: -304px -16px;
+}
+
+.flag-16-gr {
+    width: 16px;
+    height: 16px;
+    background-position: -320px -16px;
+}
+
+.flag-16-gt {
+    width: 16px;
+    height: 16px;
+    background-position: -336px -16px;
+}
+
+.flag-16-gu {
+    width: 16px;
+    height: 16px;
+    background-position: -352px -16px;
+}
+
+.flag-16-gw {
+    width: 16px;
+    height: 16px;
+    background-position: -368px -16px;
+}
+
+.flag-16-gy {
+    width: 16px;
+    height: 16px;
+    background-position: -384px -16px;
+}
+
+.flag-16-hk {
+    width: 16px;
+    height: 16px;
+    background-position: -400px -16px;
+}
+
+.flag-16-hn {
+    width: 16px;
+    height: 16px;
+    background-position: -416px -16px;
+}
+
+.flag-16-hr {
+    width: 16px;
+    height: 16px;
+    background-position: -432px -16px;
+}
+
+.flag-16-ht {
+    width: 16px;
+    height: 16px;
+    background-position: -448px -16px;
+}
+
+.flag-16-hu {
+    width: 16px;
+    height: 16px;
+    background-position: -464px -16px;
+}
+
+.flag-16-id {
+    width: 16px;
+    height: 16px;
+    background-position: -480px -16px;
+}
+
+.flag-16-ie {
+    width: 16px;
+    height: 16px;
+    background-position: -496px -16px;
+}
+
+.flag-16-il {
+    width: 16px;
+    height: 16px;
+    background-position: -512px -16px;
+}
+
+.flag-16-im {
+    width: 16px;
+    height: 16px;
+    background-position: -528px -16px;
+}
+
+.flag-16-in {
+    width: 16px;
+    height: 16px;
+    background-position: -544px -16px;
+}
+
+.flag-16-iq {
+    width: 16px;
+    height: 16px;
+    background-position: -560px -16px;
+}
+
+.flag-16-ir {
+    width: 16px;
+    height: 16px;
+    background-position: -576px -16px;
+}
+
+.flag-16-is {
+    width: 16px;
+    height: 16px;
+    background-position: -592px -16px;
+}
+
+.flag-16-it {
+    width: 16px;
+    height: 16px;
+    background-position: -608px -16px;
+}
+
+.flag-16-je {
+    width: 16px;
+    height: 16px;
+    background-position: -624px -16px;
+}
+
+.flag-16-jm {
+    width: 16px;
+    height: 16px;
+    background-position: -640px -16px;
+}
+
+.flag-16-jo {
+    width: 16px;
+    height: 16px;
+    background-position: -656px -16px;
+}
+
+.flag-16-jp {
+    width: 16px;
+    height: 16px;
+    background-position: -672px -16px;
+}
+
+.flag-16-ke {
+    width: 16px;
+    height: 16px;
+    background-position: -688px -16px;
+}
+
+.flag-16-kg {
+    width: 16px;
+    height: 16px;
+    background-position: -704px -16px;
+}
+
+.flag-16-kh {
+    width: 16px;
+    height: 16px;
+    background-position: -720px -16px;
+}
+
+.flag-16-ki {
+    width: 16px;
+    height: 16px;
+    background-position: -736px -16px;
+}
+
+.flag-16-km {
+    width: 16px;
+    height: 16px;
+    background-position: -752px -16px;
+}
+
+.flag-16-kn {
+    width: 16px;
+    height: 16px;
+    background-position: -768px -16px;
+}
+
+.flag-16-kp {
+    width: 16px;
+    height: 16px;
+    background-position: -784px -16px;
+}
+
+.flag-16-kr {
+    width: 16px;
+    height: 16px;
+    background-position: -800px -16px;
+}
+
+.flag-16-kw {
+    width: 16px;
+    height: 16px;
+    background-position: -816px -16px;
+}
+
+.flag-16-ky {
+    width: 16px;
+    height: 16px;
+    background-position: -832px -16px;
+}
+
+.flag-16-kz {
+    width: 16px;
+    height: 16px;
+    background-position: -848px -16px;
+}
+
+.flag-16-la {
+    width: 16px;
+    height: 16px;
+    background-position: -864px -16px;
+}
+
+.flag-16-lb {
+    width: 16px;
+    height: 16px;
+    background-position: -880px -16px;
+}
+
+.flag-16-lc {
+    width: 16px;
+    height: 16px;
+    background-position: -896px -16px;
+}
+
+.flag-16-li {
+    width: 16px;
+    height: 16px;
+    background-position: -912px -16px;
+}
+
+.flag-16-lk {
+    width: 16px;
+    height: 16px;
+    background-position: -928px -16px;
+}
+
+.flag-16-lr {
+    width: 16px;
+    height: 16px;
+    background-position: -944px -16px;
+}
+
+.flag-16-ls {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -32px;
+}
+
+.flag-16-lt {
+    width: 16px;
+    height: 16px;
+    background-position: -16px -32px;
+}
+
+.flag-16-lu {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -32px;
+}
+
+.flag-16-lv {
+    width: 16px;
+    height: 16px;
+    background-position: -48px -32px;
+}
+
+.flag-16-ly {
+    width: 16px;
+    height: 16px;
+    background-position: -64px -32px;
+}
+
+.flag-16-ma {
+    width: 16px;
+    height: 16px;
+    background-position: -80px -32px;
+}
+
+.flag-16-mc {
+    width: 16px;
+    height: 16px;
+    background-position: -96px -32px;
+}
+
+.flag-16-md {
+    width: 16px;
+    height: 16px;
+    background-position: -112px -32px;
+}
+
+.flag-16-me {
+    width: 16px;
+    height: 16px;
+    background-position: -128px -32px;
+}
+
+.flag-16-mg {
+    width: 16px;
+    height: 16px;
+    background-position: -144px -32px;
+}
+
+.flag-16-mh {
+    width: 16px;
+    height: 16px;
+    background-position: -160px -32px;
+}
+
+.flag-16-mk {
+    width: 16px;
+    height: 16px;
+    background-position: -176px -32px;
+}
+
+.flag-16-ml {
+    width: 16px;
+    height: 16px;
+    background-position: -192px -32px;
+}
+
+.flag-16-mm {
+    width: 16px;
+    height: 16px;
+    background-position: -208px -32px;
+}
+
+.flag-16-mn {
+    width: 16px;
+    height: 16px;
+    background-position: -224px -32px;
+}
+
+.flag-16-mo {
+    width: 16px;
+    height: 16px;
+    background-position: -240px -32px;
+}
+
+.flag-16-mq {
+    width: 16px;
+    height: 16px;
+    background-position: -256px -32px;
+}
+
+.flag-16-mr {
+    width: 16px;
+    height: 16px;
+    background-position: -272px -32px;
+}
+
+.flag-16-ms {
+    width: 16px;
+    height: 16px;
+    background-position: -288px -32px;
+}
+
+.flag-16-mt {
+    width: 16px;
+    height: 16px;
+    background-position: -304px -32px;
+}
+
+.flag-16-mu {
+    width: 16px;
+    height: 16px;
+    background-position: -320px -32px;
+}
+
+.flag-16-mv {
+    width: 16px;
+    height: 16px;
+    background-position: -336px -32px;
+}
+
+.flag-16-mw {
+    width: 16px;
+    height: 16px;
+    background-position: -352px -32px;
+}
+
+.flag-16-mx {
+    width: 16px;
+    height: 16px;
+    background-position: -368px -32px;
+}
+
+.flag-16-my {
+    width: 16px;
+    height: 16px;
+    background-position: -384px -32px;
+}
+
+.flag-16-mz {
+    width: 16px;
+    height: 16px;
+    background-position: -400px -32px;
+}
+
+.flag-16-na {
+    width: 16px;
+    height: 16px;
+    background-position: -416px -32px;
+}
+
+.flag-16-nc {
+    width: 16px;
+    height: 16px;
+    background-position: -432px -32px;
+}
+
+.flag-16-ne {
+    width: 16px;
+    height: 16px;
+    background-position: -448px -32px;
+}
+
+.flag-16-ng {
+    width: 16px;
+    height: 16px;
+    background-position: -464px -32px;
+}
+
+.flag-16-ni {
+    width: 16px;
+    height: 16px;
+    background-position: -480px -32px;
+}
+
+.flag-16-nl {
+    width: 16px;
+    height: 16px;
+    background-position: -496px -32px;
+}
+
+.flag-16-no {
+    width: 16px;
+    height: 16px;
+    background-position: -512px -32px;
+}
+
+.flag-16-np {
+    width: 16px;
+    height: 16px;
+    background-position: -528px -32px;
+}
+
+.flag-16-nr {
+    width: 16px;
+    height: 16px;
+    background-position: -544px -32px;
+}
+
+.flag-16-nz {
+    width: 16px;
+    height: 16px;
+    background-position: -560px -32px;
+}
+
+.flag-16-om {
+    width: 16px;
+    height: 16px;
+    background-position: -576px -32px;
+}
+
+.flag-16-pa {
+    width: 16px;
+    height: 16px;
+    background-position: -592px -32px;
+}
+
+.flag-16-pe {
+    width: 16px;
+    height: 16px;
+    background-position: -608px -32px;
+}
+
+.flag-16-pf {
+    width: 16px;
+    height: 16px;
+    background-position: -624px -32px;
+}
+
+.flag-16-pg {
+    width: 16px;
+    height: 16px;
+    background-position: -640px -32px;
+}
+
+.flag-16-ph {
+    width: 16px;
+    height: 16px;
+    background-position: -656px -32px;
+}
+
+.flag-16-pk {
+    width: 16px;
+    height: 16px;
+    background-position: -672px -32px;
+}
+
+.flag-16-pl {
+    width: 16px;
+    height: 16px;
+    background-position: -688px -32px;
+}
+
+.flag-16-pr {
+    width: 16px;
+    height: 16px;
+    background-position: -704px -32px;
+}
+
+.flag-16-ps {
+    width: 16px;
+    height: 16px;
+    background-position: -720px -32px;
+}
+
+.flag-16-pt {
+    width: 16px;
+    height: 16px;
+    background-position: -736px -32px;
+}
+
+.flag-16-pw {
+    width: 16px;
+    height: 16px;
+    background-position: -752px -32px;
+}
+
+.flag-16-py {
+    width: 16px;
+    height: 16px;
+    background-position: -768px -32px;
+}
+
+.flag-16-qa {
+    width: 16px;
+    height: 16px;
+    background-position: -784px -32px;
+}
+
+.flag-16-re {
+    width: 16px;
+    height: 16px;
+    background-position: -800px -32px;
+}
+
+.flag-16-ro {
+    width: 16px;
+    height: 16px;
+    background-position: -816px -32px;
+}
+
+.flag-16-rs {
+    width: 16px;
+    height: 16px;
+    background-position: -832px -32px;
+}
+
+.flag-16-ru {
+    width: 16px;
+    height: 16px;
+    background-position: -848px -32px;
+}
+
+.flag-16-rw {
+    width: 16px;
+    height: 16px;
+    background-position: -864px -32px;
+}
+
+.flag-16-sa {
+    width: 16px;
+    height: 16px;
+    background-position: -880px -32px;
+}
+
+.flag-16-sb {
+    width: 16px;
+    height: 16px;
+    background-position: -896px -32px;
+}
+
+.flag-16-sc {
+    width: 16px;
+    height: 16px;
+    background-position: -912px -32px;
+}
+
+.flag-16-sd {
+    width: 16px;
+    height: 16px;
+    background-position: -928px -32px;
+}
+
+.flag-16-se {
+    width: 16px;
+    height: 16px;
+    background-position: -944px -32px;
+}
+
+.flag-16-sg {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -48px;
+}
+
+.flag-16-si {
+    width: 16px;
+    height: 16px;
+    background-position: -16px -48px;
+}
+
+.flag-16-sk {
+    width: 16px;
+    height: 16px;
+    background-position: -32px -48px;
+}
+
+.flag-16-sl {
+    width: 16px;
+    height: 16px;
+    background-position: -48px -48px;
+}
+
+.flag-16-sm {
+    width: 16px;
+    height: 16px;
+    background-position: -64px -48px;
+}
+
+.flag-16-sn {
+    width: 16px;
+    height: 16px;
+    background-position: -80px -48px;
+}
+
+.flag-16-so {
+    width: 16px;
+    height: 16px;
+    background-position: -96px -48px;
+}
+
+.flag-16-sr {
+    width: 16px;
+    height: 16px;
+    background-position: -112px -48px;
+}
+
+.flag-16-st {
+    width: 16px;
+    height: 16px;
+    background-position: -128px -48px;
+}
+
+.flag-16-sv {
+    width: 16px;
+    height: 16px;
+    background-position: -144px -48px;
+}
+
+.flag-16-sy {
+    width: 16px;
+    height: 16px;
+    background-position: -160px -48px;
+}
+
+.flag-16-sz {
+    width: 16px;
+    height: 16px;
+    background-position: -176px -48px;
+}
+
+.flag-16-tc {
+    width: 16px;
+    height: 16px;
+    background-position: -192px -48px;
+}
+
+.flag-16-td {
+    width: 16px;
+    height: 16px;
+    background-position: -208px -48px;
+}
+
+.flag-16-tg {
+    width: 16px;
+    height: 16px;
+    background-position: -224px -48px;
+}
+
+.flag-16-th {
+    width: 16px;
+    height: 16px;
+    background-position: -240px -48px;
+}
+
+.flag-16-tj {
+    width: 16px;
+    height: 16px;
+    background-position: -256px -48px;
+}
+
+.flag-16-tl {
+    width: 16px;
+    height: 16px;
+    background-position: -272px -48px;
+}
+
+.flag-16-tm {
+    width: 16px;
+    height: 16px;
+    background-position: -288px -48px;
+}
+
+.flag-16-tn {
+    width: 16px;
+    height: 16px;
+    background-position: -304px -48px;
+}
+
+.flag-16-to {
+    width: 16px;
+    height: 16px;
+    background-position: -320px -48px;
+}
+
+.flag-16-tr {
+    width: 16px;
+    height: 16px;
+    background-position: -336px -48px;
+}
+
+.flag-16-tt {
+    width: 16px;
+    height: 16px;
+    background-position: -352px -48px;
+}
+
+.flag-16-tv {
+    width: 16px;
+    height: 16px;
+    background-position: -368px -48px;
+}
+
+.flag-16-tw {
+    width: 16px;
+    height: 16px;
+    background-position: -384px -48px;
+}
+
+.flag-16-tz {
+    width: 16px;
+    height: 16px;
+    background-position: -400px -48px;
+}
+
+.flag-16-ua {
+    width: 16px;
+    height: 16px;
+    background-position: -416px -48px;
+}
+
+.flag-16-ug {
+    width: 16px;
+    height: 16px;
+    background-position: -432px -48px;
+}
+
+.flag-16-un {
+    width: 16px;
+    height: 16px;
+    background-position: -448px -48px;
+}
+
+.flag-16-us {
+    width: 16px;
+    height: 16px;
+    background-position: -464px -48px;
+}
+
+.flag-16-uy {
+    width: 16px;
+    height: 16px;
+    background-position: -480px -48px;
+}
+
+.flag-16-uz {
+    width: 16px;
+    height: 16px;
+    background-position: -496px -48px;
+}
+
+.flag-16-va {
+    width: 16px;
+    height: 16px;
+    background-position: -512px -48px;
+}
+
+.flag-16-vc {
+    width: 16px;
+    height: 16px;
+    background-position: -528px -48px;
+}
+
+.flag-16-ve {
+    width: 16px;
+    height: 16px;
+    background-position: -544px -48px;
+}
+
+.flag-16-vg {
+    width: 16px;
+    height: 16px;
+    background-position: -560px -48px;
+}
+
+.flag-16-vi {
+    width: 16px;
+    height: 16px;
+    background-position: -576px -48px;
+}
+
+.flag-16-vn {
+    width: 16px;
+    height: 16px;
+    background-position: -592px -48px;
+}
+
+.flag-16-vu {
+    width: 16px;
+    height: 16px;
+    background-position: -608px -48px;
+}
+
+.flag-16-ws {
+    width: 16px;
+    height: 16px;
+    background-position: -624px -48px;
+}
+
+.flag-16-ye {
+    width: 16px;
+    height: 16px;
+    background-position: -640px -48px;
+}
+
+.flag-16-za {
+    width: 16px;
+    height: 16px;
+    background-position: -656px -48px;
+}
+
+.flag-16-zm {
+    width: 16px;
+    height: 16px;
+    background-position: -672px -48px;
+}
+
+.flag-16-zw {
+    width: 16px;
+    height: 16px;
+    background-position: -688px -48px;
+}
+
+.flag-24-ad {
+    width: 24px;
+    height: 24px;
+    background-position: -704px -48px;
+}
+
+.flag-24-ae {
+    width: 24px;
+    height: 24px;
+    background-position: -728px -48px;
+}
+
+.flag-24-af {
+    width: 24px;
+    height: 24px;
+    background-position: -752px -48px;
+}
+
+.flag-24-ag {
+    width: 24px;
+    height: 24px;
+    background-position: -776px -48px;
+}
+
+.flag-24-ai {
+    width: 24px;
+    height: 24px;
+    background-position: -800px -48px;
+}
+
+.flag-24-al {
+    width: 24px;
+    height: 24px;
+    background-position: -824px -48px;
+}
+
+.flag-24-am {
+    width: 24px;
+    height: 24px;
+    background-position: -848px -48px;
+}
+
+.flag-24-an {
+    width: 24px;
+    height: 24px;
+    background-position: -872px -48px;
+}
+
+.flag-24-ao {
+    width: 24px;
+    height: 24px;
+    background-position: -896px -48px;
+}
+
+.flag-24-aq {
+    width: 24px;
+    height: 24px;
+    background-position: -920px -48px;
+}
+
+.flag-24-ar {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -72px;
+}
+
+.flag-24-as {
+    width: 24px;
+    height: 24px;
+    background-position: -24px -72px;
+}
+
+.flag-24-at {
+    width: 24px;
+    height: 24px;
+    background-position: -48px -72px;
+}
+
+.flag-24-au {
+    width: 24px;
+    height: 24px;
+    background-position: -72px -72px;
+}
+
+.flag-24-aw {
+    width: 24px;
+    height: 24px;
+    background-position: -96px -72px;
+}
+
+.flag-24-az {
+    width: 24px;
+    height: 24px;
+    background-position: -120px -72px;
+}
+
+.flag-24-ba {
+    width: 24px;
+    height: 24px;
+    background-position: -144px -72px;
+}
+
+.flag-24-bb {
+    width: 24px;
+    height: 24px;
+    background-position: -168px -72px;
+}
+
+.flag-24-bd {
+    width: 24px;
+    height: 24px;
+    background-position: -192px -72px;
+}
+
+.flag-24-be {
+    width: 24px;
+    height: 24px;
+    background-position: -216px -72px;
+}
+
+.flag-24-bf {
+    width: 24px;
+    height: 24px;
+    background-position: -240px -72px;
+}
+
+.flag-24-bg {
+    width: 24px;
+    height: 24px;
+    background-position: -264px -72px;
+}
+
+.flag-24-bh {
+    width: 24px;
+    height: 24px;
+    background-position: -288px -72px;
+}
+
+.flag-24-bi {
+    width: 24px;
+    height: 24px;
+    background-position: -312px -72px;
+}
+
+.flag-24-bj {
+    width: 24px;
+    height: 24px;
+    background-position: -336px -72px;
+}
+
+.flag-24-bm {
+    width: 24px;
+    height: 24px;
+    background-position: -360px -72px;
+}
+
+.flag-24-bn {
+    width: 24px;
+    height: 24px;
+    background-position: -384px -72px;
+}
+
+.flag-24-bo {
+    width: 24px;
+    height: 24px;
+    background-position: -408px -72px;
+}
+
+.flag-24-br {
+    width: 24px;
+    height: 24px;
+    background-position: -432px -72px;
+}
+
+.flag-24-bs {
+    width: 24px;
+    height: 24px;
+    background-position: -456px -72px;
+}
+
+.flag-24-bt {
+    width: 24px;
+    height: 24px;
+    background-position: -480px -72px;
+}
+
+.flag-24-bw {
+    width: 24px;
+    height: 24px;
+    background-position: -504px -72px;
+}
+
+.flag-24-by {
+    width: 24px;
+    height: 24px;
+    background-position: -528px -72px;
+}
+
+.flag-24-bz {
+    width: 24px;
+    height: 24px;
+    background-position: -552px -72px;
+}
+
+.flag-24-ca {
+    width: 24px;
+    height: 24px;
+    background-position: -576px -72px;
+}
+
+.flag-24-cd {
+    width: 24px;
+    height: 24px;
+    background-position: -600px -72px;
+}
+
+.flag-24-cf {
+    width: 24px;
+    height: 24px;
+    background-position: -624px -72px;
+}
+
+.flag-24-cg {
+    width: 24px;
+    height: 24px;
+    background-position: -648px -72px;
+}
+
+.flag-24-ch {
+    width: 24px;
+    height: 24px;
+    background-position: -672px -72px;
+}
+
+.flag-24-ci {
+    width: 24px;
+    height: 24px;
+    background-position: -696px -72px;
+}
+
+.flag-24-ck {
+    width: 24px;
+    height: 24px;
+    background-position: -720px -72px;
+}
+
+.flag-24-cl {
+    width: 24px;
+    height: 24px;
+    background-position: -744px -72px;
+}
+
+.flag-24-cm {
+    width: 24px;
+    height: 24px;
+    background-position: -768px -72px;
+}
+
+.flag-24-cn {
+    width: 24px;
+    height: 24px;
+    background-position: -792px -72px;
+}
+
+.flag-24-co {
+    width: 24px;
+    height: 24px;
+    background-position: -816px -72px;
+}
+
+.flag-24-cr {
+    width: 24px;
+    height: 24px;
+    background-position: -840px -72px;
+}
+
+.flag-24-cu {
+    width: 24px;
+    height: 24px;
+    background-position: -864px -72px;
+}
+
+.flag-24-cv {
+    width: 24px;
+    height: 24px;
+    background-position: -888px -72px;
+}
+
+.flag-24-cy {
+    width: 24px;
+    height: 24px;
+    background-position: -912px -72px;
+}
+
+.flag-24-cz {
+    width: 24px;
+    height: 24px;
+    background-position: -936px -72px;
+}
+
+.flag-24-de {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -96px;
+}
+
+.flag-24-dj {
+    width: 24px;
+    height: 24px;
+    background-position: -24px -96px;
+}
+
+.flag-24-dk {
+    width: 24px;
+    height: 24px;
+    background-position: -48px -96px;
+}
+
+.flag-24-dm {
+    width: 24px;
+    height: 24px;
+    background-position: -72px -96px;
+}
+
+.flag-24-do {
+    width: 24px;
+    height: 24px;
+    background-position: -96px -96px;
+}
+
+.flag-24-dz {
+    width: 24px;
+    height: 24px;
+    background-position: -120px -96px;
+}
+
+.flag-24-ec {
+    width: 24px;
+    height: 24px;
+    background-position: -144px -96px;
+}
+
+.flag-24-ee {
+    width: 24px;
+    height: 24px;
+    background-position: -168px -96px;
+}
+
+.flag-24-eg {
+    width: 24px;
+    height: 24px;
+    background-position: -192px -96px;
+}
+
+.flag-24-eh {
+    width: 24px;
+    height: 24px;
+    background-position: -216px -96px;
+}
+
+.flag-24-er {
+    width: 24px;
+    height: 24px;
+    background-position: -240px -96px;
+}
+
+.flag-24-es {
+    width: 24px;
+    height: 24px;
+    background-position: -264px -96px;
+}
+
+.flag-24-et {
+    width: 24px;
+    height: 24px;
+    background-position: -288px -96px;
+}
+
+.flag-24-fi {
+    width: 24px;
+    height: 24px;
+    background-position: -312px -96px;
+}
+
+.flag-24-fj {
+    width: 24px;
+    height: 24px;
+    background-position: -336px -96px;
+}
+
+.flag-24-fm {
+    width: 24px;
+    height: 24px;
+    background-position: -360px -96px;
+}
+
+.flag-24-fo {
+    width: 24px;
+    height: 24px;
+    background-position: -384px -96px;
+}
+
+.flag-24-fr {
+    width: 24px;
+    height: 24px;
+    background-position: -408px -96px;
+}
+
+.flag-24-ga {
+    width: 24px;
+    height: 24px;
+    background-position: -432px -96px;
+}
+
+.flag-24-gb {
+    width: 24px;
+    height: 24px;
+    background-position: -456px -96px;
+}
+
+.flag-24-gd {
+    width: 24px;
+    height: 24px;
+    background-position: -480px -96px;
+}
+
+.flag-24-ge {
+    width: 24px;
+    height: 24px;
+    background-position: -504px -96px;
+}
+
+.flag-24-gg {
+    width: 24px;
+    height: 24px;
+    background-position: -528px -96px;
+}
+
+.flag-24-gh {
+    width: 24px;
+    height: 24px;
+    background-position: -552px -96px;
+}
+
+.flag-24-gi {
+    width: 24px;
+    height: 24px;
+    background-position: -576px -96px;
+}
+
+.flag-24-gl {
+    width: 24px;
+    height: 24px;
+    background-position: -600px -96px;
+}
+
+.flag-24-gm {
+    width: 24px;
+    height: 24px;
+    background-position: -624px -96px;
+}
+
+.flag-24-gn {
+    width: 24px;
+    height: 24px;
+    background-position: -648px -96px;
+}
+
+.flag-24-gp {
+    width: 24px;
+    height: 24px;
+    background-position: -672px -96px;
+}
+
+.flag-24-gq {
+    width: 24px;
+    height: 24px;
+    background-position: -696px -96px;
+}
+
+.flag-24-gr {
+    width: 24px;
+    height: 24px;
+    background-position: -720px -96px;
+}
+
+.flag-24-gt {
+    width: 24px;
+    height: 24px;
+    background-position: -744px -96px;
+}
+
+.flag-24-gu {
+    width: 24px;
+    height: 24px;
+    background-position: -768px -96px;
+}
+
+.flag-24-gw {
+    width: 24px;
+    height: 24px;
+    background-position: -792px -96px;
+}
+
+.flag-24-gy {
+    width: 24px;
+    height: 24px;
+    background-position: -816px -96px;
+}
+
+.flag-24-hk {
+    width: 24px;
+    height: 24px;
+    background-position: -840px -96px;
+}
+
+.flag-24-hn {
+    width: 24px;
+    height: 24px;
+    background-position: -864px -96px;
+}
+
+.flag-24-hr {
+    width: 24px;
+    height: 24px;
+    background-position: -888px -96px;
+}
+
+.flag-24-ht {
+    width: 24px;
+    height: 24px;
+    background-position: -912px -96px;
+}
+
+.flag-24-hu {
+    width: 24px;
+    height: 24px;
+    background-position: -936px -96px;
+}
+
+.flag-24-id {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -120px;
+}
+
+.flag-24-ie {
+    width: 24px;
+    height: 24px;
+    background-position: -24px -120px;
+}
+
+.flag-24-il {
+    width: 24px;
+    height: 24px;
+    background-position: -48px -120px;
+}
+
+.flag-24-im {
+    width: 24px;
+    height: 24px;
+    background-position: -72px -120px;
+}
+
+.flag-24-in {
+    width: 24px;
+    height: 24px;
+    background-position: -96px -120px;
+}
+
+.flag-24-iq {
+    width: 24px;
+    height: 24px;
+    background-position: -120px -120px;
+}
+
+.flag-24-ir {
+    width: 24px;
+    height: 24px;
+    background-position: -144px -120px;
+}
+
+.flag-24-is {
+    width: 24px;
+    height: 24px;
+    background-position: -168px -120px;
+}
+
+.flag-24-it {
+    width: 24px;
+    height: 24px;
+    background-position: -192px -120px;
+}
+
+.flag-24-je {
+    width: 24px;
+    height: 24px;
+    background-position: -216px -120px;
+}
+
+.flag-24-jm {
+    width: 24px;
+    height: 24px;
+    background-position: -240px -120px;
+}
+
+.flag-24-jo {
+    width: 24px;
+    height: 24px;
+    background-position: -264px -120px;
+}
+
+.flag-24-jp {
+    width: 24px;
+    height: 24px;
+    background-position: -288px -120px;
+}
+
+.flag-24-ke {
+    width: 24px;
+    height: 24px;
+    background-position: -312px -120px;
+}
+
+.flag-24-kg {
+    width: 24px;
+    height: 24px;
+    background-position: -336px -120px;
+}
+
+.flag-24-kh {
+    width: 24px;
+    height: 24px;
+    background-position: -360px -120px;
+}
+
+.flag-24-ki {
+    width: 24px;
+    height: 24px;
+    background-position: -384px -120px;
+}
+
+.flag-24-km {
+    width: 24px;
+    height: 24px;
+    background-position: -408px -120px;
+}
+
+.flag-24-kn {
+    width: 24px;
+    height: 24px;
+    background-position: -432px -120px;
+}
+
+.flag-24-kp {
+    width: 24px;
+    height: 24px;
+    background-position: -456px -120px;
+}
+
+.flag-24-kr {
+    width: 24px;
+    height: 24px;
+    background-position: -480px -120px;
+}
+
+.flag-24-kw {
+    width: 24px;
+    height: 24px;
+    background-position: -504px -120px;
+}
+
+.flag-24-ky {
+    width: 24px;
+    height: 24px;
+    background-position: -528px -120px;
+}
+
+.flag-24-kz {
+    width: 24px;
+    height: 24px;
+    background-position: -552px -120px;
+}
+
+.flag-24-la {
+    width: 24px;
+    height: 24px;
+    background-position: -576px -120px;
+}
+
+.flag-24-lb {
+    width: 24px;
+    height: 24px;
+    background-position: -600px -120px;
+}
+
+.flag-24-lc {
+    width: 24px;
+    height: 24px;
+    background-position: -624px -120px;
+}
+
+.flag-24-li {
+    width: 24px;
+    height: 24px;
+    background-position: -648px -120px;
+}
+
+.flag-24-lk {
+    width: 24px;
+    height: 24px;
+    background-position: -672px -120px;
+}
+
+.flag-24-lr {
+    width: 24px;
+    height: 24px;
+    background-position: -696px -120px;
+}
+
+.flag-24-ls {
+    width: 24px;
+    height: 24px;
+    background-position: -720px -120px;
+}
+
+.flag-24-lt {
+    width: 24px;
+    height: 24px;
+    background-position: -744px -120px;
+}
+
+.flag-24-lu {
+    width: 24px;
+    height: 24px;
+    background-position: -768px -120px;
+}
+
+.flag-24-lv {
+    width: 24px;
+    height: 24px;
+    background-position: -792px -120px;
+}
+
+.flag-24-ly {
+    width: 24px;
+    height: 24px;
+    background-position: -816px -120px;
+}
+
+.flag-24-ma {
+    width: 24px;
+    height: 24px;
+    background-position: -840px -120px;
+}
+
+.flag-24-mc {
+    width: 24px;
+    height: 24px;
+    background-position: -864px -120px;
+}
+
+.flag-24-md {
+    width: 24px;
+    height: 24px;
+    background-position: -888px -120px;
+}
+
+.flag-24-me {
+    width: 24px;
+    height: 24px;
+    background-position: -912px -120px;
+}
+
+.flag-24-mg {
+    width: 24px;
+    height: 24px;
+    background-position: -936px -120px;
+}
+
+.flag-24-mh {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -144px;
+}
+
+.flag-24-mk {
+    width: 24px;
+    height: 24px;
+    background-position: -24px -144px;
+}
+
+.flag-24-ml {
+    width: 24px;
+    height: 24px;
+    background-position: -48px -144px;
+}
+
+.flag-24-mm {
+    width: 24px;
+    height: 24px;
+    background-position: -72px -144px;
+}
+
+.flag-24-mn {
+    width: 24px;
+    height: 24px;
+    background-position: -96px -144px;
+}
+
+.flag-24-mo {
+    width: 24px;
+    height: 24px;
+    background-position: -120px -144px;
+}
+
+.flag-24-mq {
+    width: 24px;
+    height: 24px;
+    background-position: -144px -144px;
+}
+
+.flag-24-mr {
+    width: 24px;
+    height: 24px;
+    background-position: -168px -144px;
+}
+
+.flag-24-ms {
+    width: 24px;
+    height: 24px;
+    background-position: -192px -144px;
+}
+
+.flag-24-mt {
+    width: 24px;
+    height: 24px;
+    background-position: -216px -144px;
+}
+
+.flag-24-mu {
+    width: 24px;
+    height: 24px;
+    background-position: -240px -144px;
+}
+
+.flag-24-mv {
+    width: 24px;
+    height: 24px;
+    background-position: -264px -144px;
+}
+
+.flag-24-mw {
+    width: 24px;
+    height: 24px;
+    background-position: -288px -144px;
+}
+
+.flag-24-mx {
+    width: 24px;
+    height: 24px;
+    background-position: -312px -144px;
+}
+
+.flag-24-my {
+    width: 24px;
+    height: 24px;
+    background-position: -336px -144px;
+}
+
+.flag-24-mz {
+    width: 24px;
+    height: 24px;
+    background-position: -360px -144px;
+}
+
+.flag-24-na {
+    width: 24px;
+    height: 24px;
+    background-position: -384px -144px;
+}
+
+.flag-24-nc {
+    width: 24px;
+    height: 24px;
+    background-position: -408px -144px;
+}
+
+.flag-24-ne {
+    width: 24px;
+    height: 24px;
+    background-position: -432px -144px;
+}
+
+.flag-24-ng {
+    width: 24px;
+    height: 24px;
+    background-position: -456px -144px;
+}
+
+.flag-24-ni {
+    width: 24px;
+    height: 24px;
+    background-position: -480px -144px;
+}
+
+.flag-24-nl {
+    width: 24px;
+    height: 24px;
+    background-position: -504px -144px;
+}
+
+.flag-24-no {
+    width: 24px;
+    height: 24px;
+    background-position: -528px -144px;
+}
+
+.flag-24-np {
+    width: 24px;
+    height: 24px;
+    background-position: -552px -144px;
+}
+
+.flag-24-nr {
+    width: 24px;
+    height: 24px;
+    background-position: -576px -144px;
+}
+
+.flag-24-nz {
+    width: 24px;
+    height: 24px;
+    background-position: -600px -144px;
+}
+
+.flag-24-om {
+    width: 24px;
+    height: 24px;
+    background-position: -624px -144px;
+}
+
+.flag-24-pa {
+    width: 24px;
+    height: 24px;
+    background-position: -648px -144px;
+}
+
+.flag-24-pe {
+    width: 24px;
+    height: 24px;
+    background-position: -672px -144px;
+}
+
+.flag-24-pf {
+    width: 24px;
+    height: 24px;
+    background-position: -696px -144px;
+}
+
+.flag-24-pg {
+    width: 24px;
+    height: 24px;
+    background-position: -720px -144px;
+}
+
+.flag-24-ph {
+    width: 24px;
+    height: 24px;
+    background-position: -744px -144px;
+}
+
+.flag-24-pk {
+    width: 24px;
+    height: 24px;
+    background-position: -768px -144px;
+}
+
+.flag-24-pl {
+    width: 24px;
+    height: 24px;
+    background-position: -792px -144px;
+}
+
+.flag-24-pr {
+    width: 24px;
+    height: 24px;
+    background-position: -816px -144px;
+}
+
+.flag-24-ps {
+    width: 24px;
+    height: 24px;
+    background-position: -840px -144px;
+}
+
+.flag-24-pt {
+    width: 24px;
+    height: 24px;
+    background-position: -864px -144px;
+}
+
+.flag-24-pw {
+    width: 24px;
+    height: 24px;
+    background-position: -888px -144px;
+}
+
+.flag-24-py {
+    width: 24px;
+    height: 24px;
+    background-position: -912px -144px;
+}
+
+.flag-24-qa {
+    width: 24px;
+    height: 24px;
+    background-position: -936px -144px;
+}
+
+.flag-24-re {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -168px;
+}
+
+.flag-24-ro {
+    width: 24px;
+    height: 24px;
+    background-position: -24px -168px;
+}
+
+.flag-24-rs {
+    width: 24px;
+    height: 24px;
+    background-position: -48px -168px;
+}
+
+.flag-24-ru {
+    width: 24px;
+    height: 24px;
+    background-position: -72px -168px;
+}
+
+.flag-24-rw {
+    width: 24px;
+    height: 24px;
+    background-position: -96px -168px;
+}
+
+.flag-24-sa {
+    width: 24px;
+    height: 24px;
+    background-position: -120px -168px;
+}
+
+.flag-24-sb {
+    width: 24px;
+    height: 24px;
+    background-position: -144px -168px;
+}
+
+.flag-24-sc {
+    width: 24px;
+    height: 24px;
+    background-position: -168px -168px;
+}
+
+.flag-24-sd {
+    width: 24px;
+    height: 24px;
+    background-position: -192px -168px;
+}
+
+.flag-24-se {
+    width: 24px;
+    height: 24px;
+    background-position: -216px -168px;
+}
+
+.flag-24-sg {
+    width: 24px;
+    height: 24px;
+    background-position: -240px -168px;
+}
+
+.flag-24-si {
+    width: 24px;
+    height: 24px;
+    background-position: -264px -168px;
+}
+
+.flag-24-sk {
+    width: 24px;
+    height: 24px;
+    background-position: -288px -168px;
+}
+
+.flag-24-sl {
+    width: 24px;
+    height: 24px;
+    background-position: -312px -168px;
+}
+
+.flag-24-sm {
+    width: 24px;
+    height: 24px;
+    background-position: -336px -168px;
+}
+
+.flag-24-sn {
+    width: 24px;
+    height: 24px;
+    background-position: -360px -168px;
+}
+
+.flag-24-so {
+    width: 24px;
+    height: 24px;
+    background-position: -384px -168px;
+}
+
+.flag-24-sr {
+    width: 24px;
+    height: 24px;
+    background-position: -408px -168px;
+}
+
+.flag-24-st {
+    width: 24px;
+    height: 24px;
+    background-position: -432px -168px;
+}
+
+.flag-24-sv {
+    width: 24px;
+    height: 24px;
+    background-position: -456px -168px;
+}
+
+.flag-24-sy {
+    width: 24px;
+    height: 24px;
+    background-position: -480px -168px;
+}
+
+.flag-24-sz {
+    width: 24px;
+    height: 24px;
+    background-position: -504px -168px;
+}
+
+.flag-24-tc {
+    width: 24px;
+    height: 24px;
+    background-position: -528px -168px;
+}
+
+.flag-24-td {
+    width: 24px;
+    height: 24px;
+    background-position: -552px -168px;
+}
+
+.flag-24-tg {
+    width: 24px;
+    height: 24px;
+    background-position: -576px -168px;
+}
+
+.flag-24-th {
+    width: 24px;
+    height: 24px;
+    background-position: -600px -168px;
+}
+
+.flag-24-tj {
+    width: 24px;
+    height: 24px;
+    background-position: -624px -168px;
+}
+
+.flag-24-tl {
+    width: 24px;
+    height: 24px;
+    background-position: -648px -168px;
+}
+
+.flag-24-tm {
+    width: 24px;
+    height: 24px;
+    background-position: -672px -168px;
+}
+
+.flag-24-tn {
+    width: 24px;
+    height: 24px;
+    background-position: -696px -168px;
+}
+
+.flag-24-to {
+    width: 24px;
+    height: 24px;
+    background-position: -720px -168px;
+}
+
+.flag-24-tr {
+    width: 24px;
+    height: 24px;
+    background-position: -744px -168px;
+}
+
+.flag-24-tt {
+    width: 24px;
+    height: 24px;
+    background-position: -768px -168px;
+}
+
+.flag-24-tv {
+    width: 24px;
+    height: 24px;
+    background-position: -792px -168px;
+}
+
+.flag-24-tw {
+    width: 24px;
+    height: 24px;
+    background-position: -816px -168px;
+}
+
+.flag-24-tz {
+    width: 24px;
+    height: 24px;
+    background-position: -840px -168px;
+}
+
+.flag-24-ua {
+    width: 24px;
+    height: 24px;
+    background-position: -864px -168px;
+}
+
+.flag-24-ug {
+    width: 24px;
+    height: 24px;
+    background-position: -888px -168px;
+}
+
+.flag-24-un {
+    width: 24px;
+    height: 24px;
+    background-position: -912px -168px;
+}
+
+.flag-24-us {
+    width: 24px;
+    height: 24px;
+    background-position: -936px -168px;
+}
+
+.flag-24-uy {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -192px;
+}
+
+.flag-24-uz {
+    width: 24px;
+    height: 24px;
+    background-position: -24px -192px;
+}
+
+.flag-24-va {
+    width: 24px;
+    height: 24px;
+    background-position: -48px -192px;
+}
+
+.flag-24-vc {
+    width: 24px;
+    height: 24px;
+    background-position: -72px -192px;
+}
+
+.flag-24-ve {
+    width: 24px;
+    height: 24px;
+    background-position: -96px -192px;
+}
+
+.flag-24-vg {
+    width: 24px;
+    height: 24px;
+    background-position: -120px -192px;
+}
+
+.flag-24-vi {
+    width: 24px;
+    height: 24px;
+    background-position: -144px -192px;
+}
+
+.flag-24-vn {
+    width: 24px;
+    height: 24px;
+    background-position: -168px -192px;
+}
+
+.flag-24-vu {
+    width: 24px;
+    height: 24px;
+    background-position: -192px -192px;
+}
+
+.flag-24-ws {
+    width: 24px;
+    height: 24px;
+    background-position: -216px -192px;
+}
+
+.flag-24-ye {
+    width: 24px;
+    height: 24px;
+    background-position: -240px -192px;
+}
+
+.flag-24-za {
+    width: 24px;
+    height: 24px;
+    background-position: -264px -192px;
+}
+
+.flag-24-zm {
+    width: 24px;
+    height: 24px;
+    background-position: -288px -192px;
+}
+
+.flag-24-zw {
+    width: 24px;
+    height: 24px;
+    background-position: -312px -192px;
+}
+
+.flag-32-ad {
+    width: 32px;
+    height: 32px;
+    background-position: -336px -192px;
+}
+
+.flag-32-ae {
+    width: 32px;
+    height: 32px;
+    background-position: -368px -192px;
+}
+
+.flag-32-af {
+    width: 32px;
+    height: 32px;
+    background-position: -400px -192px;
+}
+
+.flag-32-ag {
+    width: 32px;
+    height: 32px;
+    background-position: -432px -192px;
+}
+
+.flag-32-ai {
+    width: 32px;
+    height: 32px;
+    background-position: -464px -192px;
+}
+
+.flag-32-al {
+    width: 32px;
+    height: 32px;
+    background-position: -496px -192px;
+}
+
+.flag-32-am {
+    width: 32px;
+    height: 32px;
+    background-position: -528px -192px;
+}
+
+.flag-32-an {
+    width: 32px;
+    height: 32px;
+    background-position: -560px -192px;
+}
+
+.flag-32-ao {
+    width: 32px;
+    height: 32px;
+    background-position: -592px -192px;
+}
+
+.flag-32-aq {
+    width: 32px;
+    height: 32px;
+    background-position: -624px -192px;
+}
+
+.flag-32-ar {
+    width: 32px;
+    height: 32px;
+    background-position: -656px -192px;
+}
+
+.flag-32-as {
+    width: 32px;
+    height: 32px;
+    background-position: -688px -192px;
+}
+
+.flag-32-at {
+    width: 32px;
+    height: 32px;
+    background-position: -720px -192px;
+}
+
+.flag-32-au {
+    width: 32px;
+    height: 32px;
+    background-position: -752px -192px;
+}
+
+.flag-32-aw {
+    width: 32px;
+    height: 32px;
+    background-position: -784px -192px;
+}
+
+.flag-32-az {
+    width: 32px;
+    height: 32px;
+    background-position: -816px -192px;
+}
+
+.flag-32-ba {
+    width: 32px;
+    height: 32px;
+    background-position: -848px -192px;
+}
+
+.flag-32-bb {
+    width: 32px;
+    height: 32px;
+    background-position: -880px -192px;
+}
+
+.flag-32-bd {
+    width: 32px;
+    height: 32px;
+    background-position: -912px -192px;
+}
+
+.flag-32-be {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -224px;
+}
+
+.flag-32-bf {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -224px;
+}
+
+.flag-32-bg {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -224px;
+}
+
+.flag-32-bh {
+    width: 32px;
+    height: 32px;
+    background-position: -96px -224px;
+}
+
+.flag-32-bi {
+    width: 32px;
+    height: 32px;
+    background-position: -128px -224px;
+}
+
+.flag-32-bj {
+    width: 32px;
+    height: 32px;
+    background-position: -160px -224px;
+}
+
+.flag-32-bm {
+    width: 32px;
+    height: 32px;
+    background-position: -192px -224px;
+}
+
+.flag-32-bn {
+    width: 32px;
+    height: 32px;
+    background-position: -224px -224px;
+}
+
+.flag-32-bo {
+    width: 32px;
+    height: 32px;
+    background-position: -256px -224px;
+}
+
+.flag-32-br {
+    width: 32px;
+    height: 32px;
+    background-position: -288px -224px;
+}
+
+.flag-32-bs {
+    width: 32px;
+    height: 32px;
+    background-position: -320px -224px;
+}
+
+.flag-32-bt {
+    width: 32px;
+    height: 32px;
+    background-position: -352px -224px;
+}
+
+.flag-32-bw {
+    width: 32px;
+    height: 32px;
+    background-position: -384px -224px;
+}
+
+.flag-32-by {
+    width: 32px;
+    height: 32px;
+    background-position: -416px -224px;
+}
+
+.flag-32-bz {
+    width: 32px;
+    height: 32px;
+    background-position: -448px -224px;
+}
+
+.flag-32-ca {
+    width: 32px;
+    height: 32px;
+    background-position: -480px -224px;
+}
+
+.flag-32-cd {
+    width: 32px;
+    height: 32px;
+    background-position: -512px -224px;
+}
+
+.flag-32-cf {
+    width: 32px;
+    height: 32px;
+    background-position: -544px -224px;
+}
+
+.flag-32-cg {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -224px;
+}
+
+.flag-32-ch {
+    width: 32px;
+    height: 32px;
+    background-position: -608px -224px;
+}
+
+.flag-32-ci {
+    width: 32px;
+    height: 32px;
+    background-position: -640px -224px;
+}
+
+.flag-32-ck {
+    width: 32px;
+    height: 32px;
+    background-position: -672px -224px;
+}
+
+.flag-32-cl {
+    width: 32px;
+    height: 32px;
+    background-position: -704px -224px;
+}
+
+.flag-32-cm {
+    width: 32px;
+    height: 32px;
+    background-position: -736px -224px;
+}
+
+.flag-32-cn {
+    width: 32px;
+    height: 32px;
+    background-position: -768px -224px;
+}
+
+.flag-32-co {
+    width: 32px;
+    height: 32px;
+    background-position: -800px -224px;
+}
+
+.flag-32-cr {
+    width: 32px;
+    height: 32px;
+    background-position: -832px -224px;
+}
+
+.flag-32-cu {
+    width: 32px;
+    height: 32px;
+    background-position: -864px -224px;
+}
+
+.flag-32-cv {
+    width: 32px;
+    height: 32px;
+    background-position: -896px -224px;
+}
+
+.flag-32-cy {
+    width: 32px;
+    height: 32px;
+    background-position: -928px -224px;
+}
+
+.flag-32-cz {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -256px;
+}
+
+.flag-32-de {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -256px;
+}
+
+.flag-32-dj {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -256px;
+}
+
+.flag-32-dk {
+    width: 32px;
+    height: 32px;
+    background-position: -96px -256px;
+}
+
+.flag-32-dm {
+    width: 32px;
+    height: 32px;
+    background-position: -128px -256px;
+}
+
+.flag-32-do {
+    width: 32px;
+    height: 32px;
+    background-position: -160px -256px;
+}
+
+.flag-32-dz {
+    width: 32px;
+    height: 32px;
+    background-position: -192px -256px;
+}
+
+.flag-32-ec {
+    width: 32px;
+    height: 32px;
+    background-position: -224px -256px;
+}
+
+.flag-32-ee {
+    width: 32px;
+    height: 32px;
+    background-position: -256px -256px;
+}
+
+.flag-32-eg {
+    width: 32px;
+    height: 32px;
+    background-position: -288px -256px;
+}
+
+.flag-32-eh {
+    width: 32px;
+    height: 32px;
+    background-position: -320px -256px;
+}
+
+.flag-32-er {
+    width: 32px;
+    height: 32px;
+    background-position: -352px -256px;
+}
+
+.flag-32-es {
+    width: 32px;
+    height: 32px;
+    background-position: -384px -256px;
+}
+
+.flag-32-et {
+    width: 32px;
+    height: 32px;
+    background-position: -416px -256px;
+}
+
+.flag-32-fi {
+    width: 32px;
+    height: 32px;
+    background-position: -448px -256px;
+}
+
+.flag-32-fj {
+    width: 32px;
+    height: 32px;
+    background-position: -480px -256px;
+}
+
+.flag-32-fm {
+    width: 32px;
+    height: 32px;
+    background-position: -512px -256px;
+}
+
+.flag-32-fo {
+    width: 32px;
+    height: 32px;
+    background-position: -544px -256px;
+}
+
+.flag-32-fr {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -256px;
+}
+
+.flag-32-ga {
+    width: 32px;
+    height: 32px;
+    background-position: -608px -256px;
+}
+
+.flag-32-gb {
+    width: 32px;
+    height: 32px;
+    background-position: -640px -256px;
+}
+
+.flag-32-gd {
+    width: 32px;
+    height: 32px;
+    background-position: -672px -256px;
+}
+
+.flag-32-ge {
+    width: 32px;
+    height: 32px;
+    background-position: -704px -256px;
+}
+
+.flag-32-gg {
+    width: 32px;
+    height: 32px;
+    background-position: -736px -256px;
+}
+
+.flag-32-gh {
+    width: 32px;
+    height: 32px;
+    background-position: -768px -256px;
+}
+
+.flag-32-gi {
+    width: 32px;
+    height: 32px;
+    background-position: -800px -256px;
+}
+
+.flag-32-gl {
+    width: 32px;
+    height: 32px;
+    background-position: -832px -256px;
+}
+
+.flag-32-gm {
+    width: 32px;
+    height: 32px;
+    background-position: -864px -256px;
+}
+
+.flag-32-gn {
+    width: 32px;
+    height: 32px;
+    background-position: -896px -256px;
+}
+
+.flag-32-gp {
+    width: 32px;
+    height: 32px;
+    background-position: -928px -256px;
+}
+
+.flag-32-gq {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -288px;
+}
+
+.flag-32-gr {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -288px;
+}
+
+.flag-32-gt {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -288px;
+}
+
+.flag-32-gu {
+    width: 32px;
+    height: 32px;
+    background-position: -96px -288px;
+}
+
+.flag-32-gw {
+    width: 32px;
+    height: 32px;
+    background-position: -128px -288px;
+}
+
+.flag-32-gy {
+    width: 32px;
+    height: 32px;
+    background-position: -160px -288px;
+}
+
+.flag-32-hk {
+    width: 32px;
+    height: 32px;
+    background-position: -192px -288px;
+}
+
+.flag-32-hn {
+    width: 32px;
+    height: 32px;
+    background-position: -224px -288px;
+}
+
+.flag-32-hr {
+    width: 32px;
+    height: 32px;
+    background-position: -256px -288px;
+}
+
+.flag-32-ht {
+    width: 32px;
+    height: 32px;
+    background-position: -288px -288px;
+}
+
+.flag-32-hu {
+    width: 32px;
+    height: 32px;
+    background-position: -320px -288px;
+}
+
+.flag-32-id {
+    width: 32px;
+    height: 32px;
+    background-position: -352px -288px;
+}
+
+.flag-32-ie {
+    width: 32px;
+    height: 32px;
+    background-position: -384px -288px;
+}
+
+.flag-32-il {
+    width: 32px;
+    height: 32px;
+    background-position: -416px -288px;
+}
+
+.flag-32-im {
+    width: 32px;
+    height: 32px;
+    background-position: -448px -288px;
+}
+
+.flag-32-in {
+    width: 32px;
+    height: 32px;
+    background-position: -480px -288px;
+}
+
+.flag-32-iq {
+    width: 32px;
+    height: 32px;
+    background-position: -512px -288px;
+}
+
+.flag-32-ir {
+    width: 32px;
+    height: 32px;
+    background-position: -544px -288px;
+}
+
+.flag-32-is {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -288px;
+}
+
+.flag-32-it {
+    width: 32px;
+    height: 32px;
+    background-position: -608px -288px;
+}
+
+.flag-32-je {
+    width: 32px;
+    height: 32px;
+    background-position: -640px -288px;
+}
+
+.flag-32-jm {
+    width: 32px;
+    height: 32px;
+    background-position: -672px -288px;
+}
+
+.flag-32-jo {
+    width: 32px;
+    height: 32px;
+    background-position: -704px -288px;
+}
+
+.flag-32-jp {
+    width: 32px;
+    height: 32px;
+    background-position: -736px -288px;
+}
+
+.flag-32-ke {
+    width: 32px;
+    height: 32px;
+    background-position: -768px -288px;
+}
+
+.flag-32-kg {
+    width: 32px;
+    height: 32px;
+    background-position: -800px -288px;
+}
+
+.flag-32-kh {
+    width: 32px;
+    height: 32px;
+    background-position: -832px -288px;
+}
+
+.flag-32-ki {
+    width: 32px;
+    height: 32px;
+    background-position: -864px -288px;
+}
+
+.flag-32-km {
+    width: 32px;
+    height: 32px;
+    background-position: -896px -288px;
+}
+
+.flag-32-kn {
+    width: 32px;
+    height: 32px;
+    background-position: -928px -288px;
+}
+
+.flag-32-kp {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -320px;
+}
+
+.flag-32-kr {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -320px;
+}
+
+.flag-32-kw {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -320px;
+}
+
+.flag-32-ky {
+    width: 32px;
+    height: 32px;
+    background-position: -96px -320px;
+}
+
+.flag-32-kz {
+    width: 32px;
+    height: 32px;
+    background-position: -128px -320px;
+}
+
+.flag-32-la {
+    width: 32px;
+    height: 32px;
+    background-position: -160px -320px;
+}
+
+.flag-32-lb {
+    width: 32px;
+    height: 32px;
+    background-position: -192px -320px;
+}
+
+.flag-32-lc {
+    width: 32px;
+    height: 32px;
+    background-position: -224px -320px;
+}
+
+.flag-32-li {
+    width: 32px;
+    height: 32px;
+    background-position: -256px -320px;
+}
+
+.flag-32-lk {
+    width: 32px;
+    height: 32px;
+    background-position: -288px -320px;
+}
+
+.flag-32-lr {
+    width: 32px;
+    height: 32px;
+    background-position: -320px -320px;
+}
+
+.flag-32-ls {
+    width: 32px;
+    height: 32px;
+    background-position: -352px -320px;
+}
+
+.flag-32-lt {
+    width: 32px;
+    height: 32px;
+    background-position: -384px -320px;
+}
+
+.flag-32-lu {
+    width: 32px;
+    height: 32px;
+    background-position: -416px -320px;
+}
+
+.flag-32-lv {
+    width: 32px;
+    height: 32px;
+    background-position: -448px -320px;
+}
+
+.flag-32-ly {
+    width: 32px;
+    height: 32px;
+    background-position: -480px -320px;
+}
+
+.flag-32-ma {
+    width: 32px;
+    height: 32px;
+    background-position: -512px -320px;
+}
+
+.flag-32-mc {
+    width: 32px;
+    height: 32px;
+    background-position: -544px -320px;
+}
+
+.flag-32-md {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -320px;
+}
+
+.flag-32-me {
+    width: 32px;
+    height: 32px;
+    background-position: -608px -320px;
+}
+
+.flag-32-mg {
+    width: 32px;
+    height: 32px;
+    background-position: -640px -320px;
+}
+
+.flag-32-mh {
+    width: 32px;
+    height: 32px;
+    background-position: -672px -320px;
+}
+
+.flag-32-mk {
+    width: 32px;
+    height: 32px;
+    background-position: -704px -320px;
+}
+
+.flag-32-ml {
+    width: 32px;
+    height: 32px;
+    background-position: -736px -320px;
+}
+
+.flag-32-mm {
+    width: 32px;
+    height: 32px;
+    background-position: -768px -320px;
+}
+
+.flag-32-mn {
+    width: 32px;
+    height: 32px;
+    background-position: -800px -320px;
+}
+
+.flag-32-mo {
+    width: 32px;
+    height: 32px;
+    background-position: -832px -320px;
+}
+
+.flag-32-mq {
+    width: 32px;
+    height: 32px;
+    background-position: -864px -320px;
+}
+
+.flag-32-mr {
+    width: 32px;
+    height: 32px;
+    background-position: -896px -320px;
+}
+
+.flag-32-ms {
+    width: 32px;
+    height: 32px;
+    background-position: -928px -320px;
+}
+
+.flag-32-mt {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -352px;
+}
+
+.flag-32-mu {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -352px;
+}
+
+.flag-32-mv {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -352px;
+}
+
+.flag-32-mw {
+    width: 32px;
+    height: 32px;
+    background-position: -96px -352px;
+}
+
+.flag-32-mx {
+    width: 32px;
+    height: 32px;
+    background-position: -128px -352px;
+}
+
+.flag-32-my {
+    width: 32px;
+    height: 32px;
+    background-position: -160px -352px;
+}
+
+.flag-32-mz {
+    width: 32px;
+    height: 32px;
+    background-position: -192px -352px;
+}
+
+.flag-32-na {
+    width: 32px;
+    height: 32px;
+    background-position: -224px -352px;
+}
+
+.flag-32-nc {
+    width: 32px;
+    height: 32px;
+    background-position: -256px -352px;
+}
+
+.flag-32-ne {
+    width: 32px;
+    height: 32px;
+    background-position: -288px -352px;
+}
+
+.flag-32-ng {
+    width: 32px;
+    height: 32px;
+    background-position: -320px -352px;
+}
+
+.flag-32-ni {
+    width: 32px;
+    height: 32px;
+    background-position: -352px -352px;
+}
+
+.flag-32-nl {
+    width: 32px;
+    height: 32px;
+    background-position: -384px -352px;
+}
+
+.flag-32-no {
+    width: 32px;
+    height: 32px;
+    background-position: -416px -352px;
+}
+
+.flag-32-np {
+    width: 32px;
+    height: 32px;
+    background-position: -448px -352px;
+}
+
+.flag-32-nr {
+    width: 32px;
+    height: 32px;
+    background-position: -480px -352px;
+}
+
+.flag-32-nz {
+    width: 32px;
+    height: 32px;
+    background-position: -512px -352px;
+}
+
+.flag-32-om {
+    width: 32px;
+    height: 32px;
+    background-position: -544px -352px;
+}
+
+.flag-32-pa {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -352px;
+}
+
+.flag-32-pe {
+    width: 32px;
+    height: 32px;
+    background-position: -608px -352px;
+}
+
+.flag-32-pf {
+    width: 32px;
+    height: 32px;
+    background-position: -640px -352px;
+}
+
+.flag-32-pg {
+    width: 32px;
+    height: 32px;
+    background-position: -672px -352px;
+}
+
+.flag-32-ph {
+    width: 32px;
+    height: 32px;
+    background-position: -704px -352px;
+}
+
+.flag-32-pk {
+    width: 32px;
+    height: 32px;
+    background-position: -736px -352px;
+}
+
+.flag-32-pl {
+    width: 32px;
+    height: 32px;
+    background-position: -768px -352px;
+}
+
+.flag-32-pr {
+    width: 32px;
+    height: 32px;
+    background-position: -800px -352px;
+}
+
+.flag-32-ps {
+    width: 32px;
+    height: 32px;
+    background-position: -832px -352px;
+}
+
+.flag-32-pt {
+    width: 32px;
+    height: 32px;
+    background-position: -864px -352px;
+}
+
+.flag-32-pw {
+    width: 32px;
+    height: 32px;
+    background-position: -896px -352px;
+}
+
+.flag-32-py {
+    width: 32px;
+    height: 32px;
+    background-position: -928px -352px;
+}
+
+.flag-32-qa {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -384px;
+}
+
+.flag-32-re {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -384px;
+}
+
+.flag-32-ro {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -384px;
+}
+
+.flag-32-rs {
+    width: 32px;
+    height: 32px;
+    background-position: -96px -384px;
+}
+
+.flag-32-ru {
+    width: 32px;
+    height: 32px;
+    background-position: -128px -384px;
+}
+
+.flag-32-rw {
+    width: 32px;
+    height: 32px;
+    background-position: -160px -384px;
+}
+
+.flag-32-sa {
+    width: 32px;
+    height: 32px;
+    background-position: -192px -384px;
+}
+
+.flag-32-sb {
+    width: 32px;
+    height: 32px;
+    background-position: -224px -384px;
+}
+
+.flag-32-sc {
+    width: 32px;
+    height: 32px;
+    background-position: -256px -384px;
+}
+
+.flag-32-sd {
+    width: 32px;
+    height: 32px;
+    background-position: -288px -384px;
+}
+
+.flag-32-se {
+    width: 32px;
+    height: 32px;
+    background-position: -320px -384px;
+}
+
+.flag-32-sg {
+    width: 32px;
+    height: 32px;
+    background-position: -352px -384px;
+}
+
+.flag-32-si {
+    width: 32px;
+    height: 32px;
+    background-position: -384px -384px;
+}
+
+.flag-32-sk {
+    width: 32px;
+    height: 32px;
+    background-position: -416px -384px;
+}
+
+.flag-32-sl {
+    width: 32px;
+    height: 32px;
+    background-position: -448px -384px;
+}
+
+.flag-32-sm {
+    width: 32px;
+    height: 32px;
+    background-position: -480px -384px;
+}
+
+.flag-32-sn {
+    width: 32px;
+    height: 32px;
+    background-position: -512px -384px;
+}
+
+.flag-32-so {
+    width: 32px;
+    height: 32px;
+    background-position: -544px -384px;
+}
+
+.flag-32-sr {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -384px;
+}
+
+.flag-32-st {
+    width: 32px;
+    height: 32px;
+    background-position: -608px -384px;
+}
+
+.flag-32-sv {
+    width: 32px;
+    height: 32px;
+    background-position: -640px -384px;
+}
+
+.flag-32-sy {
+    width: 32px;
+    height: 32px;
+    background-position: -672px -384px;
+}
+
+.flag-32-sz {
+    width: 32px;
+    height: 32px;
+    background-position: -704px -384px;
+}
+
+.flag-32-tc {
+    width: 32px;
+    height: 32px;
+    background-position: -736px -384px;
+}
+
+.flag-32-td {
+    width: 32px;
+    height: 32px;
+    background-position: -768px -384px;
+}
+
+.flag-32-tg {
+    width: 32px;
+    height: 32px;
+    background-position: -800px -384px;
+}
+
+.flag-32-th {
+    width: 32px;
+    height: 32px;
+    background-position: -832px -384px;
+}
+
+.flag-32-tj {
+    width: 32px;
+    height: 32px;
+    background-position: -864px -384px;
+}
+
+.flag-32-tl {
+    width: 32px;
+    height: 32px;
+    background-position: -896px -384px;
+}
+
+.flag-32-tm {
+    width: 32px;
+    height: 32px;
+    background-position: -928px -384px;
+}
+
+.flag-32-tn {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -416px;
+}
+
+.flag-32-to {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -416px;
+}
+
+.flag-32-tr {
+    width: 32px;
+    height: 32px;
+    background-position: -64px -416px;
+}
+
+.flag-32-tt {
+    width: 32px;
+    height: 32px;
+    background-position: -96px -416px;
+}
+
+.flag-32-tv {
+    width: 32px;
+    height: 32px;
+    background-position: -128px -416px;
+}
+
+.flag-32-tw {
+    width: 32px;
+    height: 32px;
+    background-position: -160px -416px;
+}
+
+.flag-32-tz {
+    width: 32px;
+    height: 32px;
+    background-position: -192px -416px;
+}
+
+.flag-32-ua {
+    width: 32px;
+    height: 32px;
+    background-position: -224px -416px;
+}
+
+.flag-32-ug {
+    width: 32px;
+    height: 32px;
+    background-position: -256px -416px;
+}
+
+.flag-32-un {
+    width: 32px;
+    height: 32px;
+    background-position: -288px -416px;
+}
+
+.flag-32-us {
+    width: 32px;
+    height: 32px;
+    background-position: -320px -416px;
+}
+
+.flag-32-uy {
+    width: 32px;
+    height: 32px;
+    background-position: -352px -416px;
+}
+
+.flag-32-uz {
+    width: 32px;
+    height: 32px;
+    background-position: -384px -416px;
+}
+
+.flag-32-va {
+    width: 32px;
+    height: 32px;
+    background-position: -416px -416px;
+}
+
+.flag-32-vc {
+    width: 32px;
+    height: 32px;
+    background-position: -448px -416px;
+}
+
+.flag-32-ve {
+    width: 32px;
+    height: 32px;
+    background-position: -480px -416px;
+}
+
+.flag-32-vg {
+    width: 32px;
+    height: 32px;
+    background-position: -512px -416px;
+}
+
+.flag-32-vi {
+    width: 32px;
+    height: 32px;
+    background-position: -544px -416px;
+}
+
+.flag-32-vn {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -416px;
+}
+
+.flag-32-vu {
+    width: 32px;
+    height: 32px;
+    background-position: -608px -416px;
+}
+
+.flag-32-ws {
+    width: 32px;
+    height: 32px;
+    background-position: -640px -416px;
+}
+
+.flag-32-ye {
+    width: 32px;
+    height: 32px;
+    background-position: -672px -416px;
+}
+
+.flag-32-za {
+    width: 32px;
+    height: 32px;
+    background-position: -704px -416px;
+}
+
+.flag-32-zm {
+    width: 32px;
+    height: 32px;
+    background-position: -736px -416px;
+}
+
+.flag-32-zw {
+    width: 32px;
+    height: 32px;
+    background-position: -768px -416px;
+}
+
+.flag-48-ad {
+    width: 48px;
+    height: 48px;
+    background-position: -800px -416px;
+}
+
+.flag-48-ae {
+    width: 48px;
+    height: 48px;
+    background-position: -848px -416px;
+}
+
+.flag-48-af {
+    width: 48px;
+    height: 48px;
+    background-position: -896px -416px;
+}
+
+.flag-48-ag {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -464px;
+}
+
+.flag-48-ai {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -464px;
+}
+
+.flag-48-al {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -464px;
+}
+
+.flag-48-am {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -464px;
+}
+
+.flag-48-an {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -464px;
+}
+
+.flag-48-ao {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -464px;
+}
+
+.flag-48-aq {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -464px;
+}
+
+.flag-48-ar {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -464px;
+}
+
+.flag-48-as {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -464px;
+}
+
+.flag-48-at {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -464px;
+}
+
+.flag-48-au {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -464px;
+}
+
+.flag-48-aw {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -464px;
+}
+
+.flag-48-az {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -464px;
+}
+
+.flag-48-ba {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -464px;
+}
+
+.flag-48-bb {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -464px;
+}
+
+.flag-48-bd {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -464px;
+}
+
+.flag-48-be {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -464px;
+}
+
+.flag-48-bf {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -464px;
+}
+
+.flag-48-bg {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -464px;
+}
+
+.flag-48-bh {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -464px;
+}
+
+.flag-48-bi {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -512px;
+}
+
+.flag-48-bj {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -512px;
+}
+
+.flag-48-bm {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -512px;
+}
+
+.flag-48-bn {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -512px;
+}
+
+.flag-48-bo {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -512px;
+}
+
+.flag-48-br {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -512px;
+}
+
+.flag-48-bs {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -512px;
+}
+
+.flag-48-bt {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -512px;
+}
+
+.flag-48-bw {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -512px;
+}
+
+.flag-48-by {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -512px;
+}
+
+.flag-48-bz {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -512px;
+}
+
+.flag-48-ca {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -512px;
+}
+
+.flag-48-cd {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -512px;
+}
+
+.flag-48-cf {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -512px;
+}
+
+.flag-48-cg {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -512px;
+}
+
+.flag-48-ch {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -512px;
+}
+
+.flag-48-ci {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -512px;
+}
+
+.flag-48-ck {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -512px;
+}
+
+.flag-48-cl {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -512px;
+}
+
+.flag-48-cm {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -512px;
+}
+
+.flag-48-cn {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -560px;
+}
+
+.flag-48-co {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -560px;
+}
+
+.flag-48-cr {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -560px;
+}
+
+.flag-48-cu {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -560px;
+}
+
+.flag-48-cv {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -560px;
+}
+
+.flag-48-cy {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -560px;
+}
+
+.flag-48-cz {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -560px;
+}
+
+.flag-48-de {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -560px;
+}
+
+.flag-48-dj {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -560px;
+}
+
+.flag-48-dk {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -560px;
+}
+
+.flag-48-dm {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -560px;
+}
+
+.flag-48-do {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -560px;
+}
+
+.flag-48-dz {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -560px;
+}
+
+.flag-48-ec {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -560px;
+}
+
+.flag-48-ee {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -560px;
+}
+
+.flag-48-eg {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -560px;
+}
+
+.flag-48-eh {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -560px;
+}
+
+.flag-48-er {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -560px;
+}
+
+.flag-48-es {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -560px;
+}
+
+.flag-48-et {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -560px;
+}
+
+.flag-48-fi {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -608px;
+}
+
+.flag-48-fj {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -608px;
+}
+
+.flag-48-fm {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -608px;
+}
+
+.flag-48-fo {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -608px;
+}
+
+.flag-48-fr {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -608px;
+}
+
+.flag-48-ga {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -608px;
+}
+
+.flag-48-gb {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -608px;
+}
+
+.flag-48-gd {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -608px;
+}
+
+.flag-48-ge {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -608px;
+}
+
+.flag-48-gg {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -608px;
+}
+
+.flag-48-gh {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -608px;
+}
+
+.flag-48-gi {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -608px;
+}
+
+.flag-48-gl {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -608px;
+}
+
+.flag-48-gm {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -608px;
+}
+
+.flag-48-gn {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -608px;
+}
+
+.flag-48-gp {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -608px;
+}
+
+.flag-48-gq {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -608px;
+}
+
+.flag-48-gr {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -608px;
+}
+
+.flag-48-gt {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -608px;
+}
+
+.flag-48-gu {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -608px;
+}
+
+.flag-48-gw {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -656px;
+}
+
+.flag-48-gy {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -656px;
+}
+
+.flag-48-hk {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -656px;
+}
+
+.flag-48-hn {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -656px;
+}
+
+.flag-48-hr {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -656px;
+}
+
+.flag-48-ht {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -656px;
+}
+
+.flag-48-hu {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -656px;
+}
+
+.flag-48-id {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -656px;
+}
+
+.flag-48-ie {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -656px;
+}
+
+.flag-48-il {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -656px;
+}
+
+.flag-48-im {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -656px;
+}
+
+.flag-48-in {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -656px;
+}
+
+.flag-48-iq {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -656px;
+}
+
+.flag-48-ir {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -656px;
+}
+
+.flag-48-is {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -656px;
+}
+
+.flag-48-it {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -656px;
+}
+
+.flag-48-je {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -656px;
+}
+
+.flag-48-jm {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -656px;
+}
+
+.flag-48-jo {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -656px;
+}
+
+.flag-48-jp {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -656px;
+}
+
+.flag-48-ke {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -704px;
+}
+
+.flag-48-kg {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -704px;
+}
+
+.flag-48-kh {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -704px;
+}
+
+.flag-48-ki {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -704px;
+}
+
+.flag-48-km {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -704px;
+}
+
+.flag-48-kn {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -704px;
+}
+
+.flag-48-kp {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -704px;
+}
+
+.flag-48-kr {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -704px;
+}
+
+.flag-48-kw {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -704px;
+}
+
+.flag-48-ky {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -704px;
+}
+
+.flag-48-kz {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -704px;
+}
+
+.flag-48-la {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -704px;
+}
+
+.flag-48-lb {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -704px;
+}
+
+.flag-48-lc {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -704px;
+}
+
+.flag-48-li {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -704px;
+}
+
+.flag-48-lk {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -704px;
+}
+
+.flag-48-lr {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -704px;
+}
+
+.flag-48-ls {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -704px;
+}
+
+.flag-48-lt {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -704px;
+}
+
+.flag-48-lu {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -704px;
+}
+
+.flag-48-lv {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -752px;
+}
+
+.flag-48-ly {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -752px;
+}
+
+.flag-48-ma {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -752px;
+}
+
+.flag-48-mc {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -752px;
+}
+
+.flag-48-md {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -752px;
+}
+
+.flag-48-me {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -752px;
+}
+
+.flag-48-mg {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -752px;
+}
+
+.flag-48-mh {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -752px;
+}
+
+.flag-48-mk {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -752px;
+}
+
+.flag-48-ml {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -752px;
+}
+
+.flag-48-mm {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -752px;
+}
+
+.flag-48-mn {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -752px;
+}
+
+.flag-48-mo {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -752px;
+}
+
+.flag-48-mq {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -752px;
+}
+
+.flag-48-mr {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -752px;
+}
+
+.flag-48-ms {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -752px;
+}
+
+.flag-48-mt {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -752px;
+}
+
+.flag-48-mu {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -752px;
+}
+
+.flag-48-mv {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -752px;
+}
+
+.flag-48-mw {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -752px;
+}
+
+.flag-48-mx {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -800px;
+}
+
+.flag-48-my {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -800px;
+}
+
+.flag-48-mz {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -800px;
+}
+
+.flag-48-na {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -800px;
+}
+
+.flag-48-nc {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -800px;
+}
+
+.flag-48-ne {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -800px;
+}
+
+.flag-48-ng {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -800px;
+}
+
+.flag-48-ni {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -800px;
+}
+
+.flag-48-nl {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -800px;
+}
+
+.flag-48-no {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -800px;
+}
+
+.flag-48-np {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -800px;
+}
+
+.flag-48-nr {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -800px;
+}
+
+.flag-48-nz {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -800px;
+}
+
+.flag-48-om {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -800px;
+}
+
+.flag-48-pa {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -800px;
+}
+
+.flag-48-pe {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -800px;
+}
+
+.flag-48-pf {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -800px;
+}
+
+.flag-48-pg {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -800px;
+}
+
+.flag-48-ph {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -800px;
+}
+
+.flag-48-pk {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -800px;
+}
+
+.flag-48-pl {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -848px;
+}
+
+.flag-48-pr {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -848px;
+}
+
+.flag-48-ps {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -848px;
+}
+
+.flag-48-pt {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -848px;
+}
+
+.flag-48-pw {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -848px;
+}
+
+.flag-48-py {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -848px;
+}
+
+.flag-48-qa {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -848px;
+}
+
+.flag-48-re {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -848px;
+}
+
+.flag-48-ro {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -848px;
+}
+
+.flag-48-rs {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -848px;
+}
+
+.flag-48-ru {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -848px;
+}
+
+.flag-48-rw {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -848px;
+}
+
+.flag-48-sa {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -848px;
+}
+
+.flag-48-sb {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -848px;
+}
+
+.flag-48-sc {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -848px;
+}
+
+.flag-48-sd {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -848px;
+}
+
+.flag-48-se {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -848px;
+}
+
+.flag-48-sg {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -848px;
+}
+
+.flag-48-si {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -848px;
+}
+
+.flag-48-sk {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -848px;
+}
+
+.flag-48-sl {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -896px;
+}
+
+.flag-48-sm {
+    width: 48px;
+    height: 48px;
+    background-position: -48px -896px;
+}
+
+.flag-48-sn {
+    width: 48px;
+    height: 48px;
+    background-position: -96px -896px;
+}
+
+.flag-48-so {
+    width: 48px;
+    height: 48px;
+    background-position: -144px -896px;
+}
+
+.flag-48-sr {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -896px;
+}
+
+.flag-48-st {
+    width: 48px;
+    height: 48px;
+    background-position: -240px -896px;
+}
+
+.flag-48-sv {
+    width: 48px;
+    height: 48px;
+    background-position: -288px -896px;
+}
+
+.flag-48-sy {
+    width: 48px;
+    height: 48px;
+    background-position: -336px -896px;
+}
+
+.flag-48-sz {
+    width: 48px;
+    height: 48px;
+    background-position: -384px -896px;
+}
+
+.flag-48-tc {
+    width: 48px;
+    height: 48px;
+    background-position: -432px -896px;
+}
+
+.flag-48-td {
+    width: 48px;
+    height: 48px;
+    background-position: -480px -896px;
+}
+
+.flag-48-tg {
+    width: 48px;
+    height: 48px;
+    background-position: -528px -896px;
+}
+
+.flag-48-th {
+    width: 48px;
+    height: 48px;
+    background-position: -576px -896px;
+}
+
+.flag-48-tj {
+    width: 48px;
+    height: 48px;
+    background-position: -624px -896px;
+}
+
+.flag-48-tl {
+    width: 48px;
+    height: 48px;
+    background-position: -672px -896px;
+}
+
+.flag-48-tm {
+    width: 48px;
+    height: 48px;
+    background-position: -720px -896px;
+}
+
+.flag-48-tn {
+    width: 48px;
+    height: 48px;
+    background-position: -768px -896px;
+}
+
+.flag-48-to {
+    width: 48px;
+    height: 48px;
+    background-position: -816px -896px;
+}
+
+.flag-48-tr {
+    width: 48px;
+    height: 48px;
+    background-position: -864px -896px;
+}
+
+.flag-48-tt {
+    width: 48px;
+    height: 48px;
+    background-position: -912px -896px;
+}
+
+.flag-48-tv {
+    width: 48px;
+    height: 48px;
+    background-position: -960px 0;
+}
+
+.flag-48-tw {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -48px;
+}
+
+.flag-48-tz {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -96px;
+}
+
+.flag-48-ua {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -144px;
+}
+
+.flag-48-ug {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -192px;
+}
+
+.flag-48-un {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -240px;
+}
+
+.flag-48-us {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -288px;
+}
+
+.flag-48-uy {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -336px;
+}
+
+.flag-48-uz {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -384px;
+}
+
+.flag-48-va {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -432px;
+}
+
+.flag-48-vc {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -480px;
+}
+
+.flag-48-ve {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -528px;
+}
+
+.flag-48-vg {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -576px;
+}
+
+.flag-48-vi {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -624px;
+}
+
+.flag-48-vn {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -672px;
+}
+
+.flag-48-vu {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -720px;
+}
+
+.flag-48-ws {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -768px;
+}
+
+.flag-48-ye {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -816px;
+}
+
+.flag-48-za {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -864px;
+}
+
+.flag-48-zm {
+    width: 48px;
+    height: 48px;
+    background-position: -960px -912px;
+}
+
+.flag-48-zw {
+    width: 48px;
+    height: 48px;
+    background-position: 0 -960px;
+}
