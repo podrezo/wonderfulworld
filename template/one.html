@@ -14,9 +14,7 @@
 <div ng-repeat="place in places">
   <div class="row">
     <div class="col-md-7">
-      <a ui-sref="place({id:place.id})">
-        <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.properties.image}}" alt="{{place.properties.name}}">
-      </a>
+      <div image-with-placeholder sref-route-name="place" sref-route-params="{id:place.id}" image-path="/wonderfulworld/img/places/{{place.properties.image}}" alt-text="{{place.properties.name}}"></div>
     </div>
     <div class="col-md-5">
       <h3 class="small-caps">{{place.properties.name}}</h3>

@@ -17,7 +17,6 @@
         setFlagImage();
         scope.$watch('countryCode', setFlagImage);
       }
-      //template: '<img ng-src="/wonderfulworld/img/flags/{{size || \'16\'}}/{{countryCode || \'_United Nations\'}}.png" alt="{{countryCode}}" class="flag"/>'
     };
   });
 })();
