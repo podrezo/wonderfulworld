@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -76.033333,
+      4.916667
+    ]
+  },
+  "properties": {
+    "name": "Valle de Cocora",
+    "countryCode": "CO",
+    "tags": [
+      "Nature",
+      "Flora",
+      "Mountains",
+      "Trees"
+    ],
+    "image": "valle-de-cocora.jpg",
+    "link": "https://en.wikipedia.org/wiki/Cocora_valley",
+    "description": "The wax palm, the Colombian national tree, is obviously the main attraction here. It is the tallest palm in the world, growing up to 60 meters, while retaining the girth of any old palm, making for a very slender giant, an immense pole topped with a little crown of palm fronds. Their wide root systems make for an odd visual: palms shooting up hundreds of feet into the sky, all widely but evenly spaced apart, as if planted purposefully."
+  }
+}

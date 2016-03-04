@@ -22,7 +22,10 @@
         "link": "http://www.flashpackerconnect.com/",
         "description": "Also called \"The Painted Mountains\" or \"Rainbow Mountains\" one look at them tells you where they get their name. These gorgeous pastel-colored mountains require a several day long trek through rough terrain, but it's well worth it for the view!",
         "country": "Peru",
-        "similarPlaces": []
+        "similarPlaces": [
+          "valle-de-cocora",
+          "lake_louise"
+        ]
       },
       "id": "ausangate"
     },
@@ -402,6 +405,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.22726,
+          51.412613
+        ]
+      },
+      "properties": {
+        "name": "Lake Louise",
+        "countryCode": "CA",
+        "tags": [
+          "Nature",
+          "Lake",
+          "Mountains",
+          "Trees"
+        ],
+        "image": "lake_louise.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lake_Louise,_Alberta",
+        "description": "Lake Louise has become symbolic of the quintessentially Canadian mountain scene. This alpine lake, known for its sparkling blue waters, is situated at the base of impressive glacier-clad peaks that have long been at the heart of Canadian mountaineering. At about 2.5 kilometres long and 90 metres deep, the lake offers a surreal paddling experience in the warm summer months and one of the most scenic skating rinks in the world in winter.",
+        "country": "Canada",
+        "similarPlaces": [
+          "valle-de-cocora",
+          "socotra",
+          "redwood-national-park",
+          "leitisvatn-lake"
+        ]
+      },
+      "id": "lake_louise"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -7.233333,
           62.05
         ]
@@ -422,8 +456,8 @@
         "similarPlaces": [
           "dover",
           "skogafoss-waterfall",
-          "lake-bled",
-          "haifoss-waterfall"
+          "lake_louise",
+          "lake-bled"
         ]
       },
       "id": "leitisvatn-lake"
@@ -568,6 +602,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -124.0259093,
+          41.2187175
+        ]
+      },
+      "properties": {
+        "name": "Redwood National Park",
+        "countryCode": "US",
+        "tags": [
+          "Nature",
+          "Park",
+          "Trees",
+          "Flora"
+        ],
+        "image": "redwood-national-park.jpg",
+        "link": "https://en.wikipedia.org/wiki/Redwood_National_and_State_Parks",
+        "description": "At least once in your lifetime, you need to visit the magnificent coastal redwoods of Humboldt County - to walk, explore and soak up the silence and grandeur of forests unlike any others in the world. Whether your tastes run to scenic drives or hiking trails, you’ll find plenty of choices in Redwood National & State Parks in the north county, or along the Avenue of the Giants and Humboldt Redwoods State Park in south county.",
+        "country": "United States of America",
+        "similarPlaces": [
+          "valle-de-cocora",
+          "socotra",
+          "lake_louise"
+        ]
+      },
+      "id": "redwood-national-park"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -19.520390248374497,
           63.532104046763
         ]
@@ -617,9 +681,10 @@
         "description": "One of the most striking of Socotra's plants is the dragon's blood tree (Dracaena cinnabari), which is a strange-looking, umbrella-shaped tree. Its red sap was thought to be the dragon's blood of the ancients, sought after as a dye, and today used as paint and varnish. Also important in ancient times were Socotra's various endemic aloes, used medicinally, and for cosmetics. Other endemic plants include the giant succulent tree Dorstenia gigas, the cucumber tree Dendrosicyos socotranus, the rare Socotran pomegranate, Aloe perryi, and Boswellia socotrana.",
         "country": "Yemen",
         "similarPlaces": [
-          "kuramathi-island",
-          "eilean-donan",
-          "durban-island"
+          "valle-de-cocora",
+          "redwood-national-park",
+          "lake_louise",
+          "kuramathi-island"
         ]
       },
       "id": "socotra"
@@ -678,6 +743,37 @@
         ]
       },
       "id": "son-doong-cave"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.033333,
+          4.916667
+        ]
+      },
+      "properties": {
+        "name": "Valle de Cocora",
+        "countryCode": "CO",
+        "tags": [
+          "Nature",
+          "Flora",
+          "Mountains",
+          "Trees"
+        ],
+        "image": "valle-de-cocora.jpg",
+        "link": "https://en.wikipedia.org/wiki/Cocora_valley",
+        "description": "The wax palm, the Colombian national tree, is obviously the main attraction here. It is the tallest palm in the world, growing up to 60 meters, while retaining the girth of any old palm, making for a very slender giant, an immense pole topped with a little crown of palm fronds. Their wide root systems make for an odd visual: palms shooting up hundreds of feet into the sky, all widely but evenly spaced apart, as if planted purposefully.",
+        "country": "Colombia",
+        "similarPlaces": [
+          "socotra",
+          "redwood-national-park",
+          "lake_louise",
+          "ausangate"
+        ]
+      },
+      "id": "valle-de-cocora"
     },
     {
       "type": "Feature",

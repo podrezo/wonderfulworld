@@ -13,7 +13,12 @@
     {
       "countryCode": "CA",
       "country": "Canada",
-      "quantity": 2
+      "quantity": 3
+    },
+    {
+      "countryCode": "CO",
+      "country": "Colombia",
+      "quantity": 1
     },
     {
       "countryCode": "FO",
@@ -78,7 +83,7 @@
     {
       "countryCode": "US",
       "country": "United States of America",
-      "quantity": 2
+      "quantity": 3
     },
     {
       "countryCode": "VN",
@@ -94,7 +99,7 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 19
+      "quantity": 22
     },
     {
       "tag": "Man-Made",
@@ -117,6 +122,14 @@
       "quantity": 4
     },
     {
+      "tag": "Trees",
+      "quantity": 4
+    },
+    {
+      "tag": "Mountains",
+      "quantity": 3
+    },
+    {
       "tag": "Cave",
       "quantity": 3
     },
@@ -129,6 +142,14 @@
       "quantity": 3
     },
     {
+      "tag": "Lake",
+      "quantity": 3
+    },
+    {
+      "tag": "Flora",
+      "quantity": 3
+    },
+    {
       "tag": "City",
       "quantity": 2
     },
@@ -137,12 +158,8 @@
       "quantity": 2
     },
     {
-      "tag": "Lake",
+      "tag": "Park",
       "quantity": 2
-    },
-    {
-      "tag": "Mountains",
-      "quantity": 1
     },
     {
       "tag": "Salt Flats",
@@ -173,23 +190,11 @@
       "quantity": 1
     },
     {
-      "tag": "Park",
-      "quantity": 1
-    },
-    {
       "tag": "Town",
       "quantity": 1
     },
     {
-      "tag": "Flora",
-      "quantity": 1
-    },
-    {
       "tag": "Middle-East",
-      "quantity": 1
-    },
-    {
-      "tag": "Trees",
       "quantity": 1
     }
   ]
