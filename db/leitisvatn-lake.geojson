@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -7.233333,
+      62.05
+    ]
+  },
+  "properties": {
+    "name": "Leitisvatn Lake",
+    "countryCode": "FO",
+    "tags": [
+      "Nature",
+      "Nordic",
+      "Cliffs",
+      "Lake"
+    ],
+    "image": "leitisvatn-lake.jpg",
+    "link": "https://en.wikipedia.org/wiki/S%C3%B8rv%C3%A1gsvatn",
+    "description": "The name Leitisvatn means \"The lake by Leiti\" (the name of the east side of the lake). The lake is located very close to the ocean, but its surface is about 30 meters above the level of sea. It is surrounded by a higher cliff which prevents it from emptying into the ocean. The water exit is the waterfall Bøsdalafossur."
+  }
+}

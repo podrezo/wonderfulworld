@@ -1,0 +1,21 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -67.872196,
+      -20.2086642
+    ]
+  },
+  "properties": {
+    "name": "Bolivian Salt Flats",
+    "countryCode": "BO",
+    "tags": [
+      "Nature",
+      "Salt Flats"
+    ],
+    "image": "bolivian-salt-flats.jpg",
+    "link": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+    "description": "The reflective surface of the world's largest salt mine is like something from the imagination of Salvador Dali."
+  }
+}

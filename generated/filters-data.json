@@ -6,9 +6,19 @@
       "quantity": 1
     },
     {
+      "countryCode": "BO",
+      "country": "Bolivia",
+      "quantity": 1
+    },
+    {
       "countryCode": "CA",
       "country": "Canada",
       "quantity": 2
+    },
+    {
+      "countryCode": "FO",
+      "country": "Faroe Islands",
+      "quantity": 1
     },
     {
       "countryCode": "DE",
@@ -51,6 +61,11 @@
       "quantity": 1
     },
     {
+      "countryCode": "PT",
+      "country": "Portugal",
+      "quantity": 1
+    },
+    {
       "countryCode": "SI",
       "country": "Slovenia",
       "quantity": 1
@@ -68,28 +83,41 @@
     {
       "countryCode": "VN",
       "country": "Vietnam",
+      "quantity": 2
+    },
+    {
+      "countryCode": "YE",
+      "country": "Yemen",
       "quantity": 1
     }
   ],
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 14
+      "quantity": 19
     },
     {
       "tag": "Man-Made",
-      "quantity": 7
+      "quantity": 8
     },
     {
       "tag": "Island",
-      "quantity": 4
+      "quantity": 5
     },
     {
       "tag": "Nordic",
+      "quantity": 5
+    },
+    {
+      "tag": "Beach",
       "quantity": 4
     },
     {
       "tag": "Asian",
+      "quantity": 4
+    },
+    {
+      "tag": "Cave",
       "quantity": 3
     },
     {
@@ -101,15 +129,15 @@
       "quantity": 3
     },
     {
-      "tag": "Beach",
-      "quantity": 3
-    },
-    {
       "tag": "City",
       "quantity": 2
     },
     {
-      "tag": "Cave",
+      "tag": "Cliffs",
+      "quantity": 2
+    },
+    {
+      "tag": "Lake",
       "quantity": 2
     },
     {
@@ -117,7 +145,7 @@
       "quantity": 1
     },
     {
-      "tag": "Cliffs",
+      "tag": "Salt Flats",
       "quantity": 1
     },
     {
@@ -137,7 +165,7 @@
       "quantity": 1
     },
     {
-      "tag": "Lake",
+      "tag": "Rice Paddy",
       "quantity": 1
     },
     {
@@ -150,6 +178,18 @@
     },
     {
       "tag": "Town",
+      "quantity": 1
+    },
+    {
+      "tag": "Flora",
+      "quantity": 1
+    },
+    {
+      "tag": "Middle-East",
+      "quantity": 1
+    },
+    {
+      "tag": "Trees",
       "quantity": 1
     }
   ]

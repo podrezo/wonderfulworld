@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -8.4281012,
+      37.087411,
+      0
+    ]
+  },
+  "properties": {
+    "name": "Benagil Sea Cave",
+    "countryCode": "PT",
+    "tags": [
+      "Nature",
+      "Cave",
+      "Beach"
+    ],
+    "image": "benagil-sea-cave.jpg",
+    "link": "https://www.tripadvisor.ca/ShowUserReviews-g1219346-d4765205-r229417343-Praia_de_Benagil-Lagoa_Faro_District_Algarve.html",
+    "description": "The southern coast of Portugal is lined with exquisite beaches and caves, including the famous Benagil Sea Cave (skylight included)."
+  }
+}
