@@ -1,0 +1,23 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.123162,
+      48.804404
+    ]
+  },
+  "properties": {
+    "name": "Palace of Versailles",
+    "countryCode": "FR",
+    "tags": [
+      "Man-Made",
+      "Castle",
+      "Park"
+    ],
+    "image": "palace-of-versailles.jpg",
+    "link": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+    "description": "The Palace of Versailles (château de Versailles) is a royal château in Versailles, some 20 kilometers southwest of Paris. The palace was built for the Bourbon kings of France in the 17th century, fell into disrepair following the French revolution, and is now a museum and tourist attraction. The palace exemplifies the opulence of the Ancien Régime and the extensive gardens are one of the finest extant examples of French garden design.",
+    "contributedBy": "JL"
+  }
+}

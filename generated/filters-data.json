@@ -26,6 +26,11 @@
       "quantity": 1
     },
     {
+      "countryCode": "FR",
+      "country": "France",
+      "quantity": 1
+    },
+    {
       "countryCode": "DE",
       "country": "Germany",
       "quantity": 1
@@ -43,6 +48,11 @@
     {
       "countryCode": "IN",
       "country": "India",
+      "quantity": 1
+    },
+    {
+      "countryCode": "IT",
+      "country": "Italy",
       "quantity": 1
     },
     {
@@ -103,7 +113,7 @@
     },
     {
       "tag": "Man-Made",
-      "quantity": 8
+      "quantity": 10
     },
     {
       "tag": "Island",
@@ -111,6 +121,10 @@
     },
     {
       "tag": "Nordic",
+      "quantity": 5
+    },
+    {
+      "tag": "Castle",
       "quantity": 5
     },
     {
@@ -126,15 +140,15 @@
       "quantity": 4
     },
     {
+      "tag": "Park",
+      "quantity": 4
+    },
+    {
       "tag": "Mountains",
       "quantity": 3
     },
     {
       "tag": "Cave",
-      "quantity": 3
-    },
-    {
-      "tag": "Castle",
       "quantity": 3
     },
     {
@@ -155,10 +169,6 @@
     },
     {
       "tag": "Cliffs",
-      "quantity": 2
-    },
-    {
-      "tag": "Park",
       "quantity": 2
     },
     {

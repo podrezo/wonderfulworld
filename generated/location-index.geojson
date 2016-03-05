@@ -195,8 +195,8 @@
         "similarPlaces": [
           "lake-bled",
           "socotra",
-          "neuschwanstein-castle",
-          "mu-cang-chai"
+          "royal-palace-of-caserta",
+          "palace-of-versailles"
         ]
       },
       "id": "eilean-donan"
@@ -393,9 +393,9 @@
         "country": "Slovenia",
         "similarPlaces": [
           "eilean-donan",
-          "neuschwanstein-castle",
-          "mu-cang-chai",
-          "leitisvatn-lake"
+          "royal-palace-of-caserta",
+          "palace-of-versailles",
+          "neuschwanstein-castle"
         ]
       },
       "id": "lake-bled"
@@ -539,6 +539,8 @@
         "description": "Neuschwanstein Castle is a nineteenth-century Romanesque Revival palace on a rugged hill above the village of Hohenschwangau near Füssen in southwest Bavaria, Germany. The palace was commissioned by Ludwig II of Bavaria as a retreat and as an homage to Richard Wagner. Ludwig paid for the palace out of his personal fortune and by means of extensive borrowing, rather than Bavarian public funds.",
         "country": "Germany",
         "similarPlaces": [
+          "royal-palace-of-caserta",
+          "palace-of-versailles",
           "lake-bled",
           "eilean-donan"
         ]
@@ -602,6 +604,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.123162,
+          48.804404
+        ]
+      },
+      "properties": {
+        "name": "Palace of Versailles",
+        "countryCode": "FR",
+        "tags": [
+          "Man-Made",
+          "Castle",
+          "Park"
+        ],
+        "image": "palace-of-versailles.jpg",
+        "link": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+        "description": "The Palace of Versailles (château de Versailles) is a royal château in Versailles, some 20 kilometers southwest of Paris. The palace was built for the Bourbon kings of France in the 17th century, fell into disrepair following the French revolution, and is now a museum and tourist attraction. The palace exemplifies the opulence of the Ancien Régime and the extensive gardens are one of the finest extant examples of French garden design.",
+        "contributedBy": "JL",
+        "country": "France",
+        "similarPlaces": [
+          "royal-palace-of-caserta",
+          "neuschwanstein-castle",
+          "lake-bled",
+          "eilean-donan"
+        ]
+      },
+      "id": "palace-of-versailles"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -124.0259093,
           41.2187175
         ]
@@ -626,6 +659,37 @@
         ]
       },
       "id": "redwood-national-park"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3269,
+          41.0732
+        ]
+      },
+      "properties": {
+        "name": "Royal Palace of Caserta",
+        "countryCode": "IT",
+        "tags": [
+          "Man-Made",
+          "Castle",
+          "Park"
+        ],
+        "image": "royal-palace-of-caserta.jpg",
+        "link": "https://en.wikipedia.org/wiki/Palace_of_Caserta",
+        "description": "The Royal Palace of Caserta (Italian: Reggia di Caserta) is a former royal residence in Caserta, southern Italy, constructed for the Bourbon kings of Naples during the 18th century. The palace is a UNESCO World Heritage Site; its nomination described it as \"the swan song of the spectacular art of the Baroque, from which it adopted all the features needed to create the illusions of multidirectional space\".",
+        "contributedBy": "JL",
+        "country": "Italy",
+        "similarPlaces": [
+          "palace-of-versailles",
+          "neuschwanstein-castle",
+          "lake-bled",
+          "eilean-donan"
+        ]
+      },
+      "id": "royal-palace-of-caserta"
     },
     {
       "type": "Feature",
