@@ -24,7 +24,9 @@
         "country": "Peru",
         "similarPlaces": [
           "valle-de-cocora",
-          "lake_louise"
+          "lake_louise",
+          "jiu-zhai-gou",
+          "huang-shan-yellow-mountain"
         ]
       },
       "id": "ausangate"
@@ -253,10 +255,45 @@
           "skogafoss-waterfall",
           "niagara-falls",
           "leitisvatn-lake",
-          "durban-island"
+          "jiu-zhai-gou"
         ]
       },
       "id": "haifoss-waterfall"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.166667,
+          30.125
+        ]
+      },
+      "properties": {
+        "name": "Huang Shan",
+        "countryCode": "CN",
+        "tags": [
+          "UNESCO World Heritage Site",
+          "Nature",
+          "Mountains",
+          "Flora",
+          "Rock",
+          "Trees",
+          "Waterfall"
+        ],
+        "image": "huang-shan-yellow-mountain.jpg",
+        "link": "https://en.wikipedia.org/wiki/Huangshan",
+        "description": "Huangshan (黄山, literally \"Yellow Mountain\") is a mountain range in eastern China that is renowned for outstanding natural beauty, including ethereal seas of clouds, poetically named pines and rock formations, and hot springs with legendary histories. Huangshan is steeped in mythology and its beauty has inspired generations of Chinese artists. The mountain is also renowned for producing teas of high quality; it has been called one of China's premier tea growing mountains.",
+        "contributedBy": "JL",
+        "country": "China",
+        "similarPlaces": [
+          "jiu-zhai-gou",
+          "valle-de-cocora",
+          "socotra",
+          "redwood-national-park"
+        ]
+      },
+      "id": "huang-shan-yellow-mountain"
     },
     {
       "type": "Feature",
@@ -278,9 +315,50 @@
         "link": "https://en.wikipedia.org/wiki/Hv%C3%ADtserkur",
         "description": "Hvítserkur is a 15 m high basalt stack along the eastern shore of the Vatnsnes peninsula, in northwest Iceland. The rock has two holes at the base, which give it the appearance of a dragon who is drinking. The base of the stack has been reinforced with concrete to protect its foundations from the sea. Several species of birds, such as gulls and fulmars, live on at Hvítserkur and its name (\"white shirt\" in Icelandic) comes from the color of the guano deposited on its rocks.",
         "country": "Iceland",
-        "similarPlaces": []
+        "similarPlaces": [
+          "jiu-zhai-gou",
+          "huang-shan-yellow-mountain"
+        ]
       },
       "id": "hvitserkur"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9,
+          33.2
+        ]
+      },
+      "properties": {
+        "name": "Jiu Zhai Gou",
+        "countryCode": "CN",
+        "tags": [
+          "UNESCO World Heritage Site",
+          "Nature",
+          "Mountains",
+          "Flora",
+          "Rock",
+          "Trees",
+          "Waterfall",
+          "Park",
+          "Lake",
+          "Asian"
+        ],
+        "image": "jiu-zhai-gou.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jiuzhaigou",
+        "description": "Jiu Zhai Gou (九寨沟; literally \"Valley of Nine Fortified Villages\") is a national park and nature reserve on the edge of the Tibetan plateau; its elevation ranges from 2,000 to 4,500 meters. The park is known for its many multi-level waterfalls, colorful lakes, musical rapids and snow-capped peaks. The park is also home to a number of endangered plant and animal species, including the giant panda and rare orchids.",
+        "contributedBy": "JL",
+        "country": "China",
+        "similarPlaces": [
+          "huang-shan-yellow-mountain",
+          "valle-de-cocora",
+          "redwood-national-park",
+          "lake_louise"
+        ]
+      },
+      "id": "jiu-zhai-gou"
     },
     {
       "type": "Feature",
@@ -423,10 +501,10 @@
         "description": "Lake Louise has become symbolic of the quintessentially Canadian mountain scene. This alpine lake, known for its sparkling blue waters, is situated at the base of impressive glacier-clad peaks that have long been at the heart of Canadian mountaineering. At about 2.5 kilometres long and 90 metres deep, the lake offers a surreal paddling experience in the warm summer months and one of the most scenic skating rinks in the world in winter.",
         "country": "Canada",
         "similarPlaces": [
+          "jiu-zhai-gou",
           "valle-de-cocora",
-          "socotra",
-          "redwood-national-park",
-          "leitisvatn-lake"
+          "huang-shan-yellow-mountain",
+          "socotra"
         ]
       },
       "id": "lake_louise"
@@ -487,8 +565,8 @@
         "similarPlaces": [
           "lake-bled",
           "jodhpur",
-          "eilean-donan",
-          "chinatown-nyc"
+          "jiu-zhai-gou",
+          "eilean-donan"
         ]
       },
       "id": "mu-cang-chai"
@@ -514,7 +592,9 @@
         "link": "http://www.japan-guide.com/e/e4103.html",
         "description": "Nara Park (奈良公園, Nara Kōen) is a large park in central Nara. Established in 1880, it is the location of many of Nara's main attractions including Todaiji, Kasuga Taisha, Kofukuji and the Nara National Museum. The park is home to hundreds of freely roaming deer. Considered in Shinto to be messengers of the gods, Nara's nearly 1200 deer have become a symbol of the city and have even been designated as a natural treasure. Nara's deer are surprisingly tame, although they can be aggressive if they think you will feed them. Deer crackers are for sale around the park, and some deer have learned to bow to visitors to ask to be fed.",
         "country": "Japan",
-        "similarPlaces": []
+        "similarPlaces": [
+          "jiu-zhai-gou"
+        ]
       },
       "id": "nara-deer-park"
     },
@@ -569,6 +649,8 @@
         "country": "Canada",
         "similarPlaces": [
           "skogafoss-waterfall",
+          "jiu-zhai-gou",
+          "huang-shan-yellow-mountain",
           "haifoss-waterfall"
         ]
       },
@@ -653,9 +735,10 @@
         "description": "At least once in your lifetime, you need to visit the magnificent coastal redwoods of Humboldt County - to walk, explore and soak up the silence and grandeur of forests unlike any others in the world. Whether your tastes run to scenic drives or hiking trails, you’ll find plenty of choices in Redwood National & State Parks in the north county, or along the Avenue of the Giants and Humboldt Redwoods State Park in south county.",
         "country": "United States of America",
         "similarPlaces": [
+          "jiu-zhai-gou",
           "valle-de-cocora",
           "socotra",
-          "lake_louise"
+          "huang-shan-yellow-mountain"
         ]
       },
       "id": "redwood-national-park"
@@ -716,7 +799,7 @@
           "haifoss-waterfall",
           "niagara-falls",
           "leitisvatn-lake",
-          "durban-island"
+          "jiu-zhai-gou"
         ]
       },
       "id": "skogafoss-waterfall"
@@ -747,8 +830,8 @@
         "similarPlaces": [
           "valle-de-cocora",
           "redwood-national-park",
-          "lake_louise",
-          "kuramathi-island"
+          "jiu-zhai-gou",
+          "huang-shan-yellow-mountain"
         ]
       },
       "id": "socotra"
@@ -831,10 +914,10 @@
         "description": "The wax palm, the Colombian national tree, is obviously the main attraction here. It is the tallest palm in the world, growing up to 60 meters, while retaining the girth of any old palm, making for a very slender giant, an immense pole topped with a little crown of palm fronds. Their wide root systems make for an odd visual: palms shooting up hundreds of feet into the sky, all widely but evenly spaced apart, as if planted purposefully.",
         "country": "Colombia",
         "similarPlaces": [
+          "jiu-zhai-gou",
+          "huang-shan-yellow-mountain",
           "socotra",
-          "redwood-national-park",
-          "lake_louise",
-          "ausangate"
+          "redwood-national-park"
         ]
       },
       "id": "valle-de-cocora"

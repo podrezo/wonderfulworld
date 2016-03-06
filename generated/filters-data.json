@@ -16,6 +16,11 @@
       "quantity": 3
     },
     {
+      "countryCode": "CN",
+      "country": "China",
+      "quantity": 2
+    },
+    {
       "countryCode": "CO",
       "country": "Colombia",
       "quantity": 1
@@ -109,11 +114,23 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 22
+      "quantity": 24
     },
     {
       "tag": "Man-Made",
       "quantity": 10
+    },
+    {
+      "tag": "Trees",
+      "quantity": 6
+    },
+    {
+      "tag": "Mountains",
+      "quantity": 5
+    },
+    {
+      "tag": "Asian",
+      "quantity": 5
     },
     {
       "tag": "Island",
@@ -128,39 +145,31 @@
       "quantity": 5
     },
     {
+      "tag": "Waterfall",
+      "quantity": 5
+    },
+    {
+      "tag": "Flora",
+      "quantity": 5
+    },
+    {
+      "tag": "Park",
+      "quantity": 5
+    },
+    {
       "tag": "Beach",
       "quantity": 4
     },
     {
-      "tag": "Asian",
+      "tag": "Lake",
       "quantity": 4
-    },
-    {
-      "tag": "Trees",
-      "quantity": 4
-    },
-    {
-      "tag": "Park",
-      "quantity": 4
-    },
-    {
-      "tag": "Mountains",
-      "quantity": 3
     },
     {
       "tag": "Cave",
       "quantity": 3
     },
     {
-      "tag": "Waterfall",
-      "quantity": 3
-    },
-    {
-      "tag": "Lake",
-      "quantity": 3
-    },
-    {
-      "tag": "Flora",
+      "tag": "Rock",
       "quantity": 3
     },
     {
@@ -169,6 +178,10 @@
     },
     {
       "tag": "Cliffs",
+      "quantity": 2
+    },
+    {
+      "tag": "UNESCO World Heritage Site",
       "quantity": 2
     },
     {
@@ -181,10 +194,6 @@
     },
     {
       "tag": "Luxury",
-      "quantity": 1
-    },
-    {
-      "tag": "Rock",
       "quantity": 1
     },
     {
