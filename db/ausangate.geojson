@@ -13,8 +13,9 @@
       "Nature",
       "Mountains"
     ],
-    "image": "rainbow_mountains.jpg",
+    "image": ["rainbow_mountains.jpg"],
     "link": "http://www.flashpackerconnect.com/",
+    "contributedBy": "Petro Podrezo",
     "description": "Also called \"The Painted Mountains\" or \"Rainbow Mountains\" one look at them tells you where they get their name. These gorgeous pastel-colored mountains require a several day long trek through rough terrain, but it's well worth it for the view!"
   }
 }

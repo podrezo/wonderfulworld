@@ -8,8 +8,9 @@
     "name": "Lake Bled",
     "countryCode": "SI",
     "tags": ["Nature", "Man-Made", "Lake", "Castle"],
-    "image": "lake_bled.jpg",
+    "image": ["lake_bled.jpg"],
     "link": "http://www.bled.si/en/what-to-see/cultural-sights/churches/the-church-on-the-island",
+    "contributedBy": "Petro Podrezo",
     "description": "According to a legend which stayed with the people, the temple of the ancient Slavic goddess Živa, once stood in the place of the present Baroque church. The temple disappeared during battles between the followers of the pagan religion and Christians, who destroyed the altar and built a church."
   }
 }

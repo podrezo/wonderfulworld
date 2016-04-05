@@ -16,8 +16,9 @@
       "Mountains",
       "Trees"
     ],
-    "image": "lake_louise.jpg",
+    "image": ["lake_louise.jpg"],
     "link": "https://en.wikipedia.org/wiki/Lake_Louise,_Alberta",
+    "contributedBy": "Petro Podrezo",
     "description": "Lake Louise has become symbolic of the quintessentially Canadian mountain scene. This alpine lake, known for its sparkling blue waters, is situated at the base of impressive glacier-clad peaks that have long been at the heart of Canadian mountaineering. At about 2.5 kilometres long and 90 metres deep, the lake offers a surreal paddling experience in the warm summer months and one of the most scenic skating rinks in the world in winter."
   }
 }

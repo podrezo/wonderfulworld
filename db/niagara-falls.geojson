@@ -8,8 +8,9 @@
     "name": "Niagara Falls",
     "countryCode": "CA",
     "tags": ["Nature", "Waterfall"],
-    "image": "niagara.jpg",
+    "image": ["niagara.jpg"],
     "link": "http://www.niagarafallstourism.com/",
+    "contributedBy": "Petro Podrezo",
     "description": "Famous, towering waterfalls at the boundary of Canada & the United States, with tours & boat rides."
   }
 }

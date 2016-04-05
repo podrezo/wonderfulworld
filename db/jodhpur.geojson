@@ -8,8 +8,9 @@
     "name": "Jodhpur",
     "countryCode": "IN",
     "tags": ["Man-Made", "Asian", "City"],
-    "image": "jodhpur.jpg",
+    "image": ["jodhpur.jpg"],
     "link": "https://en.wikivoyage.org/wiki/Jodhpur",
+    "contributedBy": "Petro Podrezo",
     "description": "Jodhpur is also known as the Blue City, an apt name as most houses in the old city are shades of blue. This is particularly noticeable on the north side of the town, known as Brahmpuri for the many Brahmins that live there."
   }
 }

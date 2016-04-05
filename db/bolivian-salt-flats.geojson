@@ -14,8 +14,9 @@
       "Nature",
       "Salt Flats"
     ],
-    "image": "bolivian-salt-flats.jpg",
+    "image": ["bolivian-salt-flats.jpg"],
     "link": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+    "contributedBy": "Petro Podrezo",
     "description": "The reflective surface of the world's largest salt mine is like something from the imagination of Salvador Dali."
   }
 }

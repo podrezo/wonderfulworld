@@ -8,8 +8,9 @@
     "name": "Chinatown NYC",
     "countryCode": "US",
     "tags": ["Man-Made", "Asian", "City"],
-    "image": "chinatown_nyc.jpg",
+    "image": ["chinatown_nyc.jpg"],
     "link": "https://www.tripadvisor.ca/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
+    "contributedBy": "Petro Podrezo",
     "description": "One of the most iconic chinatowns in the world."
   }
 }

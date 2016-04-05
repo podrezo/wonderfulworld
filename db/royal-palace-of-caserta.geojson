@@ -15,7 +15,7 @@
       "Castle",
       "Park"
     ],
-    "image": "royal-palace-of-caserta.jpg",
+    "image": ["royal-palace-of-caserta.jpg"],
     "link": "https://en.wikipedia.org/wiki/Palace_of_Caserta",
     "description": "The Royal Palace of Caserta (Italian: Reggia di Caserta) is a former royal residence in Caserta, southern Italy, constructed for the Bourbon kings of Naples during the 18th century. The palace is a UNESCO World Heritage Site; its nomination described it as \"the swan song of the spectacular art of the Baroque, from which it adopted all the features needed to create the illusions of multidirectional space\".",
     "contributedBy": "JL"

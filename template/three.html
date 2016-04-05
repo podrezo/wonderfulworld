@@ -19,7 +19,7 @@
 <!-- Projects Row -->
 <div class="row" ng-repeat="row in places" ng-show="totalItems">
   <div class="col-md-4 portfolio-item" ng-repeat="place in row">
-    <div image-with-placeholder sref-route-name="place" sref-route-params="{id:place.id}" image-path="/wonderfulworld/img/places/{{place.properties.image}}" alt-text="{{place.properties.name}}"></div>
+    <div image-with-placeholder sref-route-name="place" sref-route-params="{id:place.id}" image-path="/wonderfulworld/img/places/{{place.properties.image[0]}}" alt-text="{{place.properties.name}}"></div>
     <h3 class="small-caps">
       <span flag country-code="place.properties.countryCode" size="24"></span> <a ui-sref="place({id:place.id})">{{place.properties.name}}</a>
     </h3>

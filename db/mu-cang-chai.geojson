@@ -16,8 +16,9 @@
       "Asian",
       "Man-Made"
     ],
-    "image": "mu-cang-chai.jpg",
+    "image": ["mu-cang-chai.jpg"],
     "link": "https://en.wikipedia.org/wiki/M%C3%B9_Cang_Ch%E1%BA%A3i_District",
+    "contributedBy": "Petro Podrezo",
     "description": "Mù Cang Chải manages to be one of the most breathtaking spots in Vietnam, with terraced rice fields and mountainous landscapes."
   }
 }
