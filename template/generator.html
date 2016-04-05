@@ -25,37 +25,44 @@
   <div class="row">
     <div class="col-md-6">
       <div class="form-group">
-        <label for="placeName">Location Name</label>
-        <input autocomplete="off" type="text" class="form-control" id="placeName" placeholder="Name (e.g. Niagara Falls)" ng-model="place.properties.name">
+        <label for="placeName"><span class="glyphicon glyphicon-flag"></span> Location Name (Use the English/Romanized name)</label>
+        <input autocomplete="off" type="text" class="form-control" id="placeName" placeholder="Name (e.g. Niagara Falls)" ng-model="place.properties.name" maxlength="25">
       </div>
       <div class="form-group">
-        <label for="placeLongitude">Longitude (Decimal): {{friendlyLon}}</label>
-        <input autocomplete="off" type="number" class="form-control" id="placeLongitude" placeholder="Longitude" ng-model="place.geometry.coordinates[0]" ng-pattern="onlyDecimalCoordinate">
+        <label for="placeLongitude"><span class="glyphicon glyphicon-resize-horizontal"></span> Longitude (Keep it as precise as possible! decimal format)</label>
+        <input autocomplete="off" type="number" step="any" class="form-control" id="placeLongitude" placeholder="Longitude" ng-model="place.geometry.coordinates[0]" ng-pattern="onlyDecimalCoordinate">
       </div>
       <div class="form-group">
-        <label for="placeLatitude">Latitude (Decimal): {{friendlyLat}}</label>
-        <input autocomplete="off" type="number" class="form-control" id="placeLatitude" placeholder="Latitude" ng-model="place.geometry.coordinates[1]" ng-pattern="onlyDecimalCoordinate">
+        <label for="placeLatitude"><span class="glyphicon glyphicon-resize-vertical"></span> Latitude (Keep it as precise as possible! decimal format)</label>
+        <input autocomplete="off" type="number" step="any" class="form-control" id="placeLatitude" placeholder="Latitude" ng-model="place.geometry.coordinates[1]" ng-pattern="onlyDecimalCoordinate">
       </div>
       <div class="form-group">
-        <label for="placeElevation">Elevation (Optional)</label>
+        <label for="placeElevation"><span class="glyphicon glyphicon-plane"></span> Elevation in meters (Optional; leave zero if not desired)</label>
         <input autocomplete="off" type="number" class="form-control" id="placeElevation" placeholder="Elevation (meters)" ng-model="place.geometry.coordinates[2]">
       </div>
       <div class="form-group">
-        <label for="placeLink">Third-party Link (e.g. Wikipedia)</label>
+        <label for="placeLink"><span class="glyphicon glyphicon-link"></span> Third-party Link (e.g. Wikipedia)</label>
         <input autocomplete="off" type="text" class="form-control" id="placeLink" placeholder="Link to thid party site" ng-model="place.properties.link">
       </div>
       <div class="form-group">
-        <label for="placeCountry">Country</label>
+        <label for="placeCountry"><span flag country-code="place.properties.countryCode"></span> Country</label>
         <select id="placeCountry" ng-model="place.properties.countryCode" class="form-control">
           <option ng-repeat="entry in countries" value="{{entry['alpha-2']}}">{{entry.name}} ({{entry['alpha-2']}})</option>
         </select>
       </div>
+      <div class="form-group">
+        <label for="contributedBy"><span class="glyphicon glyphicon-user"></span> Contributed By (Your name, if you want credit - optional)</label>
+        <input autocomplete="off" type="text" class="form-control" id="contributedBy" placeholder="John Smith" ng-model="place.properties.contributedBy">
+      </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 well">
       <div class="col-lg-12" id="map" style="height: 20em;"></div>
+      <div class="col-lg-12" id="friendlyCoords">
+        <p class="text-center lead" style="margin: 1em 0 0 0">{{friendlyLon}} / {{friendlyLat}}</p>
+      </div>
     </div>
-    <div class="col-md-12">
-      <p><strong>Tags</strong></p>
+    <div class="col-md-12 well">
+      <p><strong><span class="glyphicon glyphicon-tags"></span> Tags</strong></p>
       <label class="checkbox-inline" ng-repeat="tagSuggestion in tagSuggestions">
         <input type="checkbox" id="check_tag_{{tagSuggestion.tag}}" value="{{tagSuggestion.tag}}" ng-click="toggleTag(tagSuggestion.tag)" ng-checked="{{tagSuggestion.alreadyChecked}}"> {{tagSuggestion.tag}}
       </label>
@@ -66,8 +73,8 @@
     </div>
     <div class="col-md-12">
       <div class="form-group">
-        <label for="placeDescription">Description</label>
-        <textarea autocomplete="off" class="form-control" id="placeDescription" placeholder="A short description of the location" ng-model="place.properties.description" rows="10"></textarea>
+        <label for="placeDescription"><span class="glyphicon glyphicon-pencil"></span> Description</label>
+        <textarea autocomplete="off" class="form-control" id="placeDescription" placeholder="A short description of the location; put the non-romanized version of the place name here if it has one." ng-model="place.properties.description" rows="10"></textarea>
         <p class="help-block">The description should ideally be around 400 characters long. You currently have <strong>{{place.properties.description.length}}</strong> characters.</p>
       </div>
     </div>
