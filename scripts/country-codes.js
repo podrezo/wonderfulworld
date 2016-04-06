@@ -485,7 +485,7 @@ module.exports = [{
   "alpha-2": "KG",
   "country-code": "417"
 }, {
-  "name": "Lao People's Democratic Republic",
+  "name": "Laos",
   "alpha-2": "LA",
   "country-code": "418"
 }, {
