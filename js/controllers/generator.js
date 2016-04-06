@@ -1002,6 +1002,41 @@
           "country-code": "716"
         }
       ];
+
+      var autocomplete = new google.maps.places.Autocomplete(document.getElementById("placeName"));
+
+      autocomplete.addListener('place_changed', function() {
+          var place = autocomplete.getPlace();
+          if (!place.geometry) {
+            window.alert("Autocomplete's returned place contains no geometry");
+            return;
+          }
+          else{
+            $scope.place.geometry.coordinates[0] = place.geometry.location.lng();
+            $scope.place.geometry.coordinates[1] = place.geometry.location.lat();
+            $scope.friendlyLon = util.getDD2DMS(place.geometry.location.lng(),'lon');
+            $scope.friendlyLat = util.getDD2DMS(place.geometry.location.lat(),'lat');
+            $scope.updateModel();
+            $scope.remapCoords();
+            $scope.place.properties.countryCode = getAddressComponent(place, "country", "short");
+            $scope.$apply();
+
+            var elevationService = new google.maps.ElevationService;
+            elevationService.getElevationForLocations({
+               'locations': [place.geometry.location]
+             }, function(results, status) {
+               if (status === google.maps.ElevationStatus.OK) {
+                 // Retrieve the first result
+                 if (results[0]) {
+                    $scope.place.geometry.coordinates[2]= results[0].elevation;
+                    $scope.$apply();
+                 }
+              } else {
+               console.log('Elevation service failed due to: ' + status);
+              }
+            });
+          }
+      });
       // restrictions
       $scope.onlyDecimalCoordinate = /-?\d+(.\d+)?/;
       // load map
@@ -1105,6 +1140,19 @@
         downloadButton.download = ($scope.place.properties.name || 'Unnamed Location')+'.geojson';
       };
       $scope.updateModel();
+
+      <!-- From stackoverflow http://stackoverflow.com/a/31544361 -->
+      function getAddressComponent(address, component, type) {
+      var element = null;
+      angular.forEach(address.address_components, function (address_component) {
+        if (address_component.types[0] == component) {
+          element = (type == 'short') ? address_component.short_name : address_component.long_name;
+        }
+      });
+
+      return element;
+}
     }
+
   ]);
 })();
