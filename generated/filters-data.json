@@ -66,6 +66,11 @@
       "quantity": 1
     },
     {
+      "countryCode": "LA",
+      "country": "Laos",
+      "quantity": 1
+    },
+    {
       "countryCode": "MV",
       "country": "Maldives",
       "quantity": 1
@@ -114,7 +119,7 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 24
+      "quantity": 25
     },
     {
       "tag": "Man-Made",
@@ -122,14 +127,18 @@
     },
     {
       "tag": "Trees",
+      "quantity": 7
+    },
+    {
+      "tag": "Asian",
+      "quantity": 6
+    },
+    {
+      "tag": "Waterfall",
       "quantity": 6
     },
     {
       "tag": "Mountains",
-      "quantity": 5
-    },
-    {
-      "tag": "Asian",
       "quantity": 5
     },
     {
@@ -142,10 +151,6 @@
     },
     {
       "tag": "Castle",
-      "quantity": 5
-    },
-    {
-      "tag": "Waterfall",
       "quantity": 5
     },
     {
@@ -198,6 +203,10 @@
     },
     {
       "tag": "Ice",
+      "quantity": 1
+    },
+    {
+      "tag": "Swim",
       "quantity": 1
     },
     {
