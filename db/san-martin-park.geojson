@@ -1,0 +1,25 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -68.870656,
+      -32.889339
+    ]
+  },
+  "properties": {
+    "name": "San Martin Park",
+    "countryCode": "AR",
+    "tags": [
+      "Man-Made",
+      "Trees",
+      "Park"
+    ],
+    "image": [
+      "san-martin-park.jpg"
+    ],
+    "link": "https://en.wikipedia.org/wiki/General_San_Mart%C3%ADn_Park",
+    "contributedBy": "Petro Podrezo",
+    "description": "The Parque General San Martín is a park located in the city of Mendoza, Argentina."
+  }
+}

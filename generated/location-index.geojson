@@ -100,6 +100,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.0456728,
+          50.7036647
+        ]
+      },
+      "properties": {
+        "name": "Bonn",
+        "countryCode": "DE",
+        "tags": [
+          "Nature",
+          "Man-Made",
+          "Trees",
+          "Flora",
+          "City",
+          "Seasonal"
+        ],
+        "image": [
+          "bonn.jpg"
+        ],
+        "link": "http://www.huffingtonpost.com/2014/04/18/cherry-blossoms-bonn_n_5173659.html",
+        "contributedBy": "Petro Podrezo",
+        "description": "This German city has a fantastic display of cherry blossom trees when in season.",
+        "country": "Germany",
+        "similarPlaces": [
+          "valle-de-cocora",
+          "socotra",
+          "redwood-national-park",
+          "jiu-zhai-gou"
+        ]
+      },
+      "id": "bonn"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.9990695843119,
           40.71608574530205
         ]
@@ -121,7 +157,8 @@
         "country": "United States of America",
         "similarPlaces": [
           "jodhpur",
-          "mu-cang-chai"
+          "mu-cang-chai",
+          "bonn"
         ]
       },
       "id": "chinatown-nyc"
@@ -422,7 +459,8 @@
         "country": "India",
         "similarPlaces": [
           "chinatown-nyc",
-          "mu-cang-chai"
+          "mu-cang-chai",
+          "bonn"
         ]
       },
       "id": "jodhpur"
@@ -812,9 +850,9 @@
         "country": "France",
         "similarPlaces": [
           "royal-palace-of-caserta",
+          "san-martin-park",
           "neuschwanstein-castle",
-          "lake-bled",
-          "eilean-donan"
+          "lake-bled"
         ]
       },
       "id": "palace-of-versailles"
@@ -879,12 +917,45 @@
         "country": "Italy",
         "similarPlaces": [
           "palace-of-versailles",
+          "san-martin-park",
           "neuschwanstein-castle",
-          "lake-bled",
-          "eilean-donan"
+          "lake-bled"
         ]
       },
       "id": "royal-palace-of-caserta"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.870656,
+          -32.889339
+        ]
+      },
+      "properties": {
+        "name": "San Martin Park",
+        "countryCode": "AR",
+        "tags": [
+          "Man-Made",
+          "Trees",
+          "Park"
+        ],
+        "image": [
+          "san-martin-park.jpg"
+        ],
+        "link": "https://en.wikipedia.org/wiki/General_San_Mart%C3%ADn_Park",
+        "contributedBy": "Petro Podrezo",
+        "description": "The Parque General San Martín is a park located in the city of Mendoza, Argentina.",
+        "country": "Argentina",
+        "similarPlaces": [
+          "royal-palace-of-caserta",
+          "redwood-national-park",
+          "palace-of-versailles",
+          "jiu-zhai-gou"
+        ]
+      },
+      "id": "san-martin-park"
     },
     {
       "type": "Feature",

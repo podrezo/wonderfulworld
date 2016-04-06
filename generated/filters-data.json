@@ -1,6 +1,11 @@
 {
   "countries": [
     {
+      "countryCode": "AR",
+      "country": "Argentina",
+      "quantity": 1
+    },
+    {
       "countryCode": "AU",
       "country": "Australia",
       "quantity": 1
@@ -38,7 +43,7 @@
     {
       "countryCode": "DE",
       "country": "Germany",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "countryCode": "HN",
@@ -119,15 +124,19 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 25
+      "quantity": 26
     },
     {
       "tag": "Man-Made",
-      "quantity": 10
+      "quantity": 12
     },
     {
       "tag": "Trees",
-      "quantity": 7
+      "quantity": 9
+    },
+    {
+      "tag": "Flora",
+      "quantity": 6
     },
     {
       "tag": "Asian",
@@ -135,6 +144,10 @@
     },
     {
       "tag": "Waterfall",
+      "quantity": 6
+    },
+    {
+      "tag": "Park",
       "quantity": 6
     },
     {
@@ -154,14 +167,6 @@
       "quantity": 5
     },
     {
-      "tag": "Flora",
-      "quantity": 5
-    },
-    {
-      "tag": "Park",
-      "quantity": 5
-    },
-    {
       "tag": "Beach",
       "quantity": 4
     },
@@ -174,12 +179,12 @@
       "quantity": 3
     },
     {
-      "tag": "Rock",
+      "tag": "City",
       "quantity": 3
     },
     {
-      "tag": "City",
-      "quantity": 2
+      "tag": "Rock",
+      "quantity": 3
     },
     {
       "tag": "Cliffs",
@@ -191,6 +196,10 @@
     },
     {
       "tag": "Salt Flats",
+      "quantity": 1
+    },
+    {
+      "tag": "Seasonal",
       "quantity": 1
     },
     {

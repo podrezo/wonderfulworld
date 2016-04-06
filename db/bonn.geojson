@@ -1,0 +1,28 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0456728,
+      50.7036647
+    ]
+  },
+  "properties": {
+    "name": "Bonn",
+    "countryCode": "DE",
+    "tags": [
+      "Nature",
+      "Man-Made",
+      "Trees",
+      "Flora",
+      "City",
+      "Seasonal"
+    ],
+    "image": [
+      "bonn.jpg"
+    ],
+    "link": "http://www.huffingtonpost.com/2014/04/18/cherry-blossoms-bonn_n_5173659.html",
+    "contributedBy": "Petro Podrezo",
+    "description": "This German city has a fantastic display of cherry blossom trees when in season."
+  }
+}
