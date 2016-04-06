@@ -10,14 +10,29 @@
 <div class="row">
 
   <div class="col-md-8">
-    <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{place.properties.image[0]}}" alt="{{place.properties.name}}">
+    <img class="img-responsive" ng-src="/wonderfulworld/img/places/{{image}}" alt="{{place.properties.name}}">
   </div>
 
   <div class="col-md-4">
-    <p>{{place.properties.description}}</p>
+    <p>{{place.properties.description}} <em ng-show="place.properties.contributedBy">Contributed by {{place.properties.contributedBy}}.</em></p>
     <p><span ng-repeat="tag in place.properties.tags"><span class="label label-default">{{tag}}</span> </span></p>
   </div>
 
+</div>
+<!-- /.row -->
+
+<!-- Additional images -->
+<div class="row" ng-show="place.properties.image.length > 1">
+  <div class="col-lg-12">
+    <h3 class="page-header">Additional Images (click to view)</h3>
+  </div>
+  <div class="col-md-3 portfolio-item" ng-repeat="image in place.properties.image">
+    <a class="thumbnail" ng-click="showImage(image)">
+      <div class="image-placeholder-inner">
+        <img class="img-responsive image-placeholder" ng-src="/wonderfulworld/img/places/{{image}}" alt="{{image}}">
+      </div>
+    </a>
+  </div>
 </div>
 <!-- /.row -->
 
@@ -35,22 +50,10 @@
 <!-- /.row -->
 
 <!-- Details -->
-<div class="row extra-vertical">
-  <div class="col-lg-12">
-    <div class="well">
-      <h3>More Info</h3>
-      <dl>
-        <dt>GPS Coordinates (Degree notation)</dt>
-        <dd>Longitude: {{friendlyLon}}, Latitude: {{friendlyLat}}</dd>
-        <dt>GPS Coordinates (Decimal notation)</dt>
-        <dd>Longitude: {{place.geometry.coordinates[0]}}, Latitude: {{place.geometry.coordinates[1]}}</dd>
-        <dt>External Link</dt>
-        <dd><a target="_blank" ng-href="{{place.properties.link}}"><span class="glyphicon glyphicon-link"></span> {{place.properties.link | cut:true:35}}</a></dd>
-        <dt>Google Maps Link</dt>
-        <dd><a class="btn btn-primary" target="_blank" ng-href="http://www.google.com/maps/place/{{place.geometry.coordinates[1]}},{{place.geometry.coordinates[0]}}"><span class="glyphicon glyphicon-map-marker"></span> Show on Google Maps</a></dd>
-      </dl>
-    </div>
-  </div>
+<div class="row extra-vertical text-center">
+  <a class="btn btn-default" target="_blank" ng-href="/wonderfulworld/db/{{place.properties.name}}.geojson"><span class="glyphicon glyphicon-save"></span> Download as GeoJSON Object</a>
+  <a class="btn btn-default" target="_blank" ng-href="{{place.properties.link}}"><span class="glyphicon glyphicon-link"></span> More info at {{place.properties.link | cut:true:25}}</a>
+  <a class="btn btn-primary" target="_blank" ng-href="http://www.google.com/maps/place/{{place.geometry.coordinates[1]}},{{place.geometry.coordinates[0]}}"><span class="glyphicon glyphicon-map-marker"></span> Show on Google Maps</a>
 </div>
 <!-- /.row -->
 
@@ -63,7 +66,7 @@
 
   <div class="col-sm-3 col-xs-6" ng-repeat="similarPlace in similarPlaces">
     <a href="#/place/{{similarPlace.id}}">
-      <img class="img-responsive portfolio-item" ng-src="/wonderfulworld/img/places/{{similarplace.properties.image[0]}}" alt="{{similarPlace.properties.name}}">
+      <img class="img-responsive portfolio-item" ng-src="/wonderfulworld/img/places/{{similarPlace.properties.image[0]}}" alt="{{similarPlace.properties.name}}">
     </a>
   </div>
 

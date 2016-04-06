@@ -8,6 +8,7 @@
         $scope.place = _.findWhere(db, {
           id: $stateParams.id
         });
+        $scope.image = $scope.place.properties.image[0];
         $scope.friendlyLat = util.getDD2DMS($scope.place.geometry.coordinates[1],'lat');
         $scope.friendlyLon = util.getDD2DMS($scope.place.geometry.coordinates[0],'lon');
         if ($scope.place) {
@@ -35,6 +36,9 @@
           alert('Invalid ID'); // TODO Do something better here
         }
       });
+      $scope.showImage = function(imageFile) {
+        $scope.image = imageFile;
+      };
     }
   ]);
 })();
