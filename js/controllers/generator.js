@@ -1024,7 +1024,7 @@
           'name': '',
           'countryCode': 'CA',
           'tags': [],
-          'images': [],
+          'image': [],
           'link': '',
           'contributedBy': '',
           'description': ''
@@ -1094,7 +1094,7 @@
           delete pl.properties.contributedBy;
         }
         // set image name to something based on the location name
-        pl.properties.images = [pl.properties.name.toLowerCase().replace(' ','-') + '.jpg'];
+        pl.properties.image = [pl.properties.name.toLowerCase().replace(' ','-') + '.jpg'];
         return pl;
       };
       $scope.updateModel = function() {
