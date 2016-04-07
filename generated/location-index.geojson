@@ -16,7 +16,8 @@
         "countryCode": "PE",
         "tags": [
           "Nature",
-          "Mountains"
+          "Mountains",
+          "Remote"
         ],
         "image": [
           "rainbow_mountains.jpg"
@@ -27,9 +28,9 @@
         "country": "Peru",
         "similarPlaces": [
           "valle-de-cocora",
+          "leitisvatn-lake",
           "lake_louise",
-          "jiu-zhai-gou",
-          "huang-shan-yellow-mountain"
+          "jokulsarlon-beach"
         ]
       },
       "id": "ausangate"
@@ -209,7 +210,8 @@
         "tags": [
           "Nature",
           "Island",
-          "Nordic"
+          "Nordic",
+          "Remote"
         ],
         "image": [
           "durban_island.jpg"
@@ -219,10 +221,10 @@
         "description": "Durban Island is a Canadian Arctic island located in Nunavut, Canada. It is one of Baffin Island's northeast offshore islands within Davis Strait's Merchants Bay. It is 36 km2 (14 sq mi) in size. Durban Harbour is on the island's southeast facing side. Nearby can be found the larger Padloping Island, and Auyuittuq National Park Reserve is also to the west on Baffin Island.",
         "country": "Canada",
         "similarPlaces": [
-          "socotra",
-          "skogafoss-waterfall",
           "leitisvatn-lake",
-          "kuramathi-island"
+          "french-southern-and-antarctic-lands",
+          "socotra",
+          "skogafoss-waterfall"
         ]
       },
       "id": "durban-island"
@@ -290,6 +292,42 @@
         ]
       },
       "id": "ellisons-cave"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.34855700000003,
+          -49.280366,
+          284.1231994628906
+        ]
+      },
+      "properties": {
+        "name": "French Southern Territories",
+        "countryCode": "TF",
+        "tags": [
+          "Nature",
+          "Remote",
+          "Island"
+        ],
+        "image": [
+          "fsal-01.jpg",
+          "fsal-02.jpg",
+          "fsal-03.jpg"
+        ],
+        "link": "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands",
+        "contributedBy": "Petro Podrezo",
+        "description": "The Southern Lands consist of two archipelagos, Iles Crozet and Iles Kerguelen, and two volcanic islands, Ile Amsterdam and Ile Saint-Paul. They have no permanent inhabitants and are visited only by researchers studying the native fauna. The \"Antarctic Lands\" portion consists of Adelie Land, a thin slice of the Antarctic continent discovered and claimed by the French in 1840, and set aside by the Antarctic Treaty.",
+        "country": "French Southern Territories",
+        "similarPlaces": [
+          "durban-island",
+          "socotra",
+          "leitisvatn-lake",
+          "kuramathi-island"
+        ]
+      },
+      "id": "french-southern-and-antarctic-lands"
     },
     {
       "type": "Feature",
@@ -480,7 +518,8 @@
         "tags": [
           "Nature",
           "Beach",
-          "Ice"
+          "Ice",
+          "Remote"
         ],
         "image": [
           "jokulsarlon.jpg"
@@ -491,8 +530,9 @@
         "country": "Iceland",
         "similarPlaces": [
           "sorrento-beach",
+          "leitisvatn-lake",
           "kuramathi-island",
-          "benagil-sea-cave"
+          "french-southern-and-antarctic-lands"
         ]
       },
       "id": "jokulsarlon-beach"
@@ -561,7 +601,7 @@
           "sorrento-beach",
           "socotra",
           "jokulsarlon-beach",
-          "eilean-donan"
+          "french-southern-and-antarctic-lands"
         ]
       },
       "id": "kuramathi-island"
@@ -650,7 +690,8 @@
           "Nature",
           "Nordic",
           "Cliffs",
-          "Lake"
+          "Lake",
+          "Remote"
         ],
         "image": [
           "leitisvatn-lake.jpg"
@@ -660,10 +701,10 @@
         "description": "The name Leitisvatn means \"The lake by Leiti\" (the name of the east side of the lake). The lake is located very close to the ocean, but its surface is about 30 meters above the level of sea. It is surrounded by a higher cliff which prevents it from emptying into the ocean. The water exit is the waterfall Bøsdalafossur.",
         "country": "Faroe Islands",
         "similarPlaces": [
+          "durban-island",
           "dover",
           "skogafoss-waterfall",
-          "lake_louise",
-          "lake-bled"
+          "lake_louise"
         ]
       },
       "id": "leitisvatn-lake"

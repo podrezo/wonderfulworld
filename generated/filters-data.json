@@ -41,6 +41,11 @@
       "quantity": 1
     },
     {
+      "countryCode": "TF",
+      "country": "French Southern Territories",
+      "quantity": 1
+    },
+    {
       "countryCode": "DE",
       "country": "Germany",
       "quantity": 2
@@ -124,7 +129,7 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 26
+      "quantity": 27
     },
     {
       "tag": "Man-Made",
@@ -143,6 +148,10 @@
       "quantity": 6
     },
     {
+      "tag": "Island",
+      "quantity": 6
+    },
+    {
       "tag": "Waterfall",
       "quantity": 6
     },
@@ -155,7 +164,7 @@
       "quantity": 5
     },
     {
-      "tag": "Island",
+      "tag": "Remote",
       "quantity": 5
     },
     {

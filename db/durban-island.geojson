@@ -7,7 +7,7 @@
   "properties": {
     "name": "Durban Island",
     "countryCode": "CA",
-    "tags": ["Nature", "Island", "Nordic"],
+    "tags": ["Nature", "Island", "Nordic", "Remote"],
     "image": ["durban_island.jpg"],
     "link": "https://en.wikipedia.org/wiki/Durban_Island",
     "contributedBy": "Petro Podrezo",

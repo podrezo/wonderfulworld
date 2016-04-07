@@ -1,0 +1,28 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      69.34855700000003,
+      -49.280366,
+      284.1231994628906
+    ]
+  },
+  "properties": {
+    "name": "French Southern Territories",
+    "countryCode": "TF",
+    "tags": [
+      "Nature",
+      "Remote",
+      "Island"
+    ],
+    "image": [
+      "fsal-01.jpg",
+      "fsal-02.jpg",
+      "fsal-03.jpg"
+    ],
+    "link": "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands",
+    "contributedBy": "Petro Podrezo",
+    "description": "The Southern Lands consist of two archipelagos, Iles Crozet and Iles Kerguelen, and two volcanic islands, Ile Amsterdam and Ile Saint-Paul. They have no permanent inhabitants and are visited only by researchers studying the native fauna. The \"Antarctic Lands\" portion consists of Adelie Land, a thin slice of the Antarctic continent discovered and claimed by the French in 1840, and set aside by the Antarctic Treaty."
+  }
+}
