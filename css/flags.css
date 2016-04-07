@@ -414,6 +414,13 @@
     background-position: -112px -16px;
 }
 
+/* French Southern Territories; technically they have their own flag but... whatever, nobody lives there! */
+.flag-16-tf {
+    width: 16px;
+    height: 16px;
+    background-position: -112px -16px;
+}
+
 .flag-16-ga {
     width: 16px;
     height: 16px;
@@ -1753,6 +1760,13 @@
 }
 
 .flag-24-fr {
+    width: 24px;
+    height: 24px;
+    background-position: -408px -96px;
+}
+
+/* French Southern Territories; technically they have their own flag but... whatever, nobody lives there! */
+.flag-24-tf {
     width: 24px;
     height: 24px;
     background-position: -408px -96px;
@@ -3102,6 +3116,13 @@
     background-position: -576px -256px;
 }
 
+/* French Southern Territories; technically they have their own flag but... whatever, nobody lives there! */
+.flag-32-tf {
+    width: 32px;
+    height: 32px;
+    background-position: -576px -256px;
+}
+
 .flag-32-ga {
     width: 32px;
     height: 32px;
@@ -4441,6 +4462,13 @@
 }
 
 .flag-48-fr {
+    width: 48px;
+    height: 48px;
+    background-position: -192px -608px;
+}
+
+/* French Southern Territories; technically they have their own flag but... whatever, nobody lives there! */
+.flag-48-tf {
     width: 48px;
     height: 48px;
     background-position: -192px -608px;
