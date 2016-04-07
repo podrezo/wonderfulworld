@@ -1012,6 +1012,7 @@
             return;
           }
           else{
+            $scope.place.properties.name = place.name;
             $scope.place.geometry.coordinates[0] = place.geometry.location.lng();
             $scope.place.geometry.coordinates[1] = place.geometry.location.lat();
             $scope.friendlyLon = util.getDD2DMS(place.geometry.location.lng(),'lon');
@@ -1117,6 +1118,10 @@
         });
       };
       var downloadButton = document.getElementById('downloadBlobButton');
+      // Based on the place's name, get the suggested file name that it should be saved as
+      $scope.getSuggestedPlaceFileName = function() {
+        return $scope.place.properties.name.toLowerCase().replace(/\s+/g,'-');
+      };
       // returns a shadow copy of $scope.place with all variables adjusted for 'niceness'
       $scope.shadowCopy = function() {
         var pl = angular.copy($scope.place);
@@ -1129,7 +1134,7 @@
           delete pl.properties.contributedBy;
         }
         // set image name to something based on the location name
-        pl.properties.image = [pl.properties.name.toLowerCase().replace(' ','-') + '.jpg'];
+        pl.properties.image = [$scope.getSuggestedPlaceFileName() + '.jpg'];
         return pl;
       };
       $scope.updateModel = function() {
@@ -1137,7 +1142,7 @@
         var toDownload = new Blob([$scope.placeGeoJson],{type:'application/octet-stream'});
         var link = window.URL.createObjectURL(toDownload);
         downloadButton.href = link;
-        downloadButton.download = ($scope.place.properties.name || 'Unnamed Location')+'.geojson';
+        downloadButton.download = ($scope.getSuggestedPlaceFileName() || 'unnamed')+'.geojson';
       };
       $scope.updateModel();
 
