@@ -137,6 +137,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          34.842431600000054,
+          38.645974,
+          1107.214111328125
+        ]
+      },
+      "properties": {
+        "name": "Cappadocia",
+        "countryCode": "TR",
+        "tags": [
+          "Nature",
+          "Rock",
+          "Cliffs",
+          "Town",
+          "Mountains",
+          "UNESCO World Heritage Site"
+        ],
+        "image": [
+          "cappadocia-01.jpg",
+          "cappadocia-02.jpg",
+          "cappadocia-03.jpg",
+          "cappadocia-04.jpg"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Cappadocia",
+        "contributedBy": "Sarene",
+        "description": "In a spectacular landscape, entirely sculpted by erosion, the Göreme valley and its surroundings contain rock-hewn sanctuaries that provide unique evidence of Byzantine art in the post-Iconoclastic period. The density of its rock-hewn dwellings, churches, troglodyte villages and subterranean cities within the rock formations make it one of the world's most striking and largest cave-dwelling complexes. Though interesting from a geological and ethnological point of view, the incomparable beauty of the decor of the Christian sanctuaries makes Cappadocia one of the leading examples of the post-iconoclastic Byzantine art period, some dating back to the 4th century. Residents live in homes that are carved into the landscape. Cappadocia has a unique landscape that you will have never witnessed before in your lifetime. This makes it one of the most popular spots in the world to go up in a Hot Air Balloon.",
+        "country": "Turkey",
+        "similarPlaces": [
+          "jiu-zhai-gou",
+          "huang-shan-yellow-mountain",
+          "dover",
+          "valle-de-cocora"
+        ]
+      },
+      "id": "cappadocia"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.9990695843119,
           40.71608574530205
         ]
@@ -163,6 +203,42 @@
         ]
       },
       "id": "chinatown-nyc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.300394299999994,
+          14.2418078,
+          -91.13911437988281
+        ]
+      },
+      "properties": {
+        "name": "Danakil Depression",
+        "countryCode": "ET",
+        "tags": [
+          "Nature",
+          "Rock",
+          "Swim",
+          "Africa",
+          "Remote"
+        ],
+        "image": [
+          "danakil-depression.jpg"
+        ],
+        "link": "https://en.wikivoyage.org/wiki/Danakil_Depression",
+        "contributedBy": "Mike Spendlove",
+        "description": "The lowest and hottest place on earth, but you're rewarded with amazing imagery of sulphurous lakes and geological creations. Remote, but worth it.",
+        "country": "Ethiopia",
+        "similarPlaces": [
+          "leitisvatn-lake",
+          "kuang-si-falls",
+          "jokulsarlon-beach",
+          "jiu-zhai-gou"
+        ]
+      },
+      "id": "danakil-depression"
     },
     {
       "type": "Feature",
@@ -393,8 +469,8 @@
         "similarPlaces": [
           "jiu-zhai-gou",
           "valle-de-cocora",
-          "socotra",
-          "redwood-national-park"
+          "cappadocia",
+          "socotra"
         ]
       },
       "id": "huang-shan-yellow-mountain"
@@ -424,7 +500,9 @@
         "country": "Iceland",
         "similarPlaces": [
           "jiu-zhai-gou",
-          "huang-shan-yellow-mountain"
+          "huang-shan-yellow-mountain",
+          "danakil-depression",
+          "cappadocia"
         ]
       },
       "id": "hvitserkur"
@@ -1188,7 +1266,8 @@
         "description": "The White Cliffs of Dover are cliffs that form part of the English coastline facing the Strait of Dover and France. The cliffs are part of the North Downs formation. The cliff face, which reaches up to 350 feet (110 m), owes its striking façade to its composition of chalk accentuated by streaks of black flint. The cliffs spread east and west from the town of Dover in the county of Kent, an ancient and still important English port. The cliffs have great symbolic value in Britain because they face towards Continental Europe across the narrowest part of the English Channel, where invasions have historically threatened and against which the cliffs form a symbolic guard. Because crossing at Dover was the primary route to the continent before the advent of air travel, the white line of cliffs also formed the first or last sight of England for travellers.",
         "country": "United Kingdom",
         "similarPlaces": [
-          "leitisvatn-lake"
+          "leitisvatn-lake",
+          "cappadocia"
         ]
       },
       "id": "dover"

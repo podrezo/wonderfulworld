@@ -31,6 +31,11 @@
       "quantity": 1
     },
     {
+      "countryCode": "ET",
+      "country": "Ethiopia",
+      "quantity": 1
+    },
+    {
       "countryCode": "FO",
       "country": "Faroe Islands",
       "quantity": 1
@@ -106,6 +111,11 @@
       "quantity": 1
     },
     {
+      "countryCode": "TR",
+      "country": "Turkey",
+      "quantity": 1
+    },
+    {
       "countryCode": "GB",
       "country": "United Kingdom",
       "quantity": 2
@@ -129,7 +139,7 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 27
+      "quantity": 29
     },
     {
       "tag": "Man-Made",
@@ -138,6 +148,14 @@
     {
       "tag": "Trees",
       "quantity": 9
+    },
+    {
+      "tag": "Mountains",
+      "quantity": 6
+    },
+    {
+      "tag": "Remote",
+      "quantity": 6
     },
     {
       "tag": "Flora",
@@ -160,11 +178,7 @@
       "quantity": 6
     },
     {
-      "tag": "Mountains",
-      "quantity": 5
-    },
-    {
-      "tag": "Remote",
+      "tag": "Rock",
       "quantity": 5
     },
     {
@@ -192,15 +206,19 @@
       "quantity": 3
     },
     {
-      "tag": "Rock",
+      "tag": "Cliffs",
       "quantity": 3
     },
     {
-      "tag": "Cliffs",
+      "tag": "UNESCO World Heritage Site",
+      "quantity": 3
+    },
+    {
+      "tag": "Town",
       "quantity": 2
     },
     {
-      "tag": "UNESCO World Heritage Site",
+      "tag": "Swim",
       "quantity": 2
     },
     {
@@ -209,6 +227,10 @@
     },
     {
       "tag": "Seasonal",
+      "quantity": 1
+    },
+    {
+      "tag": "Africa",
       "quantity": 1
     },
     {
@@ -224,19 +246,11 @@
       "quantity": 1
     },
     {
-      "tag": "Swim",
-      "quantity": 1
-    },
-    {
       "tag": "Rice Paddy",
       "quantity": 1
     },
     {
       "tag": "Animals",
-      "quantity": 1
-    },
-    {
-      "tag": "Town",
       "quantity": 1
     },
     {

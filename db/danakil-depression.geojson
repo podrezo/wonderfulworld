@@ -1,0 +1,28 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      40.300394299999994,
+      14.2418078,
+      -91.13911437988281
+    ]
+  },
+  "properties": {
+    "name": "Danakil Depression",
+    "countryCode": "ET",
+    "tags": [
+      "Nature",
+      "Rock",
+      "Swim",
+      "Africa",
+      "Remote"
+    ],
+    "image": [
+      "danakil-depression.jpg"
+    ],
+    "link": "https://en.wikivoyage.org/wiki/Danakil_Depression",
+    "contributedBy": "Mike Spendlove",
+    "description": "The lowest and hottest place on earth, but you're rewarded with amazing imagery of sulphurous lakes and geological creations. Remote, but worth it."
+  }
+}
