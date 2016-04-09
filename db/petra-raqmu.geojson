@@ -1,0 +1,28 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      35.4443622,
+      30.3284544,
+      890.944091796875
+    ]
+  },
+  "properties": {
+    "name": "Petra Raqmu",
+    "countryCode": "JO",
+    "tags": [
+      "Man-Made",
+      "Mountains",
+      "Rock",
+      "Cliffs",
+      "UNESCO World Heritage Site",
+      "Antiquities",
+      "Middle-East"
+    ],
+    "image": ["petra-raqmu.jpg", "petra-raqmu-1.jpg", "petra-raqmu-2.jpg", "petra-raqmu-3.jpg"],
+    "link": "https://en.wikipedia.org/wiki/Petra",
+    "contributedBy": "Jennifer Luo",
+    "description": "Petra is a historical and archaeological city in southern Jordan that is famed for architecture carved directly into vibrant red, white, pink, and sandstone cliff faces. Originally known as Raqmu to the Nabataeans, Petra was the capital of the Nabataean empire until it was conquered and absorbed by the Roman Empire. The spectacular rock cut facades and innovative water conduit system found in Petra are monuments to the thriving and advanced civilization that once resided here."
+  }
+}

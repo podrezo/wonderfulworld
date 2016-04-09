@@ -11,8 +11,18 @@
       "quantity": 1
     },
     {
+      "countryCode": "BE",
+      "country": "Belgium",
+      "quantity": 1
+    },
+    {
       "countryCode": "BO",
       "country": "Bolivia",
+      "quantity": 1
+    },
+    {
+      "countryCode": "KH",
+      "country": "Cambodia",
       "quantity": 1
     },
     {
@@ -73,11 +83,16 @@
     {
       "countryCode": "IT",
       "country": "Italy",
-      "quantity": 2
+      "quantity": 3
     },
     {
       "countryCode": "JP",
       "country": "Japan",
+      "quantity": 1
+    },
+    {
+      "countryCode": "JO",
+      "country": "Jordan",
       "quantity": 1
     },
     {
@@ -139,11 +154,11 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 30
+      "quantity": 31
     },
     {
       "tag": "Man-Made",
-      "quantity": 13
+      "quantity": 17
     },
     {
       "tag": "Trees",
@@ -151,7 +166,15 @@
     },
     {
       "tag": "Mountains",
-      "quantity": 6
+      "quantity": 8
+    },
+    {
+      "tag": "Asian",
+      "quantity": 7
+    },
+    {
+      "tag": "UNESCO World Heritage Site",
+      "quantity": 7
     },
     {
       "tag": "Remote",
@@ -162,11 +185,15 @@
       "quantity": 6
     },
     {
-      "tag": "Asian",
+      "tag": "Rock",
       "quantity": 6
     },
     {
       "tag": "Island",
+      "quantity": 6
+    },
+    {
+      "tag": "Castle",
       "quantity": 6
     },
     {
@@ -178,15 +205,7 @@
       "quantity": 6
     },
     {
-      "tag": "Rock",
-      "quantity": 5
-    },
-    {
       "tag": "Nordic",
-      "quantity": 5
-    },
-    {
-      "tag": "Castle",
       "quantity": 5
     },
     {
@@ -194,32 +213,40 @@
       "quantity": 4
     },
     {
+      "tag": "City",
+      "quantity": 4
+    },
+    {
+      "tag": "Cliffs",
+      "quantity": 4
+    },
+    {
       "tag": "Lake",
       "quantity": 4
+    },
+    {
+      "tag": "Antiquities",
+      "quantity": 3
     },
     {
       "tag": "Cave",
       "quantity": 3
     },
     {
-      "tag": "City",
-      "quantity": 3
-    },
-    {
-      "tag": "Cliffs",
-      "quantity": 3
-    },
-    {
-      "tag": "UNESCO World Heritage Site",
-      "quantity": 3
-    },
-    {
       "tag": "Town",
-      "quantity": 2
+      "quantity": 3
     },
     {
       "tag": "Swim",
       "quantity": 2
+    },
+    {
+      "tag": "Middle-East",
+      "quantity": 2
+    },
+    {
+      "tag": "Religious",
+      "quantity": 1
     },
     {
       "tag": "Salt Flats",
@@ -227,6 +254,10 @@
     },
     {
       "tag": "Seasonal",
+      "quantity": 1
+    },
+    {
+      "tag": "Ocean",
       "quantity": 1
     },
     {
@@ -251,14 +282,6 @@
     },
     {
       "tag": "Animals",
-      "quantity": 1
-    },
-    {
-      "tag": "Middle-East",
-      "quantity": 1
-    },
-    {
-      "tag": "Antiquities",
       "quantity": 1
     }
   ]
