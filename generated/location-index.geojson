@@ -124,10 +124,10 @@
         "description": "This German city has a fantastic display of cherry blossom trees when in season.",
         "country": "Germany",
         "similarPlaces": [
+          "via-appia-antica",
           "valle-de-cocora",
           "socotra",
-          "redwood-national-park",
-          "jiu-zhai-gou"
+          "redwood-national-park"
         ]
       },
       "id": "bonn"
@@ -332,9 +332,9 @@
         "country": "United Kingdom",
         "similarPlaces": [
           "lake-bled",
+          "via-appia-antica",
           "socotra",
-          "royal-palace-of-caserta",
-          "palace-of-versailles"
+          "royal-palace-of-caserta"
         ]
       },
       "id": "eilean-donan"
@@ -645,8 +645,8 @@
         "similarPlaces": [
           "jiu-zhai-gou",
           "huang-shan-yellow-mountain",
-          "valle-de-cocora",
-          "socotra"
+          "via-appia-antica",
+          "valle-de-cocora"
         ]
       },
       "id": "kuang-si-falls"
@@ -711,9 +711,9 @@
         "country": "Slovenia",
         "similarPlaces": [
           "eilean-donan",
+          "via-appia-antica",
           "royal-palace-of-caserta",
-          "palace-of-versailles",
-          "neuschwanstein-castle"
+          "palace-of-versailles"
         ]
       },
       "id": "lake-bled"
@@ -747,7 +747,7 @@
           "jiu-zhai-gou",
           "valle-de-cocora",
           "huang-shan-yellow-mountain",
-          "socotra"
+          "via-appia-antica"
         ]
       },
       "id": "lake_louise"
@@ -813,10 +813,10 @@
         "description": "Mù Cang Chải manages to be one of the most breathtaking spots in Vietnam, with terraced rice fields and mountainous landscapes.",
         "country": "Vietnam",
         "similarPlaces": [
+          "via-appia-antica",
           "lake-bled",
           "kuang-si-falls",
-          "jodhpur",
-          "jiu-zhai-gou"
+          "jodhpur"
         ]
       },
       "id": "mu-cang-chai"
@@ -1068,10 +1068,10 @@
         "description": "The Parque General San Martín is a park located in the city of Mendoza, Argentina.",
         "country": "Argentina",
         "similarPlaces": [
+          "via-appia-antica",
           "royal-palace-of-caserta",
           "redwood-national-park",
-          "palace-of-versailles",
-          "jiu-zhai-gou"
+          "palace-of-versailles"
         ]
       },
       "id": "san-martin-park"
@@ -1241,6 +1241,40 @@
         ]
       },
       "id": "valle-de-cocora"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.538629700000001,
+          41.8360492
+        ]
+      },
+      "properties": {
+        "name": "Via Appia Antica",
+        "countryCode": "IT",
+        "tags": [
+          "Man-Made",
+          "Trees",
+          "Nature",
+          "Antiquities"
+        ],
+        "image": [
+          "via-appia-antica.jpg"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Appian_Way",
+        "contributedBy": "Jennifer Luo",
+        "description": "The Via Appica (Appian Way) was constructed in the 4th century B.C.; it is the reason we say all roads lead to Rome. The road is remarkably well preserved, its large flat paving stones polished by millennia of use and weathering, and standing as testament to the might of Roman engineering. Today the road is flanked on both sides by verdant fields punctuated with ruins and other vestiges of Roman history, with the occasional herds of grazing sheep adding to the sense of being transported back in time. Easily accessible from Rome, this free tourist attraction literally takes a trip down Rome's memory lane.",
+        "country": "Italy",
+        "similarPlaces": [
+          "bonn",
+          "valle-de-cocora",
+          "socotra",
+          "san-martin-park"
+        ]
+      },
+      "id": "via-appia-antica"
     },
     {
       "type": "Feature",
