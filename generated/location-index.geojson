@@ -288,6 +288,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          134.75325299999997,
+          -29.0138504,
+          225.1259002685547
+        ]
+      },
+      "properties": {
+        "name": "Coober Pedy",
+        "countryCode": "AU",
+        "tags": [
+          "Man-Made",
+          "Rock",
+          "Remote",
+          "Cave",
+          "Town"
+        ],
+        "image": [
+          "coober-pedy-01.jpg",
+          "coober-pedy-02.jpg",
+          "coober-pedy-03.jpg"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Coober_Pedy",
+        "contributedBy": "Petro",
+        "description": "Coober Pedy is a town in southern Australia which around 150 million years ago was covered by ocean. When the water receded, the sandy silica minerals from the seabed flowed into the rocky cracks and cavities and solidified over time into the multi-coloured gem-stone, opal. Traditionally it has been a mining town ever since the discovery of opal, but the existing cavernous mines coupled with the intense heat outside made some people take a novel approach to building - going underground.",
+        "country": "Australia",
+        "similarPlaces": [
+          "petra-raqmu",
+          "odda",
+          "danakil-depression",
+          "cinque-terre"
+        ]
+      },
+      "id": "coober-pedy"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           40.300394299999994,
           14.2418078,
           -91.13911437988281
@@ -1094,6 +1132,7 @@
         "description": "Odda municipality is very mountainous and the settlements are all located in valleys. Because of the many mountains, there are many large waterfalls including Låtefossen, Espelandsfossen, and Tyssestrengene. There are also many large lakes such as Sandvinvatnet, Votna, Valldalsvatnet, Røldalsvatnet, Ringedalsvatnet, Langavatnet, and parts of Ståvatn.",
         "country": "Norway",
         "similarPlaces": [
+          "coober-pedy",
           "cinque-terre"
         ]
       },

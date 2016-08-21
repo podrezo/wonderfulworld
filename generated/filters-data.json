@@ -8,7 +8,7 @@
     {
       "countryCode": "AU",
       "country": "Australia",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "countryCode": "BE",
@@ -163,7 +163,7 @@
     },
     {
       "tag": "Man-Made",
-      "quantity": 17
+      "quantity": 18
     },
     {
       "tag": "Trees",
@@ -171,6 +171,10 @@
     },
     {
       "tag": "Mountains",
+      "quantity": 8
+    },
+    {
+      "tag": "Rock",
       "quantity": 8
     },
     {
@@ -182,12 +186,8 @@
       "quantity": 7
     },
     {
-      "tag": "Rock",
-      "quantity": 7
-    },
-    {
       "tag": "Remote",
-      "quantity": 6
+      "quantity": 7
     },
     {
       "tag": "Flora",
@@ -222,7 +222,15 @@
       "quantity": 5
     },
     {
+      "tag": "Cave",
+      "quantity": 4
+    },
+    {
       "tag": "City",
+      "quantity": 4
+    },
+    {
+      "tag": "Town",
       "quantity": 4
     },
     {
@@ -231,14 +239,6 @@
     },
     {
       "tag": "Antiquities",
-      "quantity": 3
-    },
-    {
-      "tag": "Cave",
-      "quantity": 3
-    },
-    {
-      "tag": "Town",
       "quantity": 3
     },
     {
