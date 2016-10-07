@@ -83,7 +83,7 @@
     {
       "countryCode": "IT",
       "country": "Italy",
-      "quantity": 3
+      "quantity": 4
     },
     {
       "countryCode": "JP",
@@ -159,23 +159,23 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 32
+      "quantity": 33
     },
     {
       "tag": "Man-Made",
-      "quantity": 18
+      "quantity": 19
     },
     {
       "tag": "Trees",
-      "quantity": 10
+      "quantity": 11
     },
     {
       "tag": "Mountains",
-      "quantity": 8
+      "quantity": 9
     },
     {
       "tag": "Rock",
-      "quantity": 8
+      "quantity": 9
     },
     {
       "tag": "Asian",
@@ -191,7 +191,7 @@
     },
     {
       "tag": "Flora",
-      "quantity": 6
+      "quantity": 7
     },
     {
       "tag": "Island",
@@ -218,7 +218,15 @@
       "quantity": 5
     },
     {
+      "tag": "Town",
+      "quantity": 5
+    },
+    {
       "tag": "Nordic",
+      "quantity": 5
+    },
+    {
+      "tag": "Lake",
       "quantity": 5
     },
     {
@@ -227,14 +235,6 @@
     },
     {
       "tag": "City",
-      "quantity": 4
-    },
-    {
-      "tag": "Town",
-      "quantity": 4
-    },
-    {
-      "tag": "Lake",
       "quantity": 4
     },
     {

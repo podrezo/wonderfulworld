@@ -67,9 +67,9 @@
         "country": "Peru",
         "similarPlaces": [
           "valle-de-cocora",
+          "limone-sul-garda",
           "leitisvatn-lake",
-          "lake_louise",
-          "jokulsarlon-beach"
+          "lake_louise"
         ]
       },
       "id": "ausangate"
@@ -163,10 +163,10 @@
         "description": "This German city has a fantastic display of cherry blossom trees when in season.",
         "country": "Germany",
         "similarPlaces": [
+          "limone-sul-garda",
           "via-appia-antica",
           "valle-de-cocora",
-          "socotra",
-          "redwood-national-park"
+          "socotra"
         ]
       },
       "id": "bonn"
@@ -204,9 +204,9 @@
         "country": "Turkey",
         "similarPlaces": [
           "petra-raqmu",
+          "limone-sul-garda",
           "jiu-zhai-gou",
-          "huang-shan-yellow-mountain",
-          "cinque-terre"
+          "huang-shan-yellow-mountain"
         ]
       },
       "id": "cappadocia"
@@ -275,10 +275,10 @@
         "description": "The Cinque Terre (The Five Lands) is a rugged portion of coast on the Italian Riviera. The five lands comprises five villages: Monterosso al Mare, Vernazza, Corniglia, Manarola, and Riomaggiore. The coastline, the five villages, and the surrounding hillsides are all part of the Cinque Terre National Park (Parco Nazionale delle Cinque Terre). Over the centuries, people have carefully built terraces on the rugged, steep landscape right up to the cliffs that overlook the sea. Paths, trains and boats connect the villages. It is best to travel into Cinque Terre towns via train, as they are not entirely accessible by car.",
         "country": "Italy",
         "similarPlaces": [
+          "limone-sul-garda",
           "cappadocia",
           "petra-raqmu",
-          "jiu-zhai-gou",
-          "huang-shan-yellow-mountain"
+          "jiu-zhai-gou"
         ]
       },
       "id": "cinque-terre"
@@ -313,10 +313,10 @@
         "description": "Coober Pedy is a town in southern Australia which around 150 million years ago was covered by ocean. When the water receded, the sandy silica minerals from the seabed flowed into the rocky cracks and cavities and solidified over time into the multi-coloured gem-stone, opal. Traditionally it has been a mining town ever since the discovery of opal, but the existing cavernous mines coupled with the intense heat outside made some people take a novel approach to building - going underground.",
         "country": "Australia",
         "similarPlaces": [
+          "limone-sul-garda",
           "petra-raqmu",
           "odda",
-          "danakil-depression",
-          "cinque-terre"
+          "danakil-depression"
         ]
       },
       "id": "coober-pedy"
@@ -350,9 +350,9 @@
         "country": "Ethiopia",
         "similarPlaces": [
           "legzira-beach",
+          "limone-sul-garda",
           "leitisvatn-lake",
-          "kuang-si-falls",
-          "jokulsarlon-beach"
+          "kuang-si-falls"
         ]
       },
       "id": "danakil-depression"
@@ -621,9 +621,9 @@
         "country": "China",
         "similarPlaces": [
           "jiu-zhai-gou",
+          "limone-sul-garda",
           "valle-de-cocora",
-          "cappadocia",
-          "socotra"
+          "cappadocia"
         ]
       },
       "id": "huang-shan-yellow-mountain"
@@ -652,10 +652,10 @@
         "description": "Hvítserkur is a 15 m high basalt stack along the eastern shore of the Vatnsnes peninsula, in northwest Iceland. The rock has two holes at the base, which give it the appearance of a dragon who is drinking. The base of the stack has been reinforced with concrete to protect its foundations from the sea. Several species of birds, such as gulls and fulmars, live on at Hvítserkur and its name (\"white shirt\" in Icelandic) comes from the color of the guano deposited on its rocks.",
         "country": "Iceland",
         "similarPlaces": [
+          "limone-sul-garda",
           "legzira-beach",
           "jiu-zhai-gou",
-          "huang-shan-yellow-mountain",
-          "danakil-depression"
+          "huang-shan-yellow-mountain"
         ]
       },
       "id": "hvitserkur"
@@ -695,9 +695,9 @@
         "country": "China",
         "similarPlaces": [
           "huang-shan-yellow-mountain",
+          "limone-sul-garda",
           "valle-de-cocora",
-          "redwood-national-park",
-          "lake_louise"
+          "redwood-national-park"
         ]
       },
       "id": "jiu-zhai-gou"
@@ -864,10 +864,10 @@
         "description": "According to a legend which stayed with the people, the temple of the ancient Slavic goddess Živa, once stood in the place of the present Baroque church. The temple disappeared during battles between the followers of the pagan religion and Christians, who destroyed the altar and built a church.",
         "country": "Slovenia",
         "similarPlaces": [
+          "limone-sul-garda",
           "eilean-donan",
           "via-appia-antica",
-          "royal-palace-of-caserta",
-          "palace-of-versailles"
+          "royal-palace-of-caserta"
         ]
       },
       "id": "lake-bled"
@@ -898,10 +898,10 @@
         "description": "Lake Louise has become symbolic of the quintessentially Canadian mountain scene. This alpine lake, known for its sparkling blue waters, is situated at the base of impressive glacier-clad peaks that have long been at the heart of Canadian mountaineering. At about 2.5 kilometres long and 90 metres deep, the lake offers a surreal paddling experience in the warm summer months and one of the most scenic skating rinks in the world in winter.",
         "country": "Canada",
         "similarPlaces": [
+          "limone-sul-garda",
           "jiu-zhai-gou",
           "valle-de-cocora",
-          "huang-shan-yellow-mountain",
-          "via-appia-antica"
+          "huang-shan-yellow-mountain"
         ]
       },
       "id": "lake_louise"
@@ -974,10 +974,49 @@
           "durban-island",
           "dover",
           "skogafoss-waterfall",
-          "legzira-beach"
+          "limone-sul-garda"
         ]
       },
       "id": "leitisvatn-lake"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.789857600000005,
+          45.8101279,
+          101.4425506591797
+        ]
+      },
+      "properties": {
+        "name": "Limone Sul Garda",
+        "countryCode": "IT",
+        "tags": [
+          "Nature",
+          "Man-Made",
+          "Trees",
+          "Mountains",
+          "Rock",
+          "Flora",
+          "Town",
+          "Lake"
+        ],
+        "image": [
+          "limone-sul-garda.jpg"
+        ],
+        "link": "https://inzumi.com/en/travel/point-of-interest/d_id/Lake-Garda/c_id/Sightseeing/p_id/Limone-sul-Garda",
+        "contributedBy": "Petro",
+        "description": "Nestled in the Italian Alps is Lake Garda, the largest lake in Italy. Around the lake there are a few quaint and very popular tourist towns including one called Limone (meaning Lemon in Italian). In addition to the surrounding beauty of the alps themselves, the town features an abundance of lemon trees which are as beautiful as the products made from them are delicious. Whether you want to buy some limoncello or enjoy some lemonade at a restaurant on the coast of the lake, this town is a must visit.",
+        "country": "Italy",
+        "similarPlaces": [
+          "jiu-zhai-gou",
+          "huang-shan-yellow-mountain",
+          "valle-de-cocora",
+          "lake_louise"
+        ]
+      },
+      "id": "limone-sul-garda"
     },
     {
       "type": "Feature",
@@ -1006,9 +1045,9 @@
         "country": "Vietnam",
         "similarPlaces": [
           "via-appia-antica",
+          "limone-sul-garda",
           "lake-bled",
-          "kuang-si-falls",
-          "jodhpur"
+          "kuang-si-falls"
         ]
       },
       "id": "mu-cang-chai"
@@ -1132,6 +1171,7 @@
         "description": "Odda municipality is very mountainous and the settlements are all located in valleys. Because of the many mountains, there are many large waterfalls including Låtefossen, Espelandsfossen, and Tyssestrengene. There are also many large lakes such as Sandvinvatnet, Votna, Valldalsvatnet, Røldalsvatnet, Ringedalsvatnet, Langavatnet, and parts of Ståvatn.",
         "country": "Norway",
         "similarPlaces": [
+          "limone-sul-garda",
           "coober-pedy",
           "cinque-terre"
         ]
@@ -1205,9 +1245,9 @@
         "country": "Jordan",
         "similarPlaces": [
           "cappadocia",
+          "limone-sul-garda",
           "jiu-zhai-gou",
-          "huang-shan-yellow-mountain",
-          "cinque-terre"
+          "huang-shan-yellow-mountain"
         ]
       },
       "id": "petra-raqmu"
@@ -1241,7 +1281,7 @@
           "jiu-zhai-gou",
           "valle-de-cocora",
           "socotra",
-          "huang-shan-yellow-mountain"
+          "limone-sul-garda"
         ]
       },
       "id": "redwood-national-park"
@@ -1377,8 +1417,8 @@
         "similarPlaces": [
           "valle-de-cocora",
           "redwood-national-park",
-          "jiu-zhai-gou",
-          "huang-shan-yellow-mountain"
+          "limone-sul-garda",
+          "jiu-zhai-gou"
         ]
       },
       "id": "socotra"
@@ -1471,10 +1511,10 @@
         "description": "The wax palm, the Colombian national tree, is obviously the main attraction here. It is the tallest palm in the world, growing up to 60 meters, while retaining the girth of any old palm, making for a very slender giant, an immense pole topped with a little crown of palm fronds. Their wide root systems make for an odd visual: palms shooting up hundreds of feet into the sky, all widely but evenly spaced apart, as if planted purposefully.",
         "country": "Colombia",
         "similarPlaces": [
+          "limone-sul-garda",
           "jiu-zhai-gou",
           "huang-shan-yellow-mountain",
-          "socotra",
-          "redwood-national-park"
+          "socotra"
         ]
       },
       "id": "valle-de-cocora"
@@ -1505,10 +1545,10 @@
         "description": "The Via Appica (Appian Way) was constructed in the 4th century B.C.; it is the reason we say all roads lead to Rome. The road is remarkably well preserved, its large flat paving stones polished by millennia of use and weathering, and standing as testament to the might of Roman engineering. Today the road is flanked on both sides by verdant fields punctuated with ruins and other vestiges of Roman history, with the occasional herds of grazing sheep adding to the sense of being transported back in time. Easily accessible from Rome, this free tourist attraction literally takes a trip down Rome's memory lane.",
         "country": "Italy",
         "similarPlaces": [
+          "limone-sul-garda",
           "bonn",
           "valle-de-cocora",
-          "socotra",
-          "san-martin-park"
+          "socotra"
         ]
       },
       "id": "via-appia-antica"
