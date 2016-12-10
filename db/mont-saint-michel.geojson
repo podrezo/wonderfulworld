@@ -1,0 +1,28 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.5111144999999624,
+      48.63601659999999,
+      42.43298721313477
+    ]
+  },
+  "properties": {
+    "name": "Mont Saint-Michel",
+    "countryCode": "FR",
+    "tags": [
+      "Man-Made",
+      "Nature",
+      "UNESCO World Heritage Site",
+      "Island",
+      "Castle"
+    ],
+    "image": [
+      "mont-saint-michel.jpg"
+    ],
+    "link": "http://en.normandie-tourisme.fr/discover/normandy-must-sees/the-10-top-normandy-must-sees/mont-saint-michel-106-2.html",
+    "contributedBy": "Petro",
+    "description": "A magical island topped by a gravity-defying medieval monastery, the Mont-Saint-Michel counts among France’s most stunning sights. For centuries one of Europe’s major pilgrimage destinations, this holy mount is now a UNESCO World Heritage Site, as is its breathtaking bay."
+  }
+}

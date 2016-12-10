@@ -53,7 +53,7 @@
     {
       "countryCode": "FR",
       "country": "France",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "countryCode": "TF",
@@ -159,11 +159,11 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 33
+      "quantity": 34
     },
     {
       "tag": "Man-Made",
-      "quantity": 19
+      "quantity": 20
     },
     {
       "tag": "Trees",
@@ -178,11 +178,11 @@
       "quantity": 9
     },
     {
-      "tag": "Asian",
-      "quantity": 7
+      "tag": "UNESCO World Heritage Site",
+      "quantity": 8
     },
     {
-      "tag": "UNESCO World Heritage Site",
+      "tag": "Asian",
       "quantity": 7
     },
     {
@@ -195,11 +195,11 @@
     },
     {
       "tag": "Island",
-      "quantity": 6
+      "quantity": 7
     },
     {
       "tag": "Castle",
-      "quantity": 6
+      "quantity": 7
     },
     {
       "tag": "Waterfall",

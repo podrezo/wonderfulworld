@@ -35,7 +35,7 @@
           "petra-raqmu",
           "via-appia-antica",
           "mu-cang-chai",
-          "jodhpur"
+          "mont-saint-michel"
         ]
       },
       "id": "angkor-wat"
@@ -278,7 +278,7 @@
           "limone-sul-garda",
           "cappadocia",
           "petra-raqmu",
-          "jiu-zhai-gou"
+          "mont-saint-michel"
         ]
       },
       "id": "cinque-terre"
@@ -383,6 +383,7 @@
         "description": "This beautiful historical landmark was once used as a mooring for the famous pirate Blackbeard. Local legend has it that there is buried treasure on the island. When the original owner was constructing the villas, he discovered a hidden cave on the island. He found many pieces of pre-Colombian pottery, but sadly no treasure. But he started construction on what would soon become a new jewel in the Caribbean.",
         "country": "Honduras",
         "similarPlaces": [
+          "mont-saint-michel",
           "eilean-donan"
         ]
       },
@@ -448,10 +449,10 @@
         "description": "Eilean Donan is a small tidal island where three lochs meet, Loch Duich, Loch Long and Loch Alsh, in the western Highlands of Scotland. A picturesque castle that frequently appears in photographs, film and television dominates the island, which lies about 1 kilometre (0.62 mi) from the village of Dornie. Since the castle's restoration in the early 20th century, a footbridge has connected the island to the mainland.",
         "country": "United Kingdom",
         "similarPlaces": [
+          "mont-saint-michel",
           "lake-bled",
           "via-appia-antica",
-          "socotra",
-          "royal-palace-of-caserta"
+          "socotra"
         ]
       },
       "id": "eilean-donan"
@@ -516,8 +517,8 @@
         "similarPlaces": [
           "durban-island",
           "socotra",
-          "leitisvatn-lake",
-          "kuramathi-island"
+          "mont-saint-michel",
+          "leitisvatn-lake"
         ]
       },
       "id": "french-southern-and-antarctic-lands"
@@ -550,10 +551,10 @@
         "description": "La Grand Place (Grote Markt in Dutch) is the iconic central square in the Belgian capital Brussels. The square is surrounded by the city's Town Hall, nearly forty guildhalls and other beautiful buildings from the 14th to 17th century. It is a UNESCO World Heritage site, and is widely considered the most beautiful town square in Europe. Every two years in August, an enormous flower carpet is set up in La Grand Place for a few days. A million colorful begonias are set up in geometric patterns covering an area of 1,800 square meters.",
         "country": "Belgium",
         "similarPlaces": [
+          "mont-saint-michel",
           "royal-palace-of-caserta",
           "petra-raqmu",
-          "palace-of-versailles",
-          "neuschwanstein-castle"
+          "palace-of-versailles"
         ]
       },
       "id": "grand-place"
@@ -832,8 +833,8 @@
         "similarPlaces": [
           "sorrento-beach",
           "socotra",
-          "legzira-beach",
-          "jokulsarlon-beach"
+          "mont-saint-michel",
+          "legzira-beach"
         ]
       },
       "id": "kuramathi-island"
@@ -864,10 +865,10 @@
         "description": "According to a legend which stayed with the people, the temple of the ancient Slavic goddess Živa, once stood in the place of the present Baroque church. The temple disappeared during battles between the followers of the pagan religion and Christians, who destroyed the altar and built a church.",
         "country": "Slovenia",
         "similarPlaces": [
+          "mont-saint-michel",
           "limone-sul-garda",
           "eilean-donan",
-          "via-appia-antica",
-          "royal-palace-of-caserta"
+          "via-appia-antica"
         ]
       },
       "id": "lake-bled"
@@ -1023,6 +1024,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.5111144999999624,
+          48.63601659999999,
+          42.43298721313477
+        ]
+      },
+      "properties": {
+        "name": "Mont Saint-Michel",
+        "countryCode": "FR",
+        "tags": [
+          "Man-Made",
+          "Nature",
+          "UNESCO World Heritage Site",
+          "Island",
+          "Castle"
+        ],
+        "image": [
+          "mont-saint-michel.jpg"
+        ],
+        "link": "http://en.normandie-tourisme.fr/discover/normandy-must-sees/the-10-top-normandy-must-sees/mont-saint-michel-106-2.html",
+        "contributedBy": "Petro",
+        "description": "A magical island topped by a gravity-defying medieval monastery, the Mont-Saint-Michel counts among France’s most stunning sights. For centuries one of Europe’s major pilgrimage destinations, this holy mount is now a UNESCO World Heritage Site, as is its breathtaking bay.",
+        "country": "France",
+        "similarPlaces": [
+          "eilean-donan",
+          "lake-bled",
+          "grand-place",
+          "cinque-terre"
+        ]
+      },
+      "id": "mont-saint-michel"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           104.076383,
           21.8460521
         ]
@@ -1045,9 +1082,9 @@
         "country": "Vietnam",
         "similarPlaces": [
           "via-appia-antica",
+          "mont-saint-michel",
           "limone-sul-garda",
-          "lake-bled",
-          "kuang-si-falls"
+          "lake-bled"
         ]
       },
       "id": "mu-cang-chai"
@@ -1108,8 +1145,8 @@
         "similarPlaces": [
           "royal-palace-of-caserta",
           "palace-of-versailles",
-          "lake-bled",
-          "grand-place"
+          "mont-saint-michel",
+          "lake-bled"
         ]
       },
       "id": "neuschwanstein-castle"
@@ -1206,7 +1243,7 @@
           "royal-palace-of-caserta",
           "san-martin-park",
           "neuschwanstein-castle",
-          "lake-bled"
+          "mont-saint-michel"
         ]
       },
       "id": "palace-of-versailles"
@@ -1314,7 +1351,7 @@
           "palace-of-versailles",
           "san-martin-park",
           "neuschwanstein-castle",
-          "lake-bled"
+          "mont-saint-michel"
         ]
       },
       "id": "royal-palace-of-caserta"
