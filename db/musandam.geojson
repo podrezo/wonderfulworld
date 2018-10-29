@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      56.2460949,
+      26.1986144
+    ]
+  },
+  "properties": {
+    "name": "Musandam Governorate",
+    "countryCode": "OM",
+    "tags": [
+      "Nature",
+      "Beach",
+      "Middle-East"
+    ],
+    "image": [
+      "musandam01.jpg",
+      "musandam02.jpg"
+    ],
+    "link": "https://en.wikivoyage.org/wiki/Musandam_Peninsula",
+    "contributedBy": "Carl H",
+    "description": "The Norway of the middle east, in the sense that it has super arid desert fjords dip straight into the sea. Feels a bit like another planet."
+  }
+}

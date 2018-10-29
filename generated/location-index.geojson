@@ -102,8 +102,8 @@
         "similarPlaces": [
           "son-doong-cave",
           "sorrento-beach",
-          "legzira-beach",
-          "kuramathi-island"
+          "musandam",
+          "legzira-beach"
         ]
       },
       "id": "benagil-sea-cave"
@@ -763,9 +763,9 @@
         "country": "Iceland",
         "similarPlaces": [
           "sorrento-beach",
+          "musandam",
           "leitisvatn-lake",
-          "legzira-beach",
-          "kuramathi-island"
+          "legzira-beach"
         ]
       },
       "id": "jokulsarlon-beach"
@@ -833,8 +833,8 @@
         "similarPlaces": [
           "sorrento-beach",
           "socotra",
-          "mont-saint-michel",
-          "legzira-beach"
+          "musandam",
+          "mont-saint-michel"
         ]
       },
       "id": "kuramathi-island"
@@ -1054,6 +1054,40 @@
         ]
       },
       "id": "mont-saint-michel"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2460949,
+          26.1986144
+        ]
+      },
+      "properties": {
+        "name": "Musandam Governorate",
+        "countryCode": "OM",
+        "tags": [
+          "Nature",
+          "Beach",
+          "Middle-East"
+        ],
+        "image": [
+          "musandam01.jpg",
+          "musandam02.jpg"
+        ],
+        "link": "https://en.wikivoyage.org/wiki/Musandam_Peninsula",
+        "contributedBy": "Carl H",
+        "description": "The Norway of the middle east, in the sense that it has super arid desert fjords dip straight into the sea. Feels a bit like another planet.",
+        "country": "Oman",
+        "similarPlaces": [
+          "sorrento-beach",
+          "socotra",
+          "legzira-beach",
+          "kuramathi-island"
+        ]
+      },
+      "id": "musandam"
     },
     {
       "type": "Feature",
@@ -1484,10 +1518,10 @@
         "description": "Sorrento is a township in Victoria, Australia, located on the shores of Port Phillip on the Mornington Peninsula, about one and a half hours by car south of Melbourne. It is a largely upper-class, seaside resort area, but is also a quiet seaside township in the off-peak months of the year. It was named by the Italian founders after the southern Italian town.",
         "country": "Australia",
         "similarPlaces": [
+          "musandam",
           "legzira-beach",
           "kuramathi-island",
-          "jokulsarlon-beach",
-          "benagil-sea-cave"
+          "jokulsarlon-beach"
         ]
       },
       "id": "sorrento-beach"

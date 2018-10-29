@@ -116,6 +116,11 @@
       "quantity": 1
     },
     {
+      "countryCode": "OM",
+      "country": "Oman",
+      "quantity": 1
+    },
+    {
       "countryCode": "PE",
       "country": "Peru",
       "quantity": 1
@@ -159,7 +164,7 @@
   "tags": [
     {
       "tag": "Nature",
-      "quantity": 34
+      "quantity": 35
     },
     {
       "tag": "Man-Made",
@@ -202,16 +207,16 @@
       "quantity": 7
     },
     {
+      "tag": "Beach",
+      "quantity": 6
+    },
+    {
       "tag": "Waterfall",
       "quantity": 6
     },
     {
       "tag": "Park",
       "quantity": 6
-    },
-    {
-      "tag": "Beach",
-      "quantity": 5
     },
     {
       "tag": "Cliffs",
@@ -242,6 +247,10 @@
       "quantity": 3
     },
     {
+      "tag": "Middle-East",
+      "quantity": 3
+    },
+    {
       "tag": "Ocean",
       "quantity": 2
     },
@@ -251,10 +260,6 @@
     },
     {
       "tag": "Africa",
-      "quantity": 2
-    },
-    {
-      "tag": "Middle-East",
       "quantity": 2
     },
     {
