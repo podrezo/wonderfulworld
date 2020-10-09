@@ -1,3 +1,7 @@
+❗️❗️❗️ NOTE: This site is now deprecated and superceded by https://github.com/podrezo/wonderfulworld2 which is live at https://wonderfulworld.podrezo.com/ ❗️❗️❗️
+
+-----------------
+
 # WonderfulWorld
 
 See the site live at http://podrezo.github.io/wonderfulworld
